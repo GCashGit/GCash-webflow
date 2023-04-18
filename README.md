@@ -10,6 +10,8 @@ Organize your files!
 Make sure to create a folder corresponding to the page to which you will 
 import the file.
 
+Ex.
+
 If creating a file for Express-send create a directory and name it express-send.
 
 Inside directory name js or css file as index.js or index.css
