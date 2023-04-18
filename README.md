@@ -10,8 +10,6 @@ Organize your files!
 Make sure to create a folder corresponding to the page to which you will 
 import the file.
 
-Ex. I want to create a js file for Express-send
+If creating a file for Express-send create a directory and name it express-send.
 
--| express-send
- --| index.js
- --| index.css
+Inside directory name js or css file as index.js or index.css
