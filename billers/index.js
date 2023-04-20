@@ -16,6 +16,7 @@ const createItem = (item, templateElement) => {
     const gcredit = newItem.querySelector('[data-element="gcredit"]');
     const fee = newItem.querySelector('[data-element="fee"]');
     const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
+    const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
 
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
@@ -25,6 +26,10 @@ const createItem = (item, templateElement) => {
         fee_amount.textContent = `${item.fee_amount} fee`;
     } else {
         fee.style.display = 'none';
+    }
+
+    if (!item.has_gcredit && item.fee_amount <= 0) {
+        label_wrapper.style.display = 'none';
     }
 
     return newItem;
@@ -112,7 +117,7 @@ function renderItems(results_area, filter_data, template_element) {
         </svg>
         `
 
-        if (window_width > 1280) {
+        if (window_width >= 1280) {
             pagination_container.pagination({
                 ulClassName: 'pagination-list-wrapper',
                 dataSource: data_arr,
