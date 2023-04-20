@@ -133,7 +133,7 @@ function renderItems(results_area, filter_data, template_element) {
                     displayFirstLetter()
                 }
             })
-        } else if (window_width < 1279 && 480 < window_width) {
+        } else if (window_width <= 1279 && 480 <= window_width) {
             pagination_container.pagination({
                 ulClassName: 'pagination-list-wrapper',
                 dataSource: data_arr,
@@ -149,7 +149,7 @@ function renderItems(results_area, filter_data, template_element) {
                     displayFirstLetter()
                 }
             })
-        } else if (window_width < 479) {
+        } else if (window_width <= 479) {
             pagination_container.pagination({
                 ulClassName: 'pagination-list-wrapper',
                 dataSource: data_arr,
