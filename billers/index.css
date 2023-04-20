@@ -93,6 +93,15 @@
     max-width: 960px;
 }
 
+.biller-result.list-view .biller-result-card {
+    border-bottom: 1px solid rgba(238, 242, 249, 1);
+}
+
+
+.biller-result.list-view>.biller-result-card:last-of-type {
+    border-bottom: 0px;
+}
+
 /* Responsive styles */
 
 
@@ -158,10 +167,8 @@
     }
 
     .biller-result.list-view .biller-result-card {
-        padding: 8px 0 16px;
         border: 0;
         border-radius: 0;
-        border-bottom: 1px solid rgba(238, 242, 249, 1);
     }
 }
 
@@ -170,5 +177,9 @@
     .paginationjs {
         flex-direction: column;
         gap: 12px;
+    }
+
+    .no-results-wrapper {
+        margin: auto;
     }
 }
