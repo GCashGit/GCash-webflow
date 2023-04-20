@@ -388,14 +388,6 @@ function renderItems(results_area, filter_data, template_element) {
     disableLetter(partnersData)
     //Initialize pagination function
     usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
-
-    /*
-        ToDo: 
-        - GCredit true or false
-       
-    */
-
-    //Create pagination
 })();
 
 
