@@ -107,6 +107,10 @@
     border-bottom: 0px;
 }
 
+.biller-result.list-view .biller-card-content>.biller-item-description {
+    line-height: 1.5;
+}
+
 
 /* Responsive styles */
 
