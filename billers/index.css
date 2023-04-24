@@ -169,6 +169,7 @@
     .biller-result.list-view .biller-result-card {
         border: 0;
         border-radius: 0;
+        border-bottom: 1px solid rgba(238, 242, 249, 1);
     }
 }
 
