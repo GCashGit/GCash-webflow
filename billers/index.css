@@ -11,7 +11,7 @@
 }
 
 .paginationjs-page:hover>a {
-    color: #025AE9;
+    color: rgba(10, 39, 87, 0.2);
 }
 
 .paginationjs-ellipsis>a {
@@ -72,6 +72,7 @@
 .paginationjs-nav {
     font-family: Gilroy, sans-serif;
     font-size: 1rem;
+    font-weight: 600;
     line-height: 1.4;
     color: #6780A9;
 }
@@ -106,8 +107,8 @@
     border-bottom: 0px;
 }
 
-/* Responsive styles */
 
+/* Responsive styles */
 
 /* Styles for small XL */
 @media screen and (min-width: 1440px) {
