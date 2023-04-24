@@ -208,6 +208,7 @@ function renderItems(results_area, filter_data, template_element) {
         let search_result = $('.no-results-wrapper > .no-results-label .result');
         let results_wrapper = $('.results-wrapper');
         let letter_index_header = $('.results-letter-index');
+        let card_view_btns = $('.biller-view-options');
 
         if (isDisplayed) {
             no_result_container.removeClass('disabled');
@@ -215,6 +216,7 @@ function renderItems(results_area, filter_data, template_element) {
             results_wrapper.hide()
             letter_index_header.hide()
             search_result.text(searchValue);
+            card_view_btns.addClass('no-result')
         } else {
             no_result_container.addClass('disabled');
             pagination_container.show()
@@ -391,4 +393,10 @@ function renderItems(results_area, filter_data, template_element) {
 })();
 
 
-
+   //To Do: 
+/*
+    - Apply new card template
+    - Move imports to gcash github
+        - Pagination JS
+        - Data source for billers and webpay
+*/
