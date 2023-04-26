@@ -290,26 +290,29 @@ function renderItems(results_area, filter_data, template_element) {
         let list_view_header = $('.results-wrapper > .biller-table-header');
         let display_mode = $(this).children('.biller-view-label').text().toLowerCase();
 
-        //Attaches active modifier to clicked button
-        $('.biller-view-options.w-radio').removeClass('active');
-        $(this).addClass('active');
+        if (!$(this).hasClass('no-result')) {
+            //Attaches active modifier to clicked button
+            $('.biller-view-options.w-radio').removeClass('active');
+            $(this).addClass('active');
 
-        switch (display_mode) {
-            case 'list view':
-                results_container.removeClass('card-view');
-                results_container.addClass('list-view');
-                list_view_header.addClass('list-view');
-                break;
-            case 'card view':
-                results_container.removeClass('list-view');
-                results_container.addClass('card-view');
-                list_view_header.removeClass('list-view');
-                break;
-            default:
-                results_container.removeClass('list-view');
-                results_container.removeClass('card-view');
-                list_view_header.removeClass('list-view');
-                break;
+            switch (display_mode) {
+                case 'list view':
+                    results_container.removeClass('card-view');
+                    results_container.addClass('list-view');
+                    list_view_header.addClass('list-view');
+                    break;
+                case 'card view':
+                    results_container.removeClass('list-view');
+                    results_container.addClass('card-view');
+                    list_view_header.removeClass('list-view');
+                    break;
+                default:
+                    results_container.removeClass('list-view');
+                    results_container.removeClass('card-view');
+                    list_view_header.removeClass('list-view');
+                    break;
+            }
+
         }
 
         results_area.animate(
