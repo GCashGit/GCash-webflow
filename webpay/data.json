@@ -1,626 +1,374 @@
 [
     {
         "name": "&Again Clothing",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "lifestyle"
     },
     {
         "name": "100 Per Scent",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "101 Driving School",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "1933-Coffee-Co",
-        "description": "Food",
-        "has_gcredit": false,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "1GSD Trading",
-        "description": "Lifestyle",
-        "has_gcredit": false,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "1K Websites",
-        "description": "Serivces",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Serivces",
+        "payment_method": "GCredit",
+        "partner_type": "Serivces"
     },
     {
         "name": "1levenPH",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "22 Delta Labs",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "243 General Merchandise",
-        "description": "Convenience Store",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Convenience Store",
+        "payment_method": "GCredit",
+        "partner_type": "Convenience Store"
     },
     {
         "name": "250 Graphic Design",
-        "description": "Services",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Services",
+        "payment_method": "GCredit",
+        "partner_type": "Services"
     },
     {
         "name": "2nd Street Oysters",
-        "description": "Food",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "39th Fitness Center",
-        "description": "Lifestyle",
-        "has_gcredit": false,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "A coffe shop",
-        "description": "Food",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "A clothing",
-        "description": "Lifestyle",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "A2 store",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "AAA merchandise",
-        "description": "Retail",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "AA store",
-        "description": "Food",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "A3 mini",
-        "description": "Food",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "B store",
-        "description": "Lifestyle",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "B clothing",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "B3 Coffee",
-        "description": "Food",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "B sari",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "BBB labs",
-        "description": "Retail",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "Coffee company",
-        "description": "Food",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "CC Store",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "CC2 Clothing",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "CC Online",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "C4 store",
-        "description": "Retail",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "H store",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "Y mini",
-        "description": "Food",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "Z clothing",
-        "description": "Lifestyle",
-        "has_gcredit": false,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "Z2 retail",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "ZZZ coffee",
-        "description": "Food",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "RS trading",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "R3 Driving",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "M life driving",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "N clothing",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "L's ramen shop",
-        "description": "Food",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "L2 clothing",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "U Crafts",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "V clothing",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "V3 apparel",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "W clothing",
-        "description": "Retail",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "WWW store",
-        "description": "Retail",
-        "has_gcredit": false,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "X store",
-        "description": "Retail",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "X coffe and cafe",
-        "description": "Food",
-        "has_gcredit": false,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "YY cafe",
-        "description": "Food",
-        "has_gcredit": true,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "P Store",
-        "description": "Retail",
-        "has_gcredit": false,
-        "has_ggives": true,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
     },
     {
         "name": "P3 Cafe",
-        "description": "Food",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "PAP Cafe",
-        "description": "Food",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": false,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
     },
     {
         "name": "P lifestyle",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
     },
     {
         "name": "PXP driving school",
-        "description": "Lifestyle",
-        "has_gcredit": true,
-        "has_ggives": false,
-        "has_ginsure": true,
-        "partner_type": [
-            "Electricity",
-            "Loans",
-            "Credit Card"
-        ]
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
+    },
+    {
+        "name": "O2 Labs",
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
+    },
+    {
+        "name": "O45 design",
+        "category": "Retail",
+        "payment_method": "GCredit",
+        "partner_type": "Retail"
+    },
+    {
+        "name": "OOO Cafe",
+        "category": "Food",
+        "payment_method": "GCredit",
+        "partner_type": "Food"
+    },
+    {
+        "name": "OO2",
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
+    },
+    {
+        "name": "Ox Clothing",
+        "category": "Lifestyle",
+        "payment_method": "GCredit",
+        "partner_type": "Lifestyle"
+    },
+    {
+        "name": "Green's Auto Services",
+        "category": "Transportation",
+        "payment_method": "GCredit",
+        "partner_type": "Transportation"
+    },
+    {
+        "name": "Garcia Transport Company",
+        "category": "Transportation",
+        "payment_method": "GCredit",
+        "partner_type": "Transportation"
+    },
+    {
+        "name": "Bantay Auto Repair Shop",
+        "category": "Transportation",
+        "payment_method": "GCredit",
+        "partner_type": "Transportation"
+    },
+    {
+        "name": "Voyager Car Rental",
+        "category": "Transportation",
+        "payment_method": "GCredit",
+        "partner_type": "Transportation"
+    },
+    {
+        "name": "Zoom Motors",
+        "category": "Transportation",
+        "payment_method": "GCredit",
+        "partner_type": "Transportation"
     }
 ]
