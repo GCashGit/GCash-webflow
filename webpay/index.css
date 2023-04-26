@@ -1,0 +1,202 @@
+/* Styles pagination numbers and dots */
+.paginationjs-page>a,
+.paginationjs-ellipsis>a {
+    font-family: Gilroy, sans-serif;
+    text-decoration: none;
+    color: rgba(10, 39, 87, 0.2);
+}
+
+.paginationjs-page>a {
+    cursor: pointer;
+}
+
+.paginationjs-page:hover>a {
+    color: #025AE9;
+}
+
+.paginationjs-ellipsis>a {
+    cursor: auto;
+}
+
+.paginationjs-page {
+    font-family: Gilroy, sans-serif;
+}
+
+.paginationjs-page.active>a {
+    font-family: Gilroy, sans-serif;
+    color: #025AE9;
+}
+
+/* Styles for prev and next arrow element and states*/
+.paginationjs-prev {
+    transform: rotate(180deg);
+}
+
+.paginationjs-prev>a,
+.paginationjs-next>a {
+    display: flex;
+    cursor: pointer;
+}
+
+.paginationjs-prev.disabled>a,
+.paginationjs-next.disabled>a {
+    display: flex;
+    cursor: auto;
+}
+
+.paginationjs-prev.disabled>a svg circle,
+.paginationjs-prev.disabled>a svg path,
+.paginationjs-next.disabled>a svg circle,
+.paginationjs-next.disabled>a svg path {
+    stroke: rgba(10, 39, 87, 0.2)
+}
+
+/* Style for pagination ul element */
+.pagination-list-wrapper {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Style for page numbers */
+.paginationjs-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for text display: Results 1 - x of n */
+.paginationjs-nav {
+    font-family: Gilroy, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #6780A9;
+}
+
+/*Main wrapper of pagination*/
+.paginationjs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 24px;
+}
+
+
+/* Styles for card or list view */
+.biller-table-header.list-view {
+    display: flex;
+}
+
+.biller-result.list-view {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0px;
+    max-width: 960px;
+}
+
+.biller-result.list-view .biller-result-card {
+    border-bottom: 1px solid rgba(238, 242, 249, 1);
+}
+
+.biller-result.list-view>.biller-result-card:last-of-type {
+    border-bottom: 0px;
+}
+
+.biller-result.list-view .biller-card-content>.biller-item-description {
+    line-height: 1.5;
+}
+
+/* Responsive styles */
+
+/* Styles for small XL */
+@media screen and (min-width: 1440px) {
+    .paginationjs {
+        margin-top: 32px;
+    }
+}
+
+
+/* Styles for small desktop */
+@media screen and (min-width: 992px) {
+
+    .biller-result.list-view .biller-result-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+        padding: 12px 0;
+        border: 0;
+        border-bottom: 1px solid rgba(238, 242, 249, 1);
+    }
+
+    .biller-result.list-view .biller-card-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 840px;
+    }
+
+    .biller-result.list-view .biller-card-content>.biller-item-title {
+        max-width: 100%;
+    }
+
+    .biller-result.list-view .biller-card-content>.biller-item-description {
+        min-width: 160px;
+        max-width: 160px;
+        margin-top: 0px;
+        font-size: 0.86rem;
+    }
+
+    .biller-result.list-view .biller-card-label-wrapper {
+        max-width: 240px;
+        width: 100%;
+    }
+
+    .biller-result.list-view .biller-card-label-wrapper>.biller-services-content {
+        max-width: max-content;
+    }
+
+    .biller-result.list-view .biller-card-label-wrapper>.biller-services-content.fee.result-card {
+        max-width: 120px;
+    }
+
+}
+
+/* Styles for small tablet */
+@media screen and (max-width: 991px) {
+    .biller-table-header.list-view {
+        display: none;
+    }
+
+    .biller-result.list-view .biller-result-card {
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px solid rgba(238, 242, 249, 1);
+    }
+}
+
+/* Styles for Mobile */
+@media screen and (max-width: 478px) {
+    .paginationjs {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .no-results-wrapper {
+        margin: auto;
+    }
+}
+
+/* For webflow */
+#prev-page-btn[style="display: none;"]~#prev-page-btn-disabled {
+    display: block;
+}
+
+#next-page-btn[style="display: none;"]~#next-page-btn-disabled {
+    display: block;
+}
