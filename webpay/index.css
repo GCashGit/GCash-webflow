@@ -139,6 +139,7 @@
         align-items: center;
         width: 100%;
         max-width: 840px;
+        min-width: 840px;
     }
 
     .biller-result.list-view .biller-card-content>.biller-item-title {
