@@ -91,7 +91,7 @@ function renderItems(results_area, filter_data, template_element) {
     let active_letter = '';
 
     //Get the data from URL source
-    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/billers/data.json');
+    let partnersData = await fetchPartners('https://lxpocampofrost.github.io/gcash-stylesheet/assets/partners.json');
     //Initialize an empty array
     let filterd_items = [];
 
@@ -432,7 +432,16 @@ function renderItems(results_area, filter_data, template_element) {
     $(window).resize(function () {
         window_width = $(window).width();
 
-        usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
+
+        // Check window width has actually changed
+        if ($(window).width() != windowWidth) {
+
+            // Update the window width for next time
+            windowWidth = $(window).width();
+
+            // Do stuff here
+            usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
+        }
     });
 
 
