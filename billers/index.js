@@ -243,26 +243,54 @@ function renderItems(results_area, filter_data, template_element) {
     //Input search functionality
     search_input.on("input", function () {
         let inputValue = $(this).val().toLowerCase();
+        let result_msg = '';
 
-        if (active_biller_type.length == 0) {
+        if (active_biller_type.length > 0 && active_letter.length > 0) {
+            //Filter active biller type and active letter plus input
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
-                    item.name.toLowerCase().includes(inputValue)
+                    item.name.toLowerCase().includes(inputValue) &&
+                    item.biller_type.includes(active_biller_type) &&
+                    item.name.toLowerCase().startsWith(active_letter)
                 );
-        } else {
+
+            result_msg = `Category: ${active_biller_type}, Letter: ${active_letter.toUpperCase()} and ${inputValue}`
+
+        } else if (active_biller_type.length > 0 && active_letter.length == 0) {
+            //Filter active biller type and input value
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
                     item.name.toLowerCase().includes(inputValue) &&
                     item.biller_type.includes(active_biller_type)
                 );
+
+            result_msg = `Category: ${active_biller_type} and ${inputValue}`
+
+        } else if (active_biller_type.length == 0 && active_letter.length > 0) {
+            //Filter active letter and input value
+            filterd_items = partnersData
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .filter((item) =>
+                    item.name.toLowerCase().includes(inputValue) &&
+                    item.name.toLowerCase().startsWith(active_letter)
+                );
+
+            result_msg = `Letter: ${active_letter.toUpperCase()} and ${inputValue}`
+        } else {
+            //Filter from all
+            filterd_items = partnersData
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .filter((item) =>
+                    item.name.toLowerCase().includes(inputValue)
+                );
         }
 
         if (filterd_items.length == 0) {
             usePagination(filterd_items)
             disableLetter(filterd_items)
-            displayNoResult(true, inputValue);
+            displayNoResult(true, result_msg);
         } else {
             //Reinitialize paginationJS on input
             pagination_container.pagination('destroy');
@@ -285,19 +313,29 @@ function renderItems(results_area, filter_data, template_element) {
             filterd_items = partnersData
             active_biller_type = ''
             active_letter = ''
-            console.log('Went to all categories!');
         } else {
-            filterd_items = partnersData
-                .sort((a, b) => a.name.localeCompare(b.name))
-                .filter((item) =>
-                    item.biller_type.includes(active_biller_type)
-                );
+            if (active_letter.length > 0) {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.biller_type.includes(active_biller_type) &&
+                        item.name.toLowerCase().startsWith(active_letter)
+                    );
+            } else {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.biller_type.includes(active_biller_type)
+                    );
+            }
         }
 
         if (filterd_items.length == 0) {
+            var result = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
+
             usePagination(filterd_items)
             disableLetter(filterd_items)
-            displayNoResult(true, active_biller_type);
+            displayNoResult(true, result);
         } else {
             //Reinitialize paginationJS on input
             pagination_container.pagination('destroy');
@@ -398,6 +436,7 @@ function renderItems(results_area, filter_data, template_element) {
 
             pagination_container.pagination('destroy');
             usePagination(filterd_items)
+            disableLetter(filterd_items)
             handleResetBtn();
         }
     });
