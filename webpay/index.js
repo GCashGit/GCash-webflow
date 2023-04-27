@@ -233,26 +233,56 @@ function renderItems(results_area, filter_data, template_element) {
     //Input search functionality
     search_input.on("input", function () {
         let inputValue = $(this).val().toLowerCase();
+        let result_msg = '';
 
-        if (active_partner_type.length == 0) {
+        if (active_partner_type.length > 0 && active_letter.length > 0) {
+            //Filter active biller type and active letter plus input
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
-                    item.name.toLowerCase().includes(inputValue)
+                    item.name.toLowerCase().includes(inputValue) &&
+                    item.category.toLowerCase() === active_partner_type &&
+                    item.name.toLowerCase().startsWith(active_letter)
                 );
-        } else {
+
+            result_msg = `Category: ${active_partner_type}, Letter: ${active_letter.toUpperCase()} and ${inputValue}`
+
+        } else if (active_partner_type.length > 0 && active_letter.length == 0) {
+            //Filter active biller type and input value
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
                     item.name.toLowerCase().includes(inputValue) &&
                     item.category.toLowerCase() === active_partner_type
                 );
+
+            result_msg = `Category: ${active_partner_type} and ${inputValue}`
+
+        } else if (active_partner_type.length == 0 && active_letter.length > 0) {
+            //Filter active letter and input value
+            filterd_items = partnersData
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .filter((item) =>
+                    item.name.toLowerCase().includes(inputValue) &&
+                    item.name.toLowerCase().startsWith(active_letter)
+                );
+
+            result_msg = `Letter: ${active_letter.toUpperCase()} and ${inputValue}`
+        } else {
+            //Filter from all
+            filterd_items = partnersData
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .filter((item) =>
+                    item.name.toLowerCase().includes(inputValue)
+                );
+
+            result_msg = inputValue
         }
 
         if (filterd_items.length == 0) {
             usePagination(filterd_items)
             disableLetter(filterd_items)
-            displayNoResult(true, inputValue);
+            displayNoResult(true, result_msg);
         } else {
             //Reinitialize paginationJS on input
             pagination_container.pagination('destroy');
@@ -262,30 +292,50 @@ function renderItems(results_area, filter_data, template_element) {
             //Hides no result element 
             displayNoResult(false);
         }
+
     });
 
     //On click event for the dropdown items
     biller_card.on("click", function () {
+        let result_msg = ''
         $('.biller_dropdown-current').text($(this).children('.biller-label').text())
 
-        active_partner_type = $(this).children('.biller-label').text().toLowerCase();
+        active_partner_type = $(this).children('.biller-label').text();
 
         if (active_partner_type.toLowerCase() === 'all categories') {
             filterd_items = partnersData
-            active_partner_type = ''
-            active_letter = ''
-        } else {
-            filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
-                    item.category.toLowerCase() === active_partner_type
+                    item.name.toLowerCase().startsWith(active_letter)
                 );
+            active_partner_type = ''
+        } else {
+            if (active_letter.length > 0) {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.category.toLowerCase() === active_partner_type &&
+                        item.name.toLowerCase().startsWith(active_letter)
+                    );
+
+                if (filterd_items === 0) {
+                    result_msg = `Category: ${active_partner_type}, Starting Letter: ${active_letter}`
+                }
+            } else {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.category.toLowerCase() === active_partner_type
+                    );
+
+                result_msg = `Category: ${active_partner_type}`
+            }
         }
 
         if (filterd_items.length == 0) {
             usePagination(filterd_items)
             disableLetter(filterd_items)
-            displayNoResult(true, active_partner_type);
+            displayNoResult(true, result_msg);
         } else {
             //Reinitialize paginationJS on input
             pagination_container.pagination('destroy');
@@ -295,6 +345,7 @@ function renderItems(results_area, filter_data, template_element) {
             //Hides no result element 
             displayNoResult(false);
         }
+
         search_input.val('')
         handleResetBtn()
     });
@@ -341,10 +392,14 @@ function renderItems(results_area, filter_data, template_element) {
         )
     });
 
-    //Event to run when clicking on the alpha bet nav
+    //Event to run when clicking on the alphabet nav
     alpha_nav_btn.on("click", function () {
+
+
         if (!$(this).hasClass('disabled')) {
             active_letter = $(this).data('letter')
+            alpha_nav_btn.removeClass('selected');
+            $(this).addClass('selected');
 
             //If no biller type selected
             if (active_partner_type.length == 0) {
@@ -362,7 +417,7 @@ function renderItems(results_area, filter_data, template_element) {
                         );
                 }
 
-                //If a partner type is selected
+                //If a biller type is selected
             } else {
                 if (alpha_nav_regex.test(active_letter)) {
                     filterd_items = partnersData
@@ -397,6 +452,7 @@ function renderItems(results_area, filter_data, template_element) {
             filterd_items = partnersData;
             active_partner_type = ''
             active_letter = ''
+            alpha_nav_btn.removeClass('selected');
             search_input.val('')
 
             renderItems(results_area, partnersData, template_element);
