@@ -312,7 +312,6 @@ function renderItems(results_area, filter_data, template_element) {
         if (active_biller_type.toLowerCase() === 'all categories') {
             filterd_items = partnersData
             active_biller_type = ''
-            active_letter = ''
         } else {
             if (active_letter.length > 0) {
                 filterd_items = partnersData
@@ -331,7 +330,7 @@ function renderItems(results_area, filter_data, template_element) {
         }
 
         if (filterd_items.length == 0) {
-            var result = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
+            var result = `Category: ${active_biller_type}, Starting Letter: ${active_letter.toUpperCase()}`
 
             usePagination(filterd_items)
             disableLetter(filterd_items)
@@ -436,7 +435,7 @@ function renderItems(results_area, filter_data, template_element) {
 
             pagination_container.pagination('destroy');
             usePagination(filterd_items)
-           
+            disableLetter(filterd_items)
             handleResetBtn();
         }
     });
@@ -446,7 +445,7 @@ function renderItems(results_area, filter_data, template_element) {
         const dropdown_current_text = $('.biller_dropdown-current')
 
         if (!$(this).hasClass('no-filters')) {
-            dropdown_current_text.text('All Categories');
+            dropdown_current_text.text('All Billers');
 
             filterd_items = partnersData;
             active_biller_type = ''
