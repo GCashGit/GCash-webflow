@@ -281,9 +281,6 @@ function renderItems(results_area, filter_data, template_element) {
 
         active_biller_type = $(this).children('.biller-label').text();
 
-        console.log(active_biller_type.toLowerCase());
-        console.log(active_biller_type.toLowerCase() === 'all categories');
-
         if (active_biller_type.toLowerCase() === 'all categories') {
             filterd_items = partnersData
             active_biller_type = ''
