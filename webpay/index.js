@@ -328,12 +328,8 @@ function renderItems(results_area, filter_data, template_element) {
                     );
 
                 result_msg = `Category: ${active_partner_type}`
-                console.log('running...!');
-                console.log(filterd_items);
             }
         }
-
-
 
         if (filterd_items.length == 0) {
             usePagination(filterd_items)
