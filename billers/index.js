@@ -436,7 +436,7 @@ function renderItems(results_area, filter_data, template_element) {
 
             pagination_container.pagination('destroy');
             usePagination(filterd_items)
-            disableLetter(filterd_items)
+           
             handleResetBtn();
         }
     });
