@@ -283,11 +283,11 @@ function renderItems(results_area, filter_data, template_element) {
 
         active_biller_type = $(this).children('.biller-label').text();
 
-        if (active_partner_type.toLowerCase() === 'all categories') {
+        if (active_biller_type.toLowerCase() === 'all categories') {
             filterd_items = partnersData
-            active_partner_type = ''
+            active_biller_type = ''
             active_letter = ''
-            $('.biller_dropdown-current').text('All merchants')
+            $('.biller_dropdown-current').text('All Billers')
         } else {
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
@@ -414,7 +414,7 @@ function renderItems(results_area, filter_data, template_element) {
             dropdown_current_text.text('All Merchants');
 
             filterd_items = partnersData;
-            active_partner_type = ''
+            active_biller_type = ''
             active_letter = ''
             search_input.val('')
 
