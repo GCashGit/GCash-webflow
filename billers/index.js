@@ -411,7 +411,7 @@ function renderItems(results_area, filter_data, template_element) {
         const dropdown_current_text = $('.biller_dropdown-current')
 
         if (!$(this).hasClass('no-filters')) {
-            dropdown_current_text.text('All Merchants');
+            dropdown_current_text.text('All Billers');
 
             filterd_items = partnersData;
             active_biller_type = ''
