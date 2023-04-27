@@ -285,6 +285,8 @@ function renderItems(results_area, filter_data, template_element) {
                 .filter((item) =>
                     item.name.toLowerCase().includes(inputValue)
                 );
+
+            result_msg = inputValue
         }
 
         if (filterd_items.length == 0) {
@@ -330,7 +332,7 @@ function renderItems(results_area, filter_data, template_element) {
         }
 
         if (filterd_items.length == 0) {
-            var result = `Category: ${active_biller_type}, Starting Letter: ${active_letter.toUpperCase()}`
+            var result = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
 
             usePagination(filterd_items)
             disableLetter(filterd_items)
@@ -393,7 +395,7 @@ function renderItems(results_area, filter_data, template_element) {
         )
     });
 
-    //Event to run when clicking on the alpha bet nav
+    //Event to run when clicking on the alphabet nav
     alpha_nav_btn.on("click", function () {
         if (!$(this).hasClass('disabled')) {
             active_letter = $(this).data('letter')
@@ -435,7 +437,6 @@ function renderItems(results_area, filter_data, template_element) {
 
             pagination_container.pagination('destroy');
             usePagination(filterd_items)
-            disableLetter(filterd_items)
             handleResetBtn();
         }
     });
@@ -445,7 +446,7 @@ function renderItems(results_area, filter_data, template_element) {
         const dropdown_current_text = $('.biller_dropdown-current')
 
         if (!$(this).hasClass('no-filters')) {
-            dropdown_current_text.text('All Billers');
+            dropdown_current_text.text('All Categories');
 
             filterd_items = partnersData;
             active_biller_type = ''
