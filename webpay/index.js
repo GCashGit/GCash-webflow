@@ -225,10 +225,8 @@ function renderItems(results_area, filter_data, template_element) {
 
         if (active_partner_type.length > 0 || active_letter.length > 0) {
             reset_all_btn.removeClass('no-filters');
-            console.log('Removed no filters');
         } else {
             reset_all_btn.addClass('no-filters');
-            console.log('Added no filters');
         }
     }
 
@@ -268,6 +266,8 @@ function renderItems(results_area, filter_data, template_element) {
 
     //On click event for the dropdown items
     biller_card.on("click", function () {
+        $('.biller_dropdown-current').text($(this).children('.biller-label').text())
+
         active_partner_type = $(this).children('.biller-label').text().toLowerCase();
 
         if (active_partner_type.toLowerCase() === 'all categories') {
@@ -280,7 +280,6 @@ function renderItems(results_area, filter_data, template_element) {
                 .filter((item) =>
                     item.category.toLowerCase() === active_partner_type
                 );
-            $('.biller_dropdown-current').text($(this).children('.biller-label').text())
         }
 
         if (filterd_items.length == 0) {
