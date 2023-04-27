@@ -432,16 +432,7 @@ function renderItems(results_area, filter_data, template_element) {
     $(window).resize(function () {
         window_width = $(window).width();
 
-
-        // Check window width has actually changed
-        if ($(window).width() != windowWidth) {
-
-            // Update the window width for next time
-            windowWidth = $(window).width();
-
-            // Do stuff here
-            usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
-        }
+        usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
     });
 
 
