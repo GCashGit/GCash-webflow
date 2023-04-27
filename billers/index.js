@@ -91,7 +91,7 @@ function renderItems(results_area, filter_data, template_element) {
     let active_letter = '';
 
     //Get the data from URL source
-    let partnersData = await fetchPartners('https://lxpocampofrost.github.io/gcash-stylesheet/assets/partners.json');
+    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/billers/data.json');
     //Initialize an empty array
     let filterd_items = [];
 
