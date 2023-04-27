@@ -72,10 +72,11 @@ function renderItems(results_area, filter_data, template_element) {
     const pagination_container = $('#pagination-area');
     const alpha_nav_regex = new RegExp('[^A-Za-z]');
     const index_header_container = $('.results-letter-index');
+    const reset_all_btn = $('.biller-filter-reset-btn');
 
     let alpha_nav_btn = $('.alphabet-nav > .alphabet-nav_letter');
     let active_partner_type = ''
-    let active_letter = '';
+    let active_letter = ''
 
     //Get the data from URL source
     let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/webpay/data.json');
@@ -219,6 +220,18 @@ function renderItems(results_area, filter_data, template_element) {
         }
     }
 
+    //Function that enables or disables the no result button
+    function handleResetBtn() {
+
+        if (active_partner_type.length > 0 || active_letter.length > 0) {
+            reset_all_btn.removeClass('no-filters');
+            console.log('Removed no filters');
+        } else {
+            reset_all_btn.addClass('no-filters');
+            console.log('Added no filters');
+        }
+    }
+
     //Input search functionality
     search_input.on("input", function () {
         let inputValue = $(this).val().toLowerCase();
@@ -251,20 +264,27 @@ function renderItems(results_area, filter_data, template_element) {
             //Hides no result element 
             displayNoResult(false);
         }
-
     });
 
     //On click event for the dropdown items
     biller_card.on("click", function () {
-        $('.biller_dropdown-current').text($(this).children('.biller-label').text())
+
 
         active_partner_type = $(this).children('.biller-label').text().toLowerCase();
 
-        filterd_items = partnersData
-            .sort((a, b) => a.name.localeCompare(b.name))
-            .filter((item) =>
-                item.category.toLowerCase() === active_partner_type
-            );
+        if (active_partner_type.toLowerCase() === 'all categories') {
+            filterd_items = partnersData
+            active_partner_type = ''
+            active_letter = ''
+            $('.biller_dropdown-current').text('All merchants')
+        } else {
+            filterd_items = partnersData
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .filter((item) =>
+                    item.category.toLowerCase() === active_partner_type
+                );
+            $('.biller_dropdown-current').text($(this).children('.biller-label').text())
+        }
 
         if (filterd_items.length == 0) {
             usePagination(filterd_items)
@@ -279,6 +299,8 @@ function renderItems(results_area, filter_data, template_element) {
             //Hides no result element 
             displayNoResult(false);
         }
+        search_input.val('')
+        handleResetBtn()
     });
 
     //On click event for list and card view controls
@@ -365,7 +387,32 @@ function renderItems(results_area, filter_data, template_element) {
 
             pagination_container.pagination('destroy');
             usePagination(filterd_items)
+            handleResetBtn();
         }
+
+
+    });
+
+    //Event for reset all categories
+    reset_all_btn.on("click", function () {
+        const dropdown_current_text = $('.biller_dropdown-current')
+
+        if (!$(this).hasClass('no-filters')) {
+            dropdown_current_text.text('All Merchants');
+
+            filterd_items = partnersData;
+            active_partner_type = ''
+            active_letter = ''
+            search_input.val('')
+
+            renderItems(results_area, partnersData, template_element);
+            //Disables letters 
+            disableLetter(partnersData)
+            //Initialize pagination function
+            usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
+            displayNoResult(false);
+        }
+        handleResetBtn();
     });
 
     //Event to run when window resizes
