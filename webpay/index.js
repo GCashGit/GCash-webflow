@@ -268,15 +268,12 @@ function renderItems(results_area, filter_data, template_element) {
 
     //On click event for the dropdown items
     biller_card.on("click", function () {
-
-
         active_partner_type = $(this).children('.biller-label').text().toLowerCase();
 
         if (active_partner_type.toLowerCase() === 'all categories') {
             filterd_items = partnersData
             active_partner_type = ''
             active_letter = ''
-            $('.biller_dropdown-current').text('All merchants')
         } else {
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
@@ -389,8 +386,6 @@ function renderItems(results_area, filter_data, template_element) {
             usePagination(filterd_items)
             handleResetBtn();
         }
-
-
     });
 
     //Event for reset all categories
