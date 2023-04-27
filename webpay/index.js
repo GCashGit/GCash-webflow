@@ -324,7 +324,7 @@ function renderItems(results_area, filter_data, template_element) {
                 filterd_items = partnersData
                     .sort((a, b) => a.name.localeCompare(b.name))
                     .filter((item) =>
-                        item.category.toLowerCase() === active_partner_type
+                        item.category.toLowerCase() === active_partner_type.toLowerCase()
                     );
 
                 result_msg = `Category: ${active_partner_type}`
@@ -483,5 +483,3 @@ function renderItems(results_area, filter_data, template_element) {
     usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
 
 })();
-
-
