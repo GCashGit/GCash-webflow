@@ -441,12 +441,3 @@ function renderItems(results_area, filter_data, template_element) {
     //Initialize pagination function
     usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
 })();
-
-
-   //To Do: 
-/*
-    - Apply new card template
-    - Move imports to gcash github
-        - Pagination JS
-        - Data source for billers and webpay
-*/
