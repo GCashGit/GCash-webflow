@@ -318,9 +318,8 @@ function renderItems(results_area, filter_data, template_element) {
                         item.name.toLowerCase().startsWith(active_letter)
                     );
 
-                if (filterd_items === 0) {
-                    result_msg = `Category: ${active_partner_type}, Starting Letter: ${active_letter}`
-                }
+                result_msg = `Category: ${active_partner_type}, Starting Letter: ${active_letter}`
+
             } else {
                 filterd_items = partnersData
                     .sort((a, b) => a.name.localeCompare(b.name))
@@ -447,7 +446,7 @@ function renderItems(results_area, filter_data, template_element) {
         const dropdown_current_text = $('.biller_dropdown-current')
 
         if (!$(this).hasClass('no-filters')) {
-            dropdown_current_text.text('All Merchants');
+            dropdown_current_text.text('All Categories');
 
             filterd_items = partnersData;
             active_partner_type = ''
