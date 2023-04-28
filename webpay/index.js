@@ -299,7 +299,6 @@ function renderItems(results_area, filter_data, template_element) {
             result_msg = `Category: ${active_partner_type} and ${inputValue}`
 
         } else if (active_partner_type.length == 0 && active_letter.length > 0) {
-            console.log('running.. from letter only!')
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
@@ -511,7 +510,6 @@ function renderItems(results_area, filter_data, template_element) {
                         );
 
                     if (inputValue.length > 0) {
-                        console.log('# is triggered!')
                         filterd_items = partnersData
                             .sort((a, b) => a.name.localeCompare(b.name))
                             .filter((item) =>
