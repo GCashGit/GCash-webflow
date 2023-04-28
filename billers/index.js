@@ -12,13 +12,25 @@ const createItem = (item, templateElement) => {
 
     // Query inner elements
     const name = newItem.querySelector('.biller-item-title');
-    const category = newItem.querySelector('[data-element="category"]');
-    const payment_method = newItem.querySelector('.biller-item-services-title');
+    const payment_date = newItem.querySelector('.biller-item-description');
+    const gcredit = newItem.querySelector('[data-element="gcredit"]');
+    const fee = newItem.querySelector('[data-element="fee"]');
+    const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
+    const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
 
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
-    if (category) category.textContent = item.category;
-    if (payment_method) payment_method.textContent = item.payment_method;
+    if (payment_date) payment_date.textContent = item.payment_date;
+    if (!item.has_gcredit) gcredit.style.display = 'none';
+    if (item.fee_amount > 0) {
+        fee_amount.textContent = `${item.fee_amount} fee`;
+    } else {
+        fee.style.display = 'none';
+    }
+
+    if (!item.has_gcredit && item.fee_amount <= 0) {
+        label_wrapper.style.display = 'none';
+    }
 
     return newItem;
 };
@@ -80,7 +92,7 @@ function renderItems(results_area, filter_data, template_element) {
     let inputValue = search_input.val();
 
     //Get the data from URL source
-    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/webpay/data.json');
+    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/billers/data.json');
     //Initialize an empty array
     let filterd_items = [];
 
@@ -467,19 +479,21 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
+                    gcredit_tag_text.text('GCredit');
                     break;
                 case 'card view':
                     results_container.removeClass('list-view');
                     results_container.addClass('card-view');
                     list_view_header.removeClass('list-view');
+                    gcredit_tag_text.text('Accepts GCredit');
                     break;
                 default:
                     results_container.removeClass('list-view');
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
+                    gcredit_tag_text.text('Accepts GCredit');
                     break;
             }
-
         }
 
         results_area.animate(
