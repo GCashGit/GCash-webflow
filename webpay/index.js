@@ -77,6 +77,7 @@ function renderItems(results_area, filter_data, template_element) {
     let alpha_nav_btn = $('.alphabet-nav > .alphabet-nav_letter');
     let active_partner_type = ''
     let active_letter = ''
+    let inputValue = search_input.val();
 
     //Get the data from URL source
     let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/webpay/data.json');
@@ -232,7 +233,7 @@ function renderItems(results_area, filter_data, template_element) {
 
     //Input search functionality
     search_input.on("input", function () {
-        let inputValue = $(this).val().toLowerCase();
+        inputValue = $(this).val().toLowerCase();
         let result_msg = '';
 
         if (active_partner_type.length > 0 && active_letter.length > 0) {
@@ -241,11 +242,30 @@ function renderItems(results_area, filter_data, template_element) {
                 filterd_items = partnersData
                     .sort((a, b) => a.name.localeCompare(b.name))
                     .filter((item) =>
+                        item.category.toLowerCase() === active_partner_type.toLowerCase()
+                    );
+
+                disableLetter(filterd_items)
+
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
                         item.name.toLowerCase().includes(inputValue) &&
                         item.category.toLowerCase() === active_partner_type.toLowerCase() &&
                         alpha_nav_regex.test(item.name.charAt(0))
                     );
+
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items)
             } else {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.category.toLowerCase() === active_partner_type.toLowerCase()
+                    );
+
+                disableLetter(filterd_items)
+
                 filterd_items = partnersData
                     .sort((a, b) => a.name.localeCompare(b.name))
                     .filter((item) =>
@@ -253,7 +273,12 @@ function renderItems(results_area, filter_data, template_element) {
                         item.category.toLowerCase() === active_partner_type.toLowerCase() &&
                         item.name.toLowerCase().startsWith(active_letter)
                     );
+
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items)
             }
+
+            displayNoResult(false);
 
             result_msg = `Category: ${active_partner_type}, Letter: ${active_letter.toUpperCase()} and ${inputValue}`
 
@@ -266,16 +291,46 @@ function renderItems(results_area, filter_data, template_element) {
                     item.category.toLowerCase() === active_partner_type.toLowerCase()
                 );
 
+            pagination_container.pagination('destroy');
+            usePagination(filterd_items);
+            disableLetter(filterd_items);
+            displayNoResult(false);
+
             result_msg = `Category: ${active_partner_type} and ${inputValue}`
 
         } else if (active_partner_type.length == 0 && active_letter.length > 0) {
-            //Filter active letter and input value
+            console.log('running.. from letter only!')
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
-                    item.name.toLowerCase().includes(inputValue) &&
-                    item.name.toLowerCase().startsWith(active_letter)
+                    item.name.toLowerCase().includes(inputValue)
                 );
+
+            disableLetter(filterd_items);
+            if (alpha_nav_regex.test(active_letter)) {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.name.toLowerCase().includes(inputValue) &&
+                        alpha_nav_regex.test(item.name.charAt(0))
+                    );
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items);
+                displayNoResult(false);
+
+            } else {
+                //Filter active letter and input value
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.name.toLowerCase().includes(inputValue) &&
+                        item.name.toLowerCase().startsWith(active_letter)
+                    );
+
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items);
+                displayNoResult(false);
+            }
 
             result_msg = `Letter: ${active_letter.toUpperCase()} and ${inputValue}`
         } else {
@@ -286,6 +341,11 @@ function renderItems(results_area, filter_data, template_element) {
                     item.name.toLowerCase().includes(inputValue)
                 );
 
+            pagination_container.pagination('destroy');
+            usePagination(filterd_items);
+            disableLetter(filterd_items);
+            displayNoResult(false);
+
             result_msg = inputValue
         }
 
@@ -293,14 +353,6 @@ function renderItems(results_area, filter_data, template_element) {
             usePagination(filterd_items)
             disableLetter(filterd_items)
             displayNoResult(true, result_msg);
-        } else {
-            //Reinitialize paginationJS on input
-            pagination_container.pagination('destroy');
-            usePagination(filterd_items)
-            //Disables letters 
-            disableLetter(filterd_items)
-            //Hides no result element 
-            displayNoResult(false);
         }
 
     });
@@ -315,9 +367,19 @@ function renderItems(results_area, filter_data, template_element) {
         if (active_partner_type.toLowerCase() === 'all categories') {
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
+
+            disableLetter(filterd_items)
+
+            filterd_items = partnersData
+                .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
                     item.name.toLowerCase().startsWith(active_letter)
                 );
+
+            pagination_container.pagination('destroy');
+            usePagination(filterd_items)
+            displayNoResult(false);
+
             active_partner_type = ''
         } else {
             if (active_letter.length > 0) {
@@ -333,9 +395,22 @@ function renderItems(results_area, filter_data, template_element) {
                     filterd_items = partnersData
                         .sort((a, b) => a.name.localeCompare(b.name))
                         .filter((item) =>
-                            item.category.toLowerCase() === active_partner_type.toLowerCase() &&
-                            item.name.toLowerCase().startsWith(active_letter)
+                            item.category.toLowerCase() === active_partner_type.toLowerCase()
                         );
+
+                    disableLetter(filterd_items)
+
+                    filterd_items = partnersData
+                        .sort((a, b) => a.name.localeCompare(b.name))
+                        .filter((item) =>
+                            item.name.toLowerCase().startsWith(active_letter) &&
+                            item.category.toLowerCase() === active_partner_type.toLowerCase()
+                        );
+
+                    pagination_container.pagination('destroy');
+                    usePagination(filterd_items)
+                    displayNoResult(false);
+
                 }
 
                 result_msg = `Category: ${active_partner_type}, Starting Letter: ${active_letter}`
@@ -347,6 +422,11 @@ function renderItems(results_area, filter_data, template_element) {
                         item.category.toLowerCase() === active_partner_type.toLowerCase()
                     );
 
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items)
+                disableLetter(filterd_items)
+                displayNoResult(false);
+
                 result_msg = `Category: ${active_partner_type}`
             }
         }
@@ -355,15 +435,16 @@ function renderItems(results_area, filter_data, template_element) {
             usePagination(filterd_items)
             disableLetter(filterd_items)
             displayNoResult(true, result_msg);
-        } else {
-            //Reinitialize paginationJS on input
-            pagination_container.pagination('destroy');
-            usePagination(filterd_items)
-            //Disables letters 
-            disableLetter(filterd_items)
-            //Hides no result element 
-            displayNoResult(false);
         }
+        // } else {
+        //     //Reinitialize paginationJS on input
+        //     pagination_container.pagination('destroy');
+        //     usePagination(filterd_items)
+        //     //Disables letters 
+        //     disableLetter(filterd_items)
+        //     //Hides no result element 
+        //     displayNoResult(false);
+        // }
 
         search_input.val('')
         handleResetBtn()
@@ -428,14 +509,34 @@ function renderItems(results_area, filter_data, template_element) {
                         .filter((item) =>
                             alpha_nav_regex.test(item.name.charAt(0))
                         );
+
+                    if (inputValue.length > 0) {
+                        console.log('# is triggered!')
+                        filterd_items = partnersData
+                            .sort((a, b) => a.name.localeCompare(b.name))
+                            .filter((item) =>
+                                alpha_nav_regex.test(item.name.charAt(0)) &&
+                                item.name.toLowerCase().includes(inputValue)
+                            );
+                    }
                 } else {
                     filterd_items = partnersData
                         .sort((a, b) => a.name.localeCompare(b.name))
                         .filter((item) =>
                             item.name.toLowerCase().startsWith(active_letter)
                         );
+
+                    if (inputValue.length > 0) {
+                        filterd_items = partnersData
+                            .sort((a, b) => a.name.localeCompare(b.name))
+                            .filter((item) =>
+                                item.name.toLowerCase().startsWith(active_letter) &&
+                                item.name.toLowerCase().includes(inputValue)
+                            );
+                    }
                 }
 
+                result_msg = `Starting Letter: ${active_letter} and ${inputValue}`
                 //If a biller type is selected
             } else {
                 if (alpha_nav_regex.test(active_letter)) {
@@ -452,7 +553,6 @@ function renderItems(results_area, filter_data, template_element) {
                             item.name.toLowerCase().startsWith(active_letter) &&
                             item.category.toLowerCase() === active_partner_type.toLowerCase()
                         );
-
                 }
             }
 
@@ -468,6 +568,8 @@ function renderItems(results_area, filter_data, template_element) {
                 //Hides no result element 
                 displayNoResult(false);
             }
+
+            handleResetBtn()
         }
     });
 
@@ -503,7 +605,6 @@ function renderItems(results_area, filter_data, template_element) {
         }
 
     });
-
 
     //Disables letters 
     disableLetter(partnersData)
