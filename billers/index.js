@@ -12,25 +12,13 @@ const createItem = (item, templateElement) => {
 
     // Query inner elements
     const name = newItem.querySelector('.biller-item-title');
-    const payment_date = newItem.querySelector('.biller-item-description');
-    const gcredit = newItem.querySelector('[data-element="gcredit"]');
-    const fee = newItem.querySelector('[data-element="fee"]');
-    const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
-    const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
+    const category = newItem.querySelector('[data-element="category"]');
+    const payment_method = newItem.querySelector('.biller-item-services-title');
 
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
-    if (payment_date) payment_date.textContent = item.payment_date;
-    if (!item.has_gcredit) gcredit.style.display = 'none';
-    if (item.fee_amount > 0) {
-        fee_amount.textContent = `${item.fee_amount} fee`;
-    } else {
-        fee.style.display = 'none';
-    }
-
-    if (!item.has_gcredit && item.fee_amount <= 0) {
-        label_wrapper.style.display = 'none';
-    }
+    if (category) category.textContent = item.category;
+    if (payment_method) payment_method.textContent = item.payment_method;
 
     return newItem;
 };
@@ -77,7 +65,7 @@ function renderItems(results_area, filter_data, template_element) {
 }
 
 (async function () {
-    const template_element = document.querySelector('.biller-result-card.hidden');
+    const template_element = document.querySelector('.biller-result-card');
     const results_area = document.querySelector('.biller-result.billers_collection-list');
     const search_input = $('#field-2');
     const biller_card = $('.biller-list-item');
@@ -88,10 +76,11 @@ function renderItems(results_area, filter_data, template_element) {
 
     let alpha_nav_btn = $('.alphabet-nav > .alphabet-nav_letter');
     let active_biller_type = ''
-    let active_letter = '';
+    let active_letter = ''
+    let inputValue = search_input.val();
 
     //Get the data from URL source
-    let partnersData = await fetchPartners('https://lxpocampofrost.github.io/gcash-stylesheet/assets/partners.json');
+    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/webpay/data.json');
     //Initialize an empty array
     let filterd_items = [];
 
@@ -211,6 +200,7 @@ function renderItems(results_area, filter_data, template_element) {
         let letter_index_header = $('.results-letter-index');
         let card_view_btns = $('.biller-view-options');
 
+
         if (isDisplayed) {
             no_result_container.removeClass('disabled');
             pagination_container.hide()
@@ -242,18 +232,52 @@ function renderItems(results_area, filter_data, template_element) {
 
     //Input search functionality
     search_input.on("input", function () {
-        let inputValue = $(this).val().toLowerCase();
+        inputValue = $(this).val().toLowerCase();
         let result_msg = '';
 
         if (active_biller_type.length > 0 && active_letter.length > 0) {
             //Filter active biller type and active letter plus input
-            filterd_items = partnersData
-                .sort((a, b) => a.name.localeCompare(b.name))
-                .filter((item) =>
-                    item.name.toLowerCase().includes(inputValue) &&
-                    item.biller_type.includes(active_biller_type) &&
-                    item.name.toLowerCase().startsWith(active_letter)
-                );
+            if (alpha_nav_regex.test(active_letter)) {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.biller_type.includes(active_biller_type)
+                    );
+
+                disableLetter(filterd_items)
+
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.name.toLowerCase().includes(inputValue) &&
+                        item.biller_type.includes(active_biller_type) &&
+                        alpha_nav_regex.test(item.name.charAt(0))
+                    );
+
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items)
+            } else {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.biller_type.includes(active_biller_type)
+                    );
+
+                disableLetter(filterd_items)
+
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.name.toLowerCase().includes(inputValue) &&
+                        item.biller_type.includes(active_biller_type) &&
+                        item.name.toLowerCase().startsWith(active_letter)
+                    );
+
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items)
+            }
+
+            displayNoResult(false);
 
             result_msg = `Category: ${active_biller_type}, Letter: ${active_letter.toUpperCase()} and ${inputValue}`
 
@@ -266,16 +290,45 @@ function renderItems(results_area, filter_data, template_element) {
                     item.biller_type.includes(active_biller_type)
                 );
 
+            pagination_container.pagination('destroy');
+            usePagination(filterd_items);
+            disableLetter(filterd_items);
+            displayNoResult(false);
+
             result_msg = `Category: ${active_biller_type} and ${inputValue}`
 
         } else if (active_biller_type.length == 0 && active_letter.length > 0) {
-            //Filter active letter and input value
             filterd_items = partnersData
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
-                    item.name.toLowerCase().includes(inputValue) &&
-                    item.name.toLowerCase().startsWith(active_letter)
+                    item.name.toLowerCase().includes(inputValue)
                 );
+
+            disableLetter(filterd_items);
+            if (alpha_nav_regex.test(active_letter)) {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.name.toLowerCase().includes(inputValue) &&
+                        alpha_nav_regex.test(item.name.charAt(0))
+                    );
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items);
+                displayNoResult(false);
+
+            } else {
+                //Filter active letter and input value
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.name.toLowerCase().includes(inputValue) &&
+                        item.name.toLowerCase().startsWith(active_letter)
+                    );
+
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items);
+                displayNoResult(false);
+            }
 
             result_msg = `Letter: ${active_letter.toUpperCase()} and ${inputValue}`
         } else {
@@ -286,6 +339,11 @@ function renderItems(results_area, filter_data, template_element) {
                     item.name.toLowerCase().includes(inputValue)
                 );
 
+            pagination_container.pagination('destroy');
+            usePagination(filterd_items);
+            disableLetter(filterd_items);
+            displayNoResult(false);
+
             result_msg = inputValue
         }
 
@@ -293,59 +351,98 @@ function renderItems(results_area, filter_data, template_element) {
             usePagination(filterd_items)
             disableLetter(filterd_items)
             displayNoResult(true, result_msg);
-        } else {
-            //Reinitialize paginationJS on input
-            pagination_container.pagination('destroy');
-            usePagination(filterd_items)
-            //Disables letters 
-            disableLetter(filterd_items)
-            //Hides no result element 
-            displayNoResult(false);
         }
 
     });
 
     //On click event for the dropdown items
     biller_card.on("click", function () {
+        let result_msg = ''
         $('.biller_dropdown-current').text($(this).children('.biller-label').text())
 
         active_biller_type = $(this).children('.biller-label').text();
 
         if (active_biller_type.toLowerCase() === 'all categories') {
             filterd_items = partnersData
+                .sort((a, b) => a.name.localeCompare(b.name))
+
+            disableLetter(filterd_items)
+
+            filterd_items = partnersData
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .filter((item) =>
+                    item.name.toLowerCase().startsWith(active_letter)
+                );
+
+            pagination_container.pagination('destroy');
+            usePagination(filterd_items)
+            displayNoResult(false);
+
             active_biller_type = ''
         } else {
             if (active_letter.length > 0) {
-                filterd_items = partnersData
-                    .sort((a, b) => a.name.localeCompare(b.name))
-                    .filter((item) =>
-                        item.biller_type.includes(active_biller_type) &&
-                        item.name.toLowerCase().startsWith(active_letter)
-                    );
+                //Check if letter is a special character
+                if (alpha_nav_regex.test(active_letter)) {
+                    filterd_items = partnersData
+                        .sort((a, b) => a.name.localeCompare(b.name))
+                        .filter((item) =>
+                            item.biller_type.includes(active_biller_type) &&
+                            alpha_nav_regex.test(item.name.charAt(0))
+                        );
+                } else {
+                    filterd_items = partnersData
+                        .sort((a, b) => a.name.localeCompare(b.name))
+                        .filter((item) =>
+                            item.biller_type.includes(active_biller_type)
+                        );
+
+                    disableLetter(filterd_items)
+
+                    filterd_items = partnersData
+                        .sort((a, b) => a.name.localeCompare(b.name))
+                        .filter((item) =>
+                            item.name.toLowerCase().startsWith(active_letter) &&
+                            item.biller_type.includes(active_biller_type)
+                        );
+
+                    pagination_container.pagination('destroy');
+                    usePagination(filterd_items)
+                    displayNoResult(false);
+
+                }
+
+                result_msg = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
+
             } else {
                 filterd_items = partnersData
                     .sort((a, b) => a.name.localeCompare(b.name))
                     .filter((item) =>
                         item.biller_type.includes(active_biller_type)
                     );
+
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items)
+                disableLetter(filterd_items)
+                displayNoResult(false);
+
+                result_msg = `Category: ${active_biller_type}`
             }
         }
 
         if (filterd_items.length == 0) {
-            var result = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
-
             usePagination(filterd_items)
             disableLetter(filterd_items)
-            displayNoResult(true, result);
-        } else {
-            //Reinitialize paginationJS on input
-            pagination_container.pagination('destroy');
-            usePagination(filterd_items)
-            //Disables letters 
-            disableLetter(filterd_items)
-            //Hides no result element 
-            displayNoResult(false);
+            displayNoResult(true, result_msg);
         }
+        // } else {
+        //     //Reinitialize paginationJS on input
+        //     pagination_container.pagination('destroy');
+        //     usePagination(filterd_items)
+        //     //Disables letters 
+        //     disableLetter(filterd_items)
+        //     //Hides no result element 
+        //     displayNoResult(false);
+        // }
 
         search_input.val('')
         handleResetBtn()
@@ -370,21 +467,19 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
-                    gcredit_tag_text.text('GCredit');
                     break;
                 case 'card view':
                     results_container.removeClass('list-view');
                     results_container.addClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts GCredit');
                     break;
                 default:
                     results_container.removeClass('list-view');
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts GCredit');
                     break;
             }
+
         }
 
         results_area.animate(
@@ -397,8 +492,12 @@ function renderItems(results_area, filter_data, template_element) {
 
     //Event to run when clicking on the alphabet nav
     alpha_nav_btn.on("click", function () {
+        let result_msg = ''
+
         if (!$(this).hasClass('disabled')) {
             active_letter = $(this).data('letter')
+            alpha_nav_btn.removeClass('selected');
+            $(this).addClass('selected');
 
             //If no biller type selected
             if (active_biller_type.length == 0) {
@@ -408,14 +507,33 @@ function renderItems(results_area, filter_data, template_element) {
                         .filter((item) =>
                             alpha_nav_regex.test(item.name.charAt(0))
                         );
+
+                    if (inputValue.length > 0) {
+                        filterd_items = partnersData
+                            .sort((a, b) => a.name.localeCompare(b.name))
+                            .filter((item) =>
+                                alpha_nav_regex.test(item.name.charAt(0)) &&
+                                item.name.toLowerCase().includes(inputValue)
+                            );
+                    }
                 } else {
                     filterd_items = partnersData
                         .sort((a, b) => a.name.localeCompare(b.name))
                         .filter((item) =>
                             item.name.toLowerCase().startsWith(active_letter)
                         );
+
+                    if (inputValue.length > 0) {
+                        filterd_items = partnersData
+                            .sort((a, b) => a.name.localeCompare(b.name))
+                            .filter((item) =>
+                                item.name.toLowerCase().startsWith(active_letter) &&
+                                item.name.toLowerCase().includes(inputValue)
+                            );
+                    }
                 }
 
+                result_msg = `Starting Letter: ${active_letter} and ${inputValue}`
                 //If a biller type is selected
             } else {
                 if (alpha_nav_regex.test(active_letter)) {
@@ -435,9 +553,20 @@ function renderItems(results_area, filter_data, template_element) {
                 }
             }
 
-            pagination_container.pagination('destroy');
-            usePagination(filterd_items)
-            handleResetBtn();
+            if (filterd_items.length == 0) {
+                result_msg = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
+                usePagination(filterd_items)
+                disableLetter(filterd_items)
+                displayNoResult(true, result_msg);
+            } else {
+                //Reinitialize paginationJS on input
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items)
+                //Hides no result element 
+                displayNoResult(false);
+            }
+
+            handleResetBtn()
         }
     });
 
@@ -451,6 +580,7 @@ function renderItems(results_area, filter_data, template_element) {
             filterd_items = partnersData;
             active_biller_type = ''
             active_letter = ''
+            alpha_nav_btn.removeClass('selected');
             search_input.val('')
 
             renderItems(results_area, partnersData, template_element);
@@ -465,14 +595,15 @@ function renderItems(results_area, filter_data, template_element) {
 
     //Event to run when window resizes
     $(window).resize(function () {
-        window_width = $(window).width();
-
-        usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
+        if ($(window).width() != windowWidth) {
+            //Passes the data source to usePagination alphabetically
+            usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
+        }
     });
-
 
     //Disables letters 
     disableLetter(partnersData)
     //Initialize pagination function
     usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
+
 })();
