@@ -237,13 +237,23 @@ function renderItems(results_area, filter_data, template_element) {
 
         if (active_partner_type.length > 0 && active_letter.length > 0) {
             //Filter active biller type and active letter plus input
-            filterd_items = partnersData
-                .sort((a, b) => a.name.localeCompare(b.name))
-                .filter((item) =>
-                    item.name.toLowerCase().includes(inputValue) &&
-                    item.category.toLowerCase() === active_partner_type &&
-                    item.name.toLowerCase().startsWith(active_letter)
-                );
+            if (alpha_nav_regex.test(active_letter)) {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.name.toLowerCase().includes(inputValue) &&
+                        item.category.toLowerCase() === active_partner_type.toLowerCase() &&
+                        alpha_nav_regex.test(item.name.charAt(0))
+                    );
+            } else {
+                filterd_items = partnersData
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter((item) =>
+                        item.name.toLowerCase().includes(inputValue) &&
+                        item.category.toLowerCase() === active_partner_type.toLowerCase() &&
+                        item.name.toLowerCase().startsWith(active_letter)
+                    );
+            }
 
             result_msg = `Category: ${active_partner_type}, Letter: ${active_letter.toUpperCase()} and ${inputValue}`
 
@@ -253,7 +263,7 @@ function renderItems(results_area, filter_data, template_element) {
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .filter((item) =>
                     item.name.toLowerCase().includes(inputValue) &&
-                    item.category.toLowerCase() === active_partner_type
+                    item.category.toLowerCase() === active_partner_type.toLowerCase()
                 );
 
             result_msg = `Category: ${active_partner_type} and ${inputValue}`
@@ -311,12 +321,22 @@ function renderItems(results_area, filter_data, template_element) {
             active_partner_type = ''
         } else {
             if (active_letter.length > 0) {
-                filterd_items = partnersData
-                    .sort((a, b) => a.name.localeCompare(b.name))
-                    .filter((item) =>
-                        item.category.toLowerCase() === active_partner_type.toLowerCase() &&
-                        item.name.toLowerCase().startsWith(active_letter)
-                    );
+                //Check if letter is a special character
+                if (alpha_nav_regex.test(active_letter)) {
+                    filterd_items = partnersData
+                        .sort((a, b) => a.name.localeCompare(b.name))
+                        .filter((item) =>
+                            item.category.toLowerCase() === active_partner_type.toLowerCase() &&
+                            alpha_nav_regex.test(item.name.charAt(0))
+                        );
+                } else {
+                    filterd_items = partnersData
+                        .sort((a, b) => a.name.localeCompare(b.name))
+                        .filter((item) =>
+                            item.category.toLowerCase() === active_partner_type.toLowerCase() &&
+                            item.name.toLowerCase().startsWith(active_letter)
+                        );
+                }
 
                 result_msg = `Category: ${active_partner_type}, Starting Letter: ${active_letter}`
 
@@ -393,7 +413,7 @@ function renderItems(results_area, filter_data, template_element) {
 
     //Event to run when clicking on the alphabet nav
     alpha_nav_btn.on("click", function () {
-
+        let result_msg = ''
 
         if (!$(this).hasClass('disabled')) {
             active_letter = $(this).data('letter')
@@ -423,21 +443,31 @@ function renderItems(results_area, filter_data, template_element) {
                         .sort((a, b) => a.name.localeCompare(b.name))
                         .filter((item) =>
                             alpha_nav_regex.test(item.name.charAt(0)) &&
-                            item.category.toLowerCase() === active_partner_type
+                            item.category.toLowerCase() === active_partner_type.toLowerCase()
                         );
                 } else {
                     filterd_items = partnersData
                         .sort((a, b) => a.name.localeCompare(b.name))
                         .filter((item) =>
                             item.name.toLowerCase().startsWith(active_letter) &&
-                            item.category.toLowerCase() === active_partner_type
+                            item.category.toLowerCase() === active_partner_type.toLowerCase()
                         );
+
                 }
             }
 
-            pagination_container.pagination('destroy');
-            usePagination(filterd_items)
-            handleResetBtn();
+            if (filterd_items.length == 0) {
+                result_msg = `Category: ${active_partner_type}, Starting Letter: ${active_letter}`
+                usePagination(filterd_items)
+                disableLetter(filterd_items)
+                displayNoResult(true, result_msg);
+            } else {
+                //Reinitialize paginationJS on input
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items)
+                //Hides no result element 
+                displayNoResult(false);
+            }
         }
     });
 
@@ -466,10 +496,12 @@ function renderItems(results_area, filter_data, template_element) {
 
     //Event to run when window resizes
     $(window).resize(function () {
-        window_width = $(window).width();
 
-        //Passes the data source to usePagination alphabetically
-        usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
+        if ($(window).width() != windowWidth) {
+            //Passes the data source to usePagination alphabetically
+            usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
+        }
+
     });
 
 
