@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="download-container">
+    <a href="#" class="btn" id="download">Download</a>
+
+    <span class="title" id="title"></span>
+    <p class="description" id="description"></p>
+
+    <img src="/qrcode_48332972_86bc5da1ea7f54aa6e138bd491dbe300.png"
+      style="width: 200px; height:200px; margin: 24px auto 0" />
+  </div>
+  <script src="/app.js"></script>
+  <script src="/script.js"></script>
+
+  <script>
+    let ua = detect.parse(navigator.userAgent);
+    let button = document.getElementById('download');
+    let title = document.getElementById('title');
+    let description = document.getElementById('description');
+
+    console.log(ua.os.family);
+
+
+    switch (ua.os.family.toLowerCase()) {
+      case 'android':
+        button.setAttribute('href', 'http://play.google.com?id=*');
+        title.innerHTML = 'You are on android'
+        description.innerHTML = '<a> href: http://play.google.com?id=*'
+        break;
+      case 'ios':
+        button.setAttribute('href', 'https://appstore.com/')
+        title.innerHTML = 'You are on iOS'
+        description.innerHTML = '<a> href: https://appstore.com/'
+        break;
+      case 'windows':
+        console.log("You are using windows!!");
+        title.innerHTML = 'You are on windows';
+        description.innerHTML = '<a> href: #'
+        break;
+      default:
+        button.setAttribute('href', '#')
+        title.innerHTML = 'Unknown family of OS'
+        description.innerHTML = '<a> href: #'
+    }
+  </script>
+</body>
+
+</html>
