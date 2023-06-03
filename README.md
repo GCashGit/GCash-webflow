@@ -13,5 +13,6 @@ import the file.
 Ex.
 
 If creating a file for Express-send create a directory and name it express-send.
+Or name it after the function or purpose of the script!
 
 Inside directory name js or css file as index.js or index.css
