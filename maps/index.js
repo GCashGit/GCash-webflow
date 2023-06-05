@@ -176,7 +176,7 @@ async function getCoordinates() {
 */ 
 async function fetchPartners () {
   try {
-    const response = await fetch('https://lxpocampofrost.github.io/gcash-stylesheet/assets/billers.json');
+    const response = await fetch('https://gcashgit.github.io/GCash-webflow/maps/billers.json');
     const data = await response.json();
 
     return data;
