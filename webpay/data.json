@@ -1,5 +1,11 @@
 [
     {
+        "name": "&A Hiraya",
+        "category": "Retail",
+        "payment_method": "",
+        "partner_type": "Retail"
+    },
+    {
         "name": "&Again Clothing",
         "category": "Retail",
         "payment_method": "",
