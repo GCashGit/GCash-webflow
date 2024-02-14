@@ -171,7 +171,7 @@ function renderItems(results_area, filter_data, template_element) {
             }
         } else {
             for (let i = 0; i < arr.length; i++) {
-                if (arr[i].name.toString().toLowerCase().startsWith(letter.toLowerCase())) {
+                if ((arr[i].name.toString()).toLowerCase().startsWith(letter.toLowerCase())) {
                     return true;
                 }
             }
