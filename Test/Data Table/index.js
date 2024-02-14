@@ -15,7 +15,7 @@ jsonData = data;
 categories = [...new Set(jsonData.map((row) => row.Category))];
 
 // Extract and split values from the Availability property
-availability = [...new Set(jsonData.flatMap((row) => row.Availability.split('; ')))];
+availability = [...new Set(jsonData.flatMap((row) => row.Availability))];
 
 console.log(categories);
 console.log(availability);
