@@ -216,7 +216,7 @@
     "partner_type": "Retail"
   },
   {
-    "name": "4399",
+    "name": 4399,
     "category": "Gaming",
     "payment_method": "",
     "partner_type": "Gaming"
