@@ -80,7 +80,7 @@ function renderItems(results_area, filter_data, template_element) {
     let inputValue = search_input.val();
 
     //Get the data from URL source
-    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/webpay/data.json');
+    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/webpay/webpay_data.json');
     //Initialize an empty array
     let filterd_items = [];
 
