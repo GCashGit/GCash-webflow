@@ -1,5 +1,23 @@
 [
     {
+        "name": "CLI",
+        "category": "Emerging Tech",
+        "payment_method": "",
+        "partner_type": "Emerging Tech"
+    },
+    {
+      "name": "ilya",
+      "category": "Retail",
+      "payment_method": "",
+      "partner_type": "Retail"
+    },
+    {
+      "name": "koko",
+      "category": "Gaming",
+      "payment_method": "",
+      "partner_type": "Gaming"
+    },
+    {
         "name": "&Again Clothing",
         "category": "Retail",
         "payment_method": "",
