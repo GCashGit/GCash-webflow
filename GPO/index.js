@@ -1,4 +1,4 @@
-/** Max Version
+/**
  * Creates an item from the template element.
  * @param product The product data to create the item from.
  * @param templateElement The template element.
@@ -92,7 +92,7 @@ function renderItems(results_area, filter_data, template_element) {
     let inputValue = search_input.val();
 
     //Get the data from URL source
-    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/billers/data.json');
+    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/GPO/data.json');
     //Initialize an empty array
     let filterd_items = [];
 
