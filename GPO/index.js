@@ -479,19 +479,19 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
-                    gcredit_tag_text.text('GCredit');
+                    gcredit_tag_text.text('Visit');
                     break;
                 case 'card view':
                     results_container.removeClass('list-view');
                     results_container.addClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts GCredit');
+                    gcredit_tag_text.text('Visit Store');
                     break;
                 default:
                     results_container.removeClass('list-view');
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts GCredit');
+                    gcredit_tag_text.text('Visit Store');
                     break;
             }
         }
