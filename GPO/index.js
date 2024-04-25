@@ -607,6 +607,8 @@ function renderItems(results_area, filter_data, template_element) {
         handleResetBtn();
     });
 
+    let windowWidth = $(window).width();
+
     //Event to run when window resizes
     $(window).resize(function () {
         if ($(window).width() != windowWidth) {
