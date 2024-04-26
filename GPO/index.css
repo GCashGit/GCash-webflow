@@ -149,14 +149,14 @@
 
     .biller-result.list-view .biller-card-content>.biller-item-description {
         min-width: 160px;
-        max-width: 160px;
+        /*max-width: 160px;*/
         margin-top: 0px;
         font-size: 0.86rem;
     }
 
     .biller-result.list-view .biller-card-label-wrapper {
         max-width: 240px;
-        width: 100%;
+        /*width: 100%;*/
     }
 
     .biller-result.list-view .biller-card-label-wrapper>.biller-services-content {
