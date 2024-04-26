@@ -31,12 +31,12 @@ const createItem = (item, templateElement) => {
     } else {
         fee.style.display = 'none';
     }
-    console.log("sa labas ng biller type");
+    /**console.log("sa labas ng biller type");
     if (item.biller_type) {
         //map_link.href = ${item.biller_type};
         console.log("dumaan ng biller type");
         //map_link.href = ${item.biller_type};
-    }
+    }**/
 
     if (!item.has_gcredit && item.fee_amount <= 0) {
         label_wrapper.style.display = 'none';
