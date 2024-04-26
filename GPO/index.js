@@ -33,7 +33,7 @@ const createItem = (item, templateElement) => {
     }
 
     if (item.biller_type) {
-        map_link.href = `${item.biller_type}`;
+        map_link.href = ${item.biller_type};
     }
 
     if (!item.has_gcredit && item.fee_amount <= 0) {
