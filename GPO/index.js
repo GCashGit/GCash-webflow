@@ -23,7 +23,7 @@ const createItem = (item, templateElement) => {
     if (payment_date) payment_date.textContent = item.payment_date;
     if (!item.has_gcredit) gcredit.style.display = 'none';
     if (item.fee_amount > 0) {
-        fee_amount.textContent = `${item.fee_amount} fee`;
+        fee_amount.textContent = `${item.fee_amount} fee test change`;
     } else {
         fee.style.display = 'none';
     }
