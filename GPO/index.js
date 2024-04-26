@@ -32,7 +32,7 @@ const createItem = (item, templateElement) => {
     
     if (!item.has_gcredit){ gcredit.style.display = 'none';
     } else {
-        gcredit.textContent = 'Visit Store';
+        gcredit.textContent = 'Show Location';
     }
     if (item.fee_amount > 0) {
         fee_amount.textContent = `${item.fee_amount} fee`;
@@ -491,19 +491,19 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
-                    gcredit_tag_text.text('Visit');
+                    gcredit_tag_text.text('Show Location');
                     break;
                 case 'card view':
                     results_container.removeClass('list-view');
                     results_container.addClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Visit Store');
+                    gcredit_tag_text.text('Show Location');
                     break;
                 default:
                     results_container.removeClass('list-view');
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Visit Store');
+                    gcredit_tag_text.text('Show Location');
                     break;
             }
         }
