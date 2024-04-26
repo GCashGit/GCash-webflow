@@ -3,14 +3,14 @@
     "name": "#ByteFrost Number 1",
     "payment_date": "Laguna, City Of Santa Rosa, Pulong Santa Cruz, Block 12 Lot 39 9th Street Phase 1 Berkeley Heights",
     "has_gcredit": true,
-    "fee_amount": "37.7749,-122.4194",
+    "fee_amount": 20,
     "biller_type": "https://www.google.com/maps?q=37.7749,-122.4194"
   },
   {
     "name": "123 Finance Corporation",
     "payment_date": "Next business day",
     "has_gcredit": false,
-    "fee_amount": 20,
+    "fee_amount": 0,
     "biller_type": "Loans"
   },
   {
