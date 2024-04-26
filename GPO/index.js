@@ -32,7 +32,7 @@ const createItem = (item, templateElement) => {
     }
 
     if (item.fee_amount) {
-        fee_amount.href = ${item.biller_type};
+        fee_amount.href = `${item.biller_type}`;
     } else {
         fee.style.display = 'none';
     }
