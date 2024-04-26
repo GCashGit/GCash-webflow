@@ -16,7 +16,7 @@ const createItem = (item, templateElement) => {
     const gcredit = newItem.querySelector('[data-element="gcredit"]');
     const fee = newItem.querySelector('[data-element="fee"]');
     const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
-    const map_link = newItem.querySelector('[data-element="maplink"]');
+    const map_link = newItem.querySelector('[data-element="map-link"]');
     const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
 
     // Populate inner elements
