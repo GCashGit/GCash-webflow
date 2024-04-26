@@ -26,6 +26,8 @@ const createItem = (item, templateElement) => {
     if (item.biller_type) {
       map_link.href = item.biller_type;
       map_link.target = "_blank";
+    } else {
+        map_link.style.display = 'none';
     }
     
     if (!item.has_gcredit){ gcredit.style.display = 'none';
