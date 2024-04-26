@@ -22,7 +22,12 @@ const createItem = (item, templateElement) => {
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
     if (payment_date) payment_date.textContent = item.payment_date;
-    if (item.biller_type) {map_link.href = "" + item.biller_type};
+    
+    if (item.biller_type) {
+      map_link.href = item.biller_type;
+      map_link.target = "_blank";
+    }
+    
     if (!item.has_gcredit){ gcredit.style.display = 'none';
     } else {
         gcredit.textContent = 'Visit Store';
