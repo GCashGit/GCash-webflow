@@ -22,7 +22,7 @@ const createItem = (item, templateElement) => {
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
     if (payment_date) payment_date.textContent = item.payment_date;
-    if (item.biller_type) {console.log("dumaan ng biller type")};
+    if (item.biller_type) {console.log(item.biller_type)};
     if (!item.has_gcredit){ gcredit.style.display = 'none';
     } else {
         gcredit.textContent = 'Visit Store';
