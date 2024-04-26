@@ -32,10 +32,8 @@ const createItem = (item, templateElement) => {
         fee.style.display = 'none';
     }
 
-    if (item.map_link) {
+    if (item.biller_type) {
         map_link.href = `${item.biller_type}`;
-    } else {
-        map_link.style.display = 'none';
     }
 
     if (!item.has_gcredit && item.fee_amount <= 0) {
