@@ -5,5 +5,348 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"7.86,123.1604555"
+	},
+	{
+		"name":"A and C Mart",
+		"payment_date":" Ajs010 Ajoya  Gabi Cordova Cebu",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"10.27,123.9576771"
+	},
+	{
+		"name":"gelsheew bakery",
+		"payment_date":"196 duhat ext. napico Manggahan City Of Pasig Metro Manila",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.60,121.0991825"
+	},
+	{
+		"name":"Random Loots",
+		"payment_date":"4262 Bagong Anyo St., Brgy  Duquit Mabalacat City Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.18,120.5978524"
+	},
+	{
+		"name":"Montero Store",
+		"payment_date":" H-3-5 Tropical Vill. Pabahay 2000 San Francisco City Of General Trias Cavite",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.28,120.9015174"
+	},
+	{
+		"name":"5NJ Store",
+		"payment_date":" Blk 87 lot 40 beside bulaon hospital CSFP San Vicente Bacolor Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.00,120.6530644"
+	},
+	{
+		"name":"Aga Store",
+		"payment_date":" B-16-5 Tropical Village San Francisco City Of General Trias Cavite",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.30,120.9177653"
+	},
+	{
+		"name":"Adam and ezra sari sari store",
+		"payment_date":" Gertrudes st Mambugan City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.61,121.133294"
+	},
+	{
+		"name":"eloisa store",
+		"payment_date":" juliana Juliana City Of San Fernando (Capital) Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.03,120.6911616"
+	},
+	{
+		"name":"joyed grocery ",
+		"payment_date":"2416 carmelita st stateland hills Manggahan City Of General Trias Cavite",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.30,120.915921"
+	},
+	{
+		"name":"Journey Bakery",
+		"payment_date":" Sitio bukal ng Buhay OLalia road  Dela Paz (Pob.) City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.61,121.174966"
+	},
+	{
+		"name":"Bensan store",
+		"payment_date":" blk 164 lot 33 Bulaon City Of San Fernando (Capital) Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.08,120.6645667"
+	},
+	{
+		"name":"JONG&CHLOE STORE",
+		"payment_date":" Mulawin st Pinagbuhatan City Of Pasig Metro Manila",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.55,121.1039324"
+	},
+	{
+		"name":"KOLAI & LUKI STORE",
+		"payment_date":" CIRCUMFERENCIAL ROAD Labogon City Of Mandaue Cebu",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"10.35,123.9568845"
+	},
+	{
+		"name":"LEOCADIO STORE",
+		"payment_date":"004 marcos hiway purok sumulong Dela Paz (Pob.) City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.62,121.1722621"
+	},
+	{
+		"name":"Raeven Store",
+		"payment_date":" Blk3 lot2 pli homes San juan Mayamot City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.63,121.120934"
+	},
+	{
+		"name":"Edz and Jafz Sari Sari Store",
+		"payment_date":" Sec 8 Blk 22 Lot 2  Sunny Brooke 2 San Francisco City Of General Trias Cavite",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.28,120.9015917"
+	},
+	{
+		"name":"Austine store",
+		"payment_date":" Juliana Juliana City Of San Fernando (Capital) Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.03,120.6911616"
+	},
+	{
+		"name":"lhea store",
+		"payment_date":" blk 133 lot 25 bulaon rest. Bulaon City Of San Fernando (Capital) Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.08,120.6645667"
+	},
+	{
+		"name":"Valencia Store",
+		"payment_date":" Blk 70 lot 1 bulaon Bulaon City Of San Fernando (Capital) Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.08,120.6645667"
+	},
+	{
+		"name":"Josefina store",
+		"payment_date":" Eskina Humay humay Pajo City Of Lapu-Lapu (Opon) Cebu",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"10.31,123.9573763"
+	},
+	{
+		"name":"St Bernard Bakeshop & Mini Mart",
+		"payment_date":" Sangi New Rd., Back of City Hall Pajo City Of Lapu-Lapu (Opon) Cebu",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"10.31,123.9643458"
+	},
+	{
+		"name":"Gievan sari-sari store",
+		"payment_date":" Sitio tibagan II Mayamot City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.63,121.1381005"
+	},
+	{
+		"name":"Cathy store",
+		"payment_date":" Lornaville San Roque (Pob.) City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.56,121.1699588"
+	},
+	{
+		"name":"Albert Sari sari store",
+		"payment_date":" Blk 128 lot 17 Bulaon City Of San Fernando (Capital) Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.08,120.6645667"
+	},
+	{
+		"name":"Thess store",
+		"payment_date":" Dungca st. Sapalibutad City Of Angeles Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.16,120.6299114"
+	},
+	{
+		"name":"AAA General Merchandising Store",
+		"payment_date":" B11 L9 Nia Road Woodsite1 Pasong Buaya II City Of Imus Cavite",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.39,120.9663336"
+	},
+	{
+		"name":"Charize store",
+		"payment_date":" Infante st. Unicent  Pinagbuhatan City Of Pasig Metro Manila",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.54,121.1050117"
+	},
+	{
+		"name":"argelouweynn rtw",
+		"payment_date":" st. matthew Sapalibutad City Of Angeles Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.16,120.6286186"
+	},
+	{
+		"name":"Remy store ",
+		"payment_date":"2133 dungca st. Sapalibutad City Of Angeles Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.16,120.6302589"
+	},
+	{
+		"name":"GDS LOADING STATION",
+		"payment_date":" Virgen Dela Paz San Jose (Pob.) City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.58,121.2251439"
+	},
+	{
+		"name":"R.M MENIANO CONSUMER GOODS STORE / RTM MINIMART",
+		"payment_date":" Phase 11 Blk 102 Lot 38 Deca Clark Margot City Of Angeles Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.17,120.5197832"
+	},
+	{
+		"name":"Airene",
+		"payment_date":" Sapphire Santo Niño City Of Marikina Metro Manila",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.64,121.097336"
+	},
+	{
+		"name":"Don don store",
+		"payment_date":" Sitio corina Bagong Nayon City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.63,121.1695228"
+	},
+	{
+		"name":"Jennifer food products trading",
+		"payment_date":" Jacinto st. Mambugan City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.61,121.1227391"
+	},
+	{
+		"name":"Helen's store",
+		"payment_date":" blk 68 lot 1 Bulaon City Of San Fernando (Capital) Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.08,120.6645667"
+	},
+	{
+		"name":"lourdes store",
+		"payment_date":"1268 kamatis street Manggahan City Of Pasig Metro Manila",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.60,121.0963236"
+	},
+	{
+		"name":"Amy store",
+		"payment_date":"427 duhat Street  Manggahan City Of Pasig Metro Manila",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.60,121.0964973"
+	},
+	{
+		"name":"RK STORE",
+		"payment_date":" Blk 7,Quarry road sewage Pusok Lapu-lapu City Pusok City Of Lapu-Lapu (Opon) Cebu",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"10.32,123.9707667"
+	},
+	{
+		"name":"Arvin vegetable wholesaling",
+		"payment_date":" Block 15 lot 13 San isidro ressetlement San Isidro Magalang Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.23,120.6357944"
+	},
+	{
+		"name":"Kring Jen store",
+		"payment_date":"21 sumulong st San Jose (Pob.) City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.59,121.1777432"
+	},
+	{
+		"name":"Sabon for Everyone",
+		"payment_date":" Saint Andrew St  Sapalibutad City Of Angeles Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.1588934,120.6286186"
+	},
+	{
+		"name":"Mabel Cakes and Pastries Shop",
+		"payment_date":" Pajac Maribago road Pajac City Of Lapu-Lapu (Opon) Cebu",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"10.2966209,123.984649"
+	},
+	{
+		"name":"Oti's Sari sari store",
+		"payment_date":"648 (new#) Shoe Avenue Concepcion Uno City Of Marikina Metro Manila",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.6448404,121.1003356"
+	},
+	{
+		"name":"Rebecca store",
+		"payment_date":" Purok angela sumulong highway Dela Paz (Pob.) City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.602651,121.1773027"
+	},
+	{
+		"name":"angel store",
+		"payment_date":" sitio malaking parang San Jose (Pob.) City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.6330528,121.2417506"
+	},
+	{
+		"name":"IAM Marketing and Business Services",
+		"payment_date":" Ph9 Blk103 L88 Marigold StDeca Clark Margot City Of Angeles Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.1696944,120.5343861"
+	},
+	{
+		"name":"Ahron gabby",
+		"payment_date":"188 sumulong Mayamot City Of Antipolo (Capital) Rizal",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.6297281,121.1198381"
+	},
+	{
+		"name":"RN CEBU'S Bakeshop",
+		"payment_date":" F. PARAS street, Poblacion Barili Cebu  Poblacion Barili Cebu",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"10.1127358,123.512349"
+	},
+	{
+		"name":"KNK MART",
+		"payment_date":" Blk 28 lot 8 Bulaon City Of San Fernando (Capital) Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.0844944,120.6645667"
 	}
 ]
