@@ -135,33 +135,32 @@ function renderItems(results_area, filter_data, template_element) {
     });
 
     
-    // Function to determine the top 15 closest stores to the user's location
-    function findClosestStores(userLat, userLon, storesData) {
-        // Filter stores within a certain radius (e.g., 50km)
-        var storesWithinRadius = storesData.filter(function (store) {
-            var storeCoords = store.biller_type.split(',');
-            var storeLat = parseFloat(storeCoords[0]);
-            var storeLon = parseFloat(storeCoords[1]);
-            var distance = calculateDistance(userLat, userLon, storeLat, storeLon);
-            return distance <= 50; // Adjust the radius as needed
-        });
-    
-        // Calculate distances only for stores within the radius
-        var distances = storesWithinRadius.map(function (store) {
-            var storeCoords = store.biller_type.split(',');
-            var storeLat = parseFloat(storeCoords[0]);
-            var storeLon = parseFloat(storeCoords[1]);
-            var distance = calculateDistance(userLat, userLon, storeLat, storeLon);
-            return { storeName: store.name, physicalAddress: store.payment_date, distance: distance };
-        });
-    
-        // Sort distances in ascending order
-        distances.sort(function (a, b) {
-            return a.distance - b.distance;
-        });
-    
-        // Get the top 15 closest stores
-        var closestStores = distances.slice(0, 15);
+   function findClosestStores(userLat, userLon, storesData) {
+    // Filter stores within a certain radius (e.g., 50km)
+    var storesWithinRadius = storesData.filter(function (store) {
+        var storeCoords = store.biller_type.split(',');
+        var storeLat = parseFloat(storeCoords[0]);
+        var storeLon = parseFloat(storeCoords[1]);
+        var distance = calculateDistance(userLat, userLon, storeLat, storeLon);
+        return distance <= 50; // Adjust the radius as needed
+    });
+
+    // Calculate distances only for stores within the radius
+    var distances = storesWithinRadius.map(function (store) {
+        var storeCoords = store.biller_type.split(',');
+        var storeLat = parseFloat(storeCoords[0]);
+        var storeLon = parseFloat(storeCoords[1]);
+        var distance = calculateDistance(userLat, userLon, storeLat, storeLon);
+        return { storeName: store.name, physicalAddress: store.payment_date, distance: distance };
+    });
+
+    // Sort distances in ascending order
+    distances.sort(function (a, b) {
+        return a.distance - b.distance;
+    });
+
+    // Get the top 15 closest stores
+    var closestStores = distances.slice(0, 15);
     
         // Output the top 15 closest stores
         console.log("Top 15 closest stores to your location:");
@@ -169,6 +168,7 @@ function renderItems(results_area, filter_data, template_element) {
             console.log(`${index + 1}. ${item.storeName} (${item.physicalAddress}) - Distance: ${item.distance.toFixed(2)} km`);
         });
     }
+
 
     function displayFirstLetter() {
         const first_element = $('.biller-result.billers_collection-list > .biller-result-card').first();
