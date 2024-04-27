@@ -149,15 +149,29 @@ function renderItems(results_area, filter_data, template_element) {
     }
 
     
-   function findClosestStores(userLat, userLon, storesData) {
+   // function findClosestStores(userLat, userLon, storesData) {
+   //  // Filter stores within a certain radius (e.g., 50km)
+   //  var storesWithinRadius = storesData.filter(function (store) {
+   //      var storeCoords = store.biller_type.split(',');
+   //      var storeLat = parseFloat(storeCoords[0]);
+   //      var storeLon = parseFloat(storeCoords[1]);
+   //      var distance = calculateDistance(userLat, userLon, storeLat, storeLon);
+   //      return distance <= 50; // Adjust the radius as needed
+   //  });
+
+    function findClosestStores(userLat, userLon, storesData) {
     // Filter stores within a certain radius (e.g., 50km)
-    var storesWithinRadius = storesData.filter(function (store) {
+    filtered_items = storesData.filter(function (store) {
         var storeCoords = store.biller_type.split(',');
         var storeLat = parseFloat(storeCoords[0]);
         var storeLon = parseFloat(storeCoords[1]);
         var distance = calculateDistance(userLat, userLon, storeLat, storeLon);
         return distance <= 50; // Adjust the radius as needed
     });
+
+    // Render the filtered items
+    renderItems(results_area, filtered_items, template_element);
+}
 
 
        
