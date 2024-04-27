@@ -2,7 +2,7 @@
  * Creates an item from the template element.
  * @param product The product data to create the item from.
  * @param templateElement The template element.
- *
+ * 
  * @returns A new Collection Item element.
  */
 const createItem = (item, templateElement) => {
