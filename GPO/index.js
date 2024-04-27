@@ -24,7 +24,7 @@ const createItem = (item, templateElement) => {
     if (payment_date) payment_date.textContent = item.payment_date;
     
     if (item.biller_type) {
-      map_link.href = item.biller_type;
+      map_link.href = "https://www.google.com/maps?q=" + item.biller_type;
       map_link.target = "_blank";
     } else {
         map_link.style.display = 'none';
