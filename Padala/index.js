@@ -157,9 +157,6 @@ function renderItems(results_area, filter_data, template_element) {
         var storeLon = parseFloat(storeCoords[1]);
         var distance = calculateDistance(userLat, userLon, storeLat, storeLon);
         return distance <= 50; // Adjust the radius as needed
-
-         // Render the filtered items
-    renderItems(results_area, filtered_items, template_element);
     });
 
 //     function findClosestStores(userLat, userLon, storesData) {
