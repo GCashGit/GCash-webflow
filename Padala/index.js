@@ -134,6 +134,20 @@ function renderItems(results_area, filter_data, template_element) {
         }
     });
 
+    // Function to calculate the distance between two points using the Haversine formula
+    function calculateDistance(lat1, lon1, lat2, lon2) {
+        var R = 6371; // Radius of the Earth in kilometers
+        var dLat = (lat2 - lat1) * Math.PI / 180; // Convert degrees to radians
+        var dLon = (lon2 - lon1) * Math.PI / 180;
+        var a =
+            Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+            Math.sin(dLon / 2) * Math.sin(dLon / 2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        var distance = R * c; // Distance in kilometers
+        return distance;
+    }
+
     
    function findClosestStores(userLat, userLon, storesData) {
     // Filter stores within a certain radius (e.g., 50km)
@@ -145,6 +159,8 @@ function renderItems(results_area, filter_data, template_element) {
         return distance <= 50; // Adjust the radius as needed
     });
 
+
+       
     // Calculate distances only for stores within the radius
     var distances = storesWithinRadius.map(function (store) {
         var storeCoords = store.biller_type.split(',');
