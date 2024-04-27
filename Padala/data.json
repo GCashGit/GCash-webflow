@@ -3640,13 +3640,6 @@
 		"biller_type":"14.4688174,121.0405474"
 	},
 	{
-		"name":"Pamilyafirst Bills Payment And Remittance Center Go VIP Center ",
-		"payment_date":"116-A Yanga Street Maysilo, Malabon City, Metro Manila",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Palo Bills Payment Services Go VIP Center ",
 		"payment_date":"Palo Public Market Barangay Cavite East, Palo, Leyte",
 		"has_gcredit":"false",
@@ -3668,13 +3661,6 @@
 		"biller_type":"15.4909425,120.9968258"
 	},
 	{
-		"name":"Pabayad Bills Payment Center Go VIP Center ",
-		"payment_date":"Purok Talisay Barangay Combado, Maasin City, Southern Leyte",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"P&D Payment Center Go VIP Center ",
 		"payment_date":"127 Zone 2 Dila Dila, Santa Rita, Pampanga",
 		"has_gcredit":"false",
@@ -3682,32 +3668,11 @@
 		"biller_type":"15.0300586,120.5869331"
 	},
 	{
-		"name":"Oscor Payment Center Go VIP Center ",
-		"payment_date":"E. Rodriguez Street, Barangay Sampaloc, Tanay, Rizal",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Omni-Cash Payment Center Go VIP Center ",
 		"payment_date":"Reyes Building Rizal Avenue corner Javier Street, San Isidro, Taytay, Rizal",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.5709723,121.1307056"
-	},
-	{
-		"name":"Oceanic Water Refilling Station Go VIP Center ",
-		"payment_date":"Purok 3, Barangay Concepcion, Hilongos, Leyte",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Nitre Bills Payment And Remittance Center Panalo Express ",
-		"payment_date":"Block 16 Road 32 Planters Floodway Barangay San Andres, Cainta, Rizal",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Nice Pyament Center Go VIP Center ",
@@ -3799,13 +3764,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"12.3848356,125.2807624"
-	},
-	{
-		"name":"Mjass Bills Payment & Remittance Center Go VIP Center ",
-		"payment_date":"Block 1C, Lot 4, Villa Alegria 175 Camarin, Caloocan, Metro Manila",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Miracle Zane Bills Payment Center Go VIP Center ",
@@ -4275,13 +4233,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.3729074,120.8549061"
-	},
-	{
-		"name":"Jj Bills Payment And Remittance Center Go VIP Center ",
-		"payment_date":"101 Sampaguita Street, Alido Subdivision, Bulihan, Malolos, Bulacan",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Jhr Bills Payment And Remittance Services Go VIP Center ",
@@ -10549,13 +10500,6 @@
 		"biller_type":"14.8548895,120.9052447"
 	},
 	{
-		"name":"Cristinedel Mini Store Go VIP Center ",
-		"payment_date":"Blk 2 Lot 50 Phase 1 Hillsview Royale Timalan, Naic, Cavite",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Vienices Bills Payment And Remittance Center Go VIP Center ",
 		"payment_date":"G/F Vienices Bldg, Bagulin, La Union",
 		"has_gcredit":"false",
@@ -12796,27 +12740,6 @@
 		"biller_type":"5.2831456,115.230825"
 	},
 	{
-		"name":"RAF-ZEL STORE",
-		"payment_date":"STO. NINO, LANOTE",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"CHUCHI BEAUTY AND WELLNESS PRODUCTS TRADING",
-		"payment_date":"TAPIAN",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"S&D ICE CREAM HOUSE",
-		"payment_date":"LAUM",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"EUNEEL VARIETY STORE",
 		"payment_date":"PUROK 4 SAN JOSE",
 		"has_gcredit":"false",
@@ -12824,39 +12747,11 @@
 		"biller_type":"12.3467231,121.0671905"
 	},
 	{
-		"name":"SOPHIA'S COLLECTION AND E-LOADING STATION",
-		"payment_date":"MALIGAYA",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"ANNE'S E-LOADING STATION",
-		"payment_date":"PUROK 2 POBLACION",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"HERMESMATIC LAUNDROMAT",
-		"payment_date":"0289  SABADO STREET, SAN FRANCISCO DISTRICT",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"JOWS PADSTORE",
 		"payment_date":"GARCHITORENA",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"13.8628124,123.6399562"
-	},
-	{
-		"name":"AMIL STORE",
-		"payment_date":"IPHO STREET LAMION",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"MELVIN STORE",
@@ -12873,32 +12768,11 @@
 		"biller_type":"10.7800911,122.5408096"
 	},
 	{
-		"name":"MAMADZ SHOP",
-		"payment_date":"BANDAY",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"CHIZCHELZ",
 		"payment_date":"LATABON",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"7.6395417,122.2029832"
-	},
-	{
-		"name":"MARILOU LOADING STATION",
-		"payment_date":"SOUTH LAUD",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"J and B ELECTRONICS and ENTERPRISES",
-		"payment_date":"BOLOS ST., POBLACION",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"MLX-KM2 INDANAN BILLS PAYMENT AND REMITTANCE CENTER",
@@ -12927,13 +12801,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"10.3641103,123.882985"
-	},
-	{
-		"name":"ALDEV SARI SARI STORE",
-		"payment_date":"GALLEGO",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"ZANKAR BUSINESS CENTER",
@@ -15596,13 +15463,6 @@
 		"biller_type":"12.167234,123.8522923"
 	},
 	{
-		"name":"AMAZINGGOLD PAWNSHOP -  PANDACAN 2",
-		"payment_date":"1927-C Zamora St. Pandacan Manila",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"AMAZINGGOLD PAWNSHOP -  CADUHA-AN",
 		"payment_date":"Purok Ilko, Brgy, Caduha-an Cadiz City, Negros Occidental",
 		"has_gcredit":"false",
@@ -17150,13 +17010,6 @@
 		"biller_type":"14.8708522,120.9576437"
 	},
 	{
-		"name":"Dominion Pawnshop- Bf Homes ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Outbox Inbox Courier & Business Service Center ",
 		"payment_date":"Store 212 Bldg. National Highway, Bo. Barretto, Olongapo, Zambales",
 		"has_gcredit":"false",
@@ -17171,32 +17024,11 @@
 		"biller_type":"14.590868,121.2912515"
 	},
 	{
-		"name":"Tayabas Community Multi-Purpose Cooperative -Gumaca ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"I Want Travel & Tours ",
 		"payment_date":"2127 Fb Harrison, Brgy. 11, Pasay City, Metro Manila",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.551962,120.9922429"
-	},
-	{
-		"name":"Pinoy Properties Investment Corporation ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Rme Expresspay Center ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Mauban Credit & Development Cooperative ( Macdeco) ",
@@ -17206,13 +17038,6 @@
 		"biller_type":"14.1807733,121.7062391"
 	},
 	{
-		"name":"Dominion Pawnshop- Bf Homes ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Outbox Inbox Courier & Business Service Center ",
 		"payment_date":"Store 212 Bldg. National Highway, Bo. Barretto, Olongapo, Zambales",
 		"has_gcredit":"false",
@@ -17227,32 +17052,11 @@
 		"biller_type":"14.590868,121.2912515"
 	},
 	{
-		"name":"Tayabas Community Multi-Purpose Cooperative -Gumaca ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"I Want Travel & Tours ",
 		"payment_date":"2127 Fb Harrison, Brgy. 11, Pasay City, Metro Manila",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.551962,120.9922429"
-	},
-	{
-		"name":"Pinoy Properties Investment Corporation ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Rme Expresspay Center ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Mauban Credit & Development Cooperative ( Macdeco) ",
@@ -17283,13 +17087,6 @@
 		"biller_type":"14.8511432,120.2583862"
 	},
 	{
-		"name":"Dominion Pawnshop- Bf Homes ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Bromar Express Payment & Remittance Ctr ",
 		"payment_date":"Blk 48 L1 Phase 2 Southville 9, Brgy Pinugay , Rizal, Rizal",
 		"has_gcredit":"false",
@@ -17297,32 +17094,11 @@
 		"biller_type":"14.590868,121.2912515"
 	},
 	{
-		"name":"Tayabas Community Multi-Purpose Cooperative -Gumaca ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"I Want Travel & Tours ",
 		"payment_date":"2127 Fb Harrison, Brgy. 11, Pasay City, Metro Manila",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.551962,120.9922429"
-	},
-	{
-		"name":"Pinoy Properties Investment Corporation ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Rme Expresspay Center ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Mauban Credit & Development Cooperative ( Macdeco) ",
@@ -17346,13 +17122,6 @@
 		"biller_type":"15.6732128,120.6458749"
 	},
 	{
-		"name":"Dominion Pawnshop- Bf Homes ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Outbox Inbox Courier & Business Service Center ",
 		"payment_date":"Store 212 Bldg. National Highway, Bo. Barretto, Olongapo, Zambales",
 		"has_gcredit":"false",
@@ -17367,32 +17136,11 @@
 		"biller_type":"14.590868,121.2912515"
 	},
 	{
-		"name":"Tayabas Community Multi-Purpose Cooperative -Gumaca ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"I Want Travel & Tours ",
 		"payment_date":"2127 Fb Harrison, Brgy. 11, Pasay City, Metro Manila",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.551962,120.9922429"
-	},
-	{
-		"name":"Pinoy Properties Investment Corporation ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Rme Expresspay Center ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Mauban Credit & Development Cooperative ( Macdeco) ",
@@ -17421,13 +17169,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.6108893,120.9947919"
-	},
-	{
-		"name":"Champion Pawnshop Lopez ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Kale Bills Payment & Remittance Center ",
@@ -17472,25 +17213,11 @@
 		"biller_type":"15.1394269,120.7716308"
 	},
 	{
-		"name":"D’May 878 Inc. (Branch 3) Binan ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Outbox Inbox Courier & Business Service Center ",
 		"payment_date":"Store 212 Bldg. National Highway, Bo. Barretto, Olongapo, Zambales",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.8511432,120.2583862"
-	},
-	{
-		"name":"Dominion Pawnshop- Bf Homes ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Bromar Express Payment & Remittance Ctr ",
@@ -17500,32 +17227,11 @@
 		"biller_type":"14.590868,121.2912515"
 	},
 	{
-		"name":"Tayabas Community Multi-Purpose Cooperative -Gumaca ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"I Want Travel & Tours ",
 		"payment_date":"2127 Fb Harrison, Brgy. 11, Pasay City, Metro Manila",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.551962,120.9922429"
-	},
-	{
-		"name":"Pinoy Properties Investment Corporation ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Rme Expresspay Center ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Mauban Credit & Development Cooperative ( Macdeco) ",
@@ -17549,13 +17255,6 @@
 		"biller_type":"10.6942332,122.5702053"
 	},
 	{
-		"name":"Janlu’S Pawnshop – Munoz ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"King’S Money Transfer & Bills Payment Center – Norzagaray (Bme Money Changer) ",
 		"payment_date":"Roadside View Subd 2165, Partida, Bulacan, Bulacan",
 		"has_gcredit":"false",
@@ -17575,13 +17274,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.6108893,120.9947919"
-	},
-	{
-		"name":"Champion Pawnshop Lopez ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Kale Bills Payment & Remittance Center ",
@@ -17626,13 +17318,6 @@
 		"biller_type":"15.1394269,120.7716308"
 	},
 	{
-		"name":"D’May 878 Inc. (Branch 3) Binan ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Lakwatsero’S Money Remittances & Courier Services ",
 		"payment_date":"Brgy Dimanpudso, Maria Aurora, Aurora",
 		"has_gcredit":"false",
@@ -17645,13 +17330,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"10.6942332,122.5702053"
-	},
-	{
-		"name":"Janlu’S Pawnshop – Munoz ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Ab & Cd Bills Payment And Remittance Center ",
@@ -17661,13 +17339,6 @@
 		"biller_type":"14.57127,121.0377814"
 	},
 	{
-		"name":"Dominion Pawnshop- Bf Homes ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Outbox Inbox Courier & Business Service Center ",
 		"payment_date":"Store 212 Bldg. National Highway, Bo. Barretto, Olongapo, Zambales",
 		"has_gcredit":"false",
@@ -17682,32 +17353,11 @@
 		"biller_type":"14.590868,121.2912515"
 	},
 	{
-		"name":"Tayabas Community Multi-Purpose Cooperative -Gumaca ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"I Want Travel & Tours ",
 		"payment_date":"2127 Fb Harrison, Brgy. 11, Pasay City, Metro Manila",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.551962,120.9922429"
-	},
-	{
-		"name":"Pinoy Properties Investment Corporation ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Rme Expresspay Center ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Mauban Credit & Development Cooperative ( Macdeco) ",
@@ -17743,13 +17393,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.6108893,120.9947919"
-	},
-	{
-		"name":"Champion Pawnshop Lopez ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Kale Bills Payment & Remittance Center ",
@@ -17801,13 +17444,6 @@
 		"biller_type":"15.1394269,120.7716308"
 	},
 	{
-		"name":"D’May 878 Inc. (Branch 3) Binan ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Allen Pawnshop & Mc Corp ",
 		"payment_date":"Cor. Gomez And Salazar Street, Tacloban City, Leyte",
 		"has_gcredit":"false",
@@ -17836,32 +17472,11 @@
 		"biller_type":"10.6942332,122.5702053"
 	},
 	{
-		"name":"Janlu’S Pawnshop – Munoz ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Champion Pawnshop Alabang ",
 		"payment_date":"Fortunata Comm?L Bldg, 252 Montillan St., Alabang, Muntinlupa City, Metro Manila",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.4190153,121.0469198"
-	},
-	{
-		"name":"Dominion Pawnshop- Bf Homes ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Dominion Pawnshop- Bf Homes ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Tntm Payment Center ",
@@ -17976,20 +17591,6 @@
 		"biller_type":"14.6391179,121.0154482"
 	},
 	{
-		"name":"Tayabas Community Multi-Purpose Cooperative -Gumaca ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Tayabas Community Multi-Purpose Cooperative -Gumaca ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Jmcc Payment Service ",
 		"payment_date":"64 Tolentino Street, Barangay Damayan, Quezon City, Metro Manila",
 		"has_gcredit":"false",
@@ -18060,13 +17661,6 @@
 		"biller_type":"14.5470413,121.0555954"
 	},
 	{
-		"name":"Dominion Pawnshop- Bf Homes ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Outbox Inbox Courier & Business Service Center ",
 		"payment_date":"Store 212 Bldg. National Highway, Bo. Barretto, Olongapo, Zambales",
 		"has_gcredit":"false",
@@ -18086,20 +17680,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.7560534,121.0436789"
-	},
-	{
-		"name":"Pinoy Properties Investment Corporation ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Pinoy Properties Investment Corporation ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Malvin’S Cell-Aload And Copy-Print Center ",
@@ -18151,13 +17731,6 @@
 		"biller_type":"14.364818,121.0555171"
 	},
 	{
-		"name":"Tayabas Community Multi-Purpose Cooperative -Gumaca ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Maria Aurora Development Cooperative ",
 		"payment_date":"Silvestre Street, Brgy. 03, Maria, Aurora",
 		"has_gcredit":"false",
@@ -18186,25 +17759,11 @@
 		"biller_type":"14.5362494,121.0105621"
 	},
 	{
-		"name":"Rme Expresspay Center ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Trifuente Money Remittance ",
 		"payment_date":"Hermosa Street 1050, Brgy. 199 Zone 18, Tondo, Metro Manila",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.6329476,120.9777697"
-	},
-	{
-		"name":"Rme Expresspay Center ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"E. Aranez Property Leasing ",
@@ -18249,13 +17808,6 @@
 		"biller_type":"13.8495217,120.125729"
 	},
 	{
-		"name":"Pinoy Properties Investment Corporation ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Cct Money Remittance Center ",
 		"payment_date":"Bonifacio St Brgy B, Tayug Pangasinan, Brgy. B, Tayug, Pangasinan",
 		"has_gcredit":"false",
@@ -18291,13 +17843,6 @@
 		"biller_type":"12.3674876,123.6252705"
 	},
 	{
-		"name":"Akc Travel And Tours And Money Remittance – Marikina Branch ",
-		"payment_date":"680 J.P. Rizal St., Brgy. Concepcion Uno, Marikina City, Metro Manila",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"La Union Multi Purpose Cooperative- Main Office ",
 		"payment_date":"National Road, Brgy. Consolacion, Agoo, La Union",
 		"has_gcredit":"false",
@@ -18312,13 +17857,6 @@
 		"biller_type":"15.1725028,120.6272581"
 	},
 	{
-		"name":"Rainbow Smile Inc – G Maderan ",
-		"payment_date":"Ground Floor Crdm Bldg, Brgy. Gavino Maderan, General M Alvarez, Cavite",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Dominion Pawnshop – Taguig ",
 		"payment_date":"L2 B5 Z2, Brgy. Fort Bonifacio, Taguig City, Metro Manila",
 		"has_gcredit":"false",
@@ -18331,48 +17869,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.5637455,121.0451746"
-	},
-	{
-		"name":"Gmj Bills Payment And Remittance Center ",
-		"payment_date":"Stall #2 The Pier, Brgy. Guisguis Talon, Sariaya, Quezon",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Mimi Money Transfer Center ",
-		"payment_date":"V. Templo Street, Brgy. Iv, Mataas Na Kahoy, Batangas",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Rme Expresspay Center ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"A/J Raymundo Pawnshop, Inc. ",
-		"payment_date":"1191 Virka Bldg. Corner Edsa Roosevelt Ave., Brgy. Katipunan, Quezon City, Metro Manila",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Zaldy Cellphone Repair And Accessories ",
-		"payment_date":"Namakpakan Road, Brgy. Magallanes, Luna, La Union",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Mauban Credit & Development Cooperative ( Macdeco) ",
-		"payment_date":"San Buenaventura Cor Jocson Sts.,Macdeco Building, Brgy. Mabato, Mauban, Quezon",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Gtt Money Transfer ",
@@ -18991,20 +18487,6 @@
 		"biller_type":"14.6221701,121.0716015"
 	},
 	{
-		"name":"Champion Pawnshop Lopez ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"Champion Pawnshop Lopez ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Ph Bascon Pawnshop Ho ",
 		"payment_date":"Unit B The Grand Bldg Naga Rd B5 L35 Sav7, Pulang Lupa Dos, Las Pinas City, Metro Manila",
 		"has_gcredit":"false",
@@ -19094,13 +18576,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"17.1901336,120.4468702"
-	},
-	{
-		"name":"Champion Pawnshop Lopez ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Amariya Bills Payment And Remittance Ctr ",
@@ -19572,20 +19047,6 @@
 		"biller_type":"17.699209,121.5038763"
 	},
 	{
-		"name":"D’May 878 Inc. (Branch 3) Binan ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
-		"name":"D’May 878 Inc. (Branch 3) Binan ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Buenavista Development Cooperative ",
 		"payment_date":"New Poblacion, Buenavista, Guimaras",
 		"has_gcredit":"false",
@@ -19654,13 +19115,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"13.9080939,121.0705111"
-	},
-	{
-		"name":"D’May 878 Inc. (Branch 3) Binan ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Tayabas Mpc Branch 2 – Pagsanjan Branch ",
@@ -19985,25 +19439,11 @@
 		"biller_type":"16.4764708,120.6334448"
 	},
 	{
-		"name":"Janlu’S Pawnshop – Munoz ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Sacm Business Center ",
 		"payment_date":"Block 01 Lot 3B Amaya Breeze Commercial Bldg., Amaya Ii, Tanza, Cavite",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.3908328,120.8333842"
-	},
-	{
-		"name":"Janlu’S Pawnshop – Munoz ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Janlu’S Pawnshop – San Jose ",
@@ -20048,13 +19488,6 @@
 		"biller_type":"15.8446662,120.5231005"
 	},
 	{
-		"name":"Janlu’S Pawnshop – Munoz ",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
-	},
-	{
 		"name":"Lagawe Multi-Purpose Development Cooperative ",
 		"payment_date":"J.P. Rizal Avenue, Poblacion West, Lagawe, Ifugao",
 		"has_gcredit":"false",
@@ -20088,13 +19521,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.5585549,121.1360819"
-	},
-	{
-		"name":"DA5 GMJ BILLS PAYMENT AND REMITTANCE CENTER",
-		"payment_date":"",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"DA5 ARCC REMITTANCE CENTER",
@@ -22139,13 +21565,6 @@
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"13.91911,121.2268647"
-	},
-	{
-		"name":"R And R Enterprise ",
-		"payment_date":"898 Rizal St., Sogod, Southern Leyte",
-		"has_gcredit":"false",
-		"fee_amount":"0",
-		"biller_type":","
 	},
 	{
 		"name":"Al Bills Payment And Remittance ",
