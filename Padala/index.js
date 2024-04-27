@@ -124,7 +124,7 @@ function renderItems(results_area, filter_data, template_element) {
                 console.log("Your current location:");
                 console.log("Latitude:", userLat);
                 console.log("Longitude:", userLon);
-                findClosestStores(userLat, userLon);
+                findClosestStores(userLat, userLon, partnersData); // Pass partnersData here
             }, function(error) {
                 // Error callback function
                 console.log('Error occurred while retrieving user location:', error);
