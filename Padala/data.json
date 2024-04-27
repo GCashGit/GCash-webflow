@@ -8282,7 +8282,7 @@
 	},
 	{
 		"name":"One Stop Bills Payment And Remittance Center Go VIP Center ",
-		"payment_date":""Phase 3 Block 75 Lot 12 Marycris Complex Pasong Camachile II, Gen. Trias, Cavite",
+		"payment_date":"Phase 3 Block 75 Lot 12 Marycris Complex Pasong Camachile II, Gen. Trias, Cavite",
 		"has_gcredit":"false",
 		"fee_amount":"0",
 		"biller_type":"14.3559562,120.9177912"
@@ -128156,4 +128156,3 @@
 		"biller_type":"13.2381515,120.7005044"
 	}
 ]
-
