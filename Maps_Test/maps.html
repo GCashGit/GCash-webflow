@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closest Stores</title>
+    <!-- Include the Google Maps JavaScript API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyBHGOtIfgDV35pdMg5payIzLoqB7EuqE&libraries=places"></script>
+</head>
+<body>
+    <h1>Closest Stores</h1>
+    <button onclick="getUserLocation()">Find Closest Stores</button>
+    <script>
+        // Paste the getUserLocation function here
+        function getUserLocation() {
+            // Check if geolocation is supported by the browser
+            if (navigator.geolocation) {
+                // Request user's current position
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    // Success callback function
+                    var userLat = position.coords.latitude;
+                    var userLon = position.coords.longitude;
+                    console.log("Your current location:");
+                    console.log("Latitude:", userLat);
+                    console.log("Longitude:", userLon);
+                    findClosestStores(userLat, userLon);
+                }, function(error) {
+                    // Error callback function
+                    console.log('Error occurred while retrieving user location:', error);
+                });
+            } else {
+                console.log('Geolocation is not supported by this browser.');
+            }
+        }
 
+        // Function to calculate the distance between two points using the Haversine formula
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            var R = 6371; // Radius of the Earth in kilometers
+            var dLat = (lat2 - lat1) * Math.PI / 180; // Convert degrees to radians
+            var dLon = (lon2 - lon1) * Math.PI / 180;
+            var a =
+                Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            var distance = R * c; // Distance in kilometers
+            return distance;
+        }
+
+        // Function to determine the top 15 closest stores to the user's location
+        function findClosestStores(userLat, userLon) {
+            // Sample stores data (replace this with your JSON data)
+            var storesData = [
+            {
+		"name":"RR",
+		"payment_date":" Sample Poblacion (Lakewood) Lakewood Zamboanga Del Sur",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"7.86,123.1604555"
+	},
+	{
+		"name":"A and C Mart",
+		"payment_date":" Ajs010 Ajoya  Gabi Cordova Cebu",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"10.27,123.9576771"
+	},
+	{
+		"name":"gelsheew bakery",
+		"payment_date":"196 duhat ext. napico Manggahan City Of Pasig Metro Manila",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.60,121.0991825"
+	},
+	{
+		"name":"Random Loots",
+		"payment_date":"4262 Bagong Anyo St., Brgy  Duquit Mabalacat City Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.18,120.5978524"
+	},
+	{
+		"name":"Montero Store",
+		"payment_date":" H-3-5 Tropical Vill. Pabahay 2000 San Francisco City Of General Trias Cavite",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.28,120.9015174"
+	},
+	{
+		"name":"5NJ Store",
+		"payment_date":" Blk 87 lot 40 beside bulaon hospital CSFP San Vicente Bacolor Pampanga",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"15.00,120.6530644"
+	},
+	{
+		"name":"Aga Store",
+		"payment_date":" B-16-5 Tropical Village San Francisco City Of General Trias Cavite",
+		"has_gcredit":"false",
+		"fee_amount":"0",
+		"biller_type":"14.30,120.9177653"
+	}
+            ];
+
+            // Calculate distances for all stores
+            var distances = [];
+            for (var i = 0; i < storesData.length; i++) {
+                var store = storesData[i];
+                var storeName = store.name;
+                var physicalAddress = store.payment_date;
+                var storeCoords = store.biller_type.split(',');
+                var storeLat = parseFloat(storeCoords[0]);
+                var storeLon = parseFloat(storeCoords[1]);
+                var distance = calculateDistance(userLat, userLon, storeLat, storeLon);
+                distances.push({ storeName: storeName, physicalAddress: physicalAddress, distance: distance });
+            }
+
+            // Sort distances in ascending order
+            distances.sort(function(a, b) {
+                return a.distance - b.distance;
+            });
+
+            // Get the top 15 closest stores
+            var closestStores = distances.slice(0, 15);
+
+            // Output the top 15 closest stores
+            console.log("Top 15 closest stores to your location:");
+            closestStores.forEach(function(item, index) {
+                console.log(`${index + 1}. ${item.storeName} (${item.physicalAddress}) - Distance: ${item.distance.toFixed(2)} km`);
+            });
+        }
+    </script>
+</body>
+</html>
