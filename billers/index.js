@@ -14,10 +14,12 @@ const createItem = (item, templateElement) => {
     const name = newItem.querySelector('.biller-item-title');
     const payment_date = newItem.querySelector('.biller-item-description');
     const gcredit = newItem.querySelector('[data-element="gcredit"]');
+    const innerProductTag = newItem.querySelector('biller-item-services-title');
     const fee = newItem.querySelector('[data-element="fee"]');
     const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
     const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
-
+    
+    innerProductTag.text("Accepts");
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
     if (payment_date) payment_date.textContent = item.payment_date;
@@ -26,11 +28,13 @@ const createItem = (item, templateElement) => {
     }
     
     if (item.has_gcredit) {
-          $(gcredit).attr('data-gcredit', 1);
+        $(gcredit).attr('data-gcredit', 1);
+        innerProductTag.text(innerProductTag.text() + ' GCredit');
     }
     
     if (item.has_ggives) {
-          $(gcredit).attr('data-ggives', 1);
+        $(gcredit).attr('data-ggives', 1);
+        innerProductTag.text(innerProductTag.text() + ' GGives');
     }
     
     if (item.fee_amount > 0) {
