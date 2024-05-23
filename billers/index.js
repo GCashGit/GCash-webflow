@@ -27,12 +27,10 @@ const createItem = (item, templateElement) => {
 
     if (item.has_gcredit) {
         $(gcredit).attr('data-gcredit', 1);
-        innerProductTag.text(innerProductTag.text() + ' GCredit');
     }
     
     if (item.has_ggives) {
         $(gcredit).attr('data-ggives', 1);
-        innerProductTag.text(innerProductTag.text() + ' GGives');
     }
     
     if (item.fee_amount > 0) {
@@ -493,19 +491,19 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
-                    gcredit_tag_text.text(' ');
+                    gcredit_tag_text.text('GCredit');
                     break;
                 case 'card view':
                     results_container.removeClass('list-view');
                     results_container.addClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts');
+                    gcredit_tag_text.text('Accepts GCredit');
                     break;
                 default:
                     results_container.removeClass('list-view');
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts');
+                    gcredit_tag_text.text('Accepts GCredit');
                     break;
             }
             
