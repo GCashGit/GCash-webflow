@@ -21,7 +21,10 @@ const createItem = (item, templateElement) => {
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
     if (payment_date) payment_date.textContent = item.payment_date;
-    if (!item.has_gcredit) gcredit.style.display = 'none';
+    if (!item.has_gcredit) {
+        gcredit.style.display = 'none';
+        console.log("dis = none");
+    }
     if (item.fee_amount > 0) {
         fee_amount.textContent = `${item.fee_amount} fee`;
     } else {
