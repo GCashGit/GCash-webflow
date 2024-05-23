@@ -26,11 +26,11 @@ const createItem = (item, templateElement) => {
     }
     
     if (item.has_gcredit) {
-          $(gcredit).attr('data-gcredit', 1);
+          gcredit.attr('data-gcredit', 1);
     }
     
     if (item.has_ggives) {
-          $(gcredit).attr('data-ggives', 1);
+          gcredit.attr('data-ggives', 1);
     }
     
     if (item.fee_amount > 0) {
