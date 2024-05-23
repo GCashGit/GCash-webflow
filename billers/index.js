@@ -509,12 +509,12 @@ function renderItems(results_area, filter_data, template_element) {
                     list_view_header.removeClass('list-view');
                     gcredit_tag_text.text('Accepts');
                     // Check if data-gcredit attribute exists and its value is '1'
-                    if (productTag_element.attr('data-gcredit') === '1') {
+                    if (productTag_element.attr('data-gcredit') !== undefined)  {
                         // Appending text to the <p> tag
                         gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
                     }
                     // Check if data-ggives attribute exists and its value is '1'
-                    if (productTag_element.attr('data-ggives') === '1') {
+                    if (productTag_element.attr('data-ggives') !== undefined) {
                         // Appending text to the <p> tag
                         gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
                     }
@@ -525,12 +525,12 @@ function renderItems(results_area, filter_data, template_element) {
                     list_view_header.removeClass('list-view');
                     gcredit_tag_text.text('Accepts');
                     // Check if data-gcredit attribute exists and its value is '1'
-                    if (productTag_element.attr('data-gcredit') === '1') {
+                    if (productTag_element.attr('data-gcredit') !== undefined)  {
                         // Appending text to the <p> tag
                         gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
                     }
                     // Check if data-ggives attribute exists and its value is '1'
-                    if (productTag_element.attr('data-ggives') === '1') {
+                    if (productTag_element.attr('data-ggives') !== undefined) {
                         // Appending text to the <p> tag
                         gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
                     }
