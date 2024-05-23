@@ -13,7 +13,7 @@ const createItem = (item, templateElement) => {
     // Query inner elements
     const name = newItem.querySelector('.biller-item-title');
     const payment_date = newItem.querySelector('.biller-item-description');
-    const gcredit = newItem.querySelector('[data-element="gcredits"]');
+    const gcredit = newItem.querySelector('[data-element="gcredit"]');
     const fee = newItem.querySelector('[data-element="fee"]');
     const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
     const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
