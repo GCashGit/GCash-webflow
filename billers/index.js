@@ -24,9 +24,12 @@ const createItem = (item, templateElement) => {
     if (!item.has_gcredit && !item.has_ggives) {
         gcredit.style.display = 'none';
     }
-    else if (item.has_gcredit) {
+    
+    if (item.has_gcredit) {
           $(gcredit).attr('data-gcredit', 1);
-    } else if (item.has_ggives) {
+    }
+    
+    if (item.has_ggives) {
           $(gcredit).attr('data-ggives', 1);
     }
     
