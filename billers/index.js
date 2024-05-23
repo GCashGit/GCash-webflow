@@ -19,7 +19,7 @@ const createItem = (item, templateElement) => {
     const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
     const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
 
-    innerProductTag.textContent = "Accepts ";
+    //innerProductTag.textContent = "Accepts ";
     
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
@@ -30,12 +30,12 @@ const createItem = (item, templateElement) => {
 
     if (item.has_gcredit) {
         $(gcredit).attr('data-gcredit', 1);
-        innerProductTag.textContent = innerProductTag.textContent + ' GCredit';
+       // innerProductTag.textContent = innerProductTag.textContent + ' GCredit';
     }
     
     if (item.has_ggives) {
         $(gcredit).attr('data-ggives', 1);
-        innerProductTag.textContent = innerProductTag.textContent + ' GGives';
+       // innerProductTag.textContent = innerProductTag.textContent + ' GGives';
     }
     
     if (item.fee_amount > 0) {
@@ -508,7 +508,7 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('list-view');
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts GCredit 22');
+                    gcredit_tag_text.text('Accepts GCredit');
                     break;
             }
             
