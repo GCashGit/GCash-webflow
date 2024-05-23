@@ -13,20 +13,18 @@ const createItem = (item, templateElement) => {
     // Query inner elements
     const name = newItem.querySelector('.biller-item-title');
     const payment_date = newItem.querySelector('.biller-item-description');
-    const gcredit = newItem.querySelector('[data-element="gcredit"]');
-    const innerProductTag = newItem.querySelector('biller-item-services-title');
+    const gcredit = newItem.querySelector('[data-element="gcredit"]');  
     const fee = newItem.querySelector('[data-element="fee"]');
     const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
     const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
     
-    innerProductTag.textContent("Accepts");
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
     if (payment_date) payment_date.textContent = item.payment_date;
     if (!item.has_gcredit && !item.has_ggives) {
         gcredit.style.display = 'none';
     }
-    
+
     if (item.has_gcredit) {
         $(gcredit).attr('data-gcredit', 1);
         innerProductTag.text(innerProductTag.text() + ' GCredit');
