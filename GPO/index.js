@@ -32,7 +32,7 @@ const createItem = (item, templateElement) => {
     
     if (!item.has_gcredit){ gcredit.style.display = 'none';
     } else {
-        gcredit.textContent = 'Show Location';
+        gcredit.textContent = 'Show Locations';
     }
     if (item.fee_amount > 0) {
         fee_amount.textContent = `${item.fee_amount} fee`;
