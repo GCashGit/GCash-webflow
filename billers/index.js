@@ -503,7 +503,7 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('list-view');
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts GCredit');
+                    gcredit_tag_text.text('Accepts GCredit 22');
                     break;
             }
             
