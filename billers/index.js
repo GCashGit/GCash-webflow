@@ -19,7 +19,7 @@ const createItem = (item, templateElement) => {
     const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
     const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
     
-    innerProductTag.text("Accepts");
+    innerProductTag.textContent("Accepts");
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
     if (payment_date) payment_date.textContent = item.payment_date;
