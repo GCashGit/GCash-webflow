@@ -26,11 +26,11 @@ const createItem = (item, templateElement) => {
     }
     
     if (item.has_gcredit) {
-          gcredit.attr('data-gcredit', 1);
+          $(gcredit).attr('data-gcredit', 1);
     }
     
     if (item.has_ggives) {
-          gcredit.attr('data-ggives', 1);
+          $(gcredit).attr('data-ggives', 1);
     }
     
     if (item.fee_amount > 0) {
@@ -493,12 +493,12 @@ function renderItems(results_area, filter_data, template_element) {
                     list_view_header.addClass('list-view');
                     gcredit_tag_text.text(' ');
                     // Check if data-gcredit attribute exists and its value is '1'
-                    if (productTag_element.attr('data-gcredit') === '1') {
+                    if (productTag_element.attr('data-gcredit') !== undefined)  {
                         // Appending text to the <p> tag
                         gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
                     }
                     // Check if data-ggives attribute exists and its value is '1'
-                    if (productTag_element.attr('data-ggives') === '1') {
+                    if (productTag_element.attr('data-ggives') !== undefined) {
                         // Appending text to the <p> tag
                         gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
                     }
