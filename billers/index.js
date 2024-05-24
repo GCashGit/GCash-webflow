@@ -483,6 +483,7 @@ function renderItems(results_area, filter_data, template_element) {
         //The text container of the GCredit tag
         let gcredit_tag_text = $('.biller-services-content.card-view > .biller-item-services-title');
         let productTag_element = $('.biller-services-content');
+        let testTag_element = $('[data-element="gcredit"] > p');
         let list_view_header = $('.results-wrapper > .biller-table-header');
         let display_mode = $(this).children('.biller-view-label').text().toLowerCase();
 
@@ -498,7 +499,7 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
                     if (productTag_element.is(':visible')) {
-                         gcredit_tag_text.textContent = 'list view';
+                         testTag_element.textContent = 'list view';
                         // Check if data-gcredit attribute exists and append text accordingly
                         if (productTag_element.attr('data-gcredit') === 1)  {
                             //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
@@ -520,6 +521,7 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.addClass('card-view');
                     list_view_header.removeClass('list-view');
                     if (productTag_element.is(':visible')) {
+                        
                         //  gcredit_tag_text.textContent = 'card view 1';
                         // // Check if data-gcredit attribute exists and append text accordingly
                         // if (productTag_element.attr('data-gcredit') === 1)  {
