@@ -500,15 +500,15 @@ function renderItems(results_area, filter_data, template_element) {
                     if (productTag_element.is(':visible')) {
                          gcredit_tag_text.textContent = '';
                         // Check if data-gcredit attribute exists and append text accordingly
-                        if (productTag_element.attr('data-gcredit') === 1)  {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
-                        }
-                        // Check if data-ggives attribute exists and append text accordingly
-                        if (productTag_element.attr('data-ggives') === 1) {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
-                        }
+                        // if (productTag_element.attr('data-gcredit') === 1)  {
+                        //     //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        //     gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
+                        // }
+                        // // Check if data-ggives attribute exists and append text accordingly
+                        // if (productTag_element.attr('data-ggives') === 1) {
+                        //     //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        //     gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
+                        // }
                     }
                     break;
                 case 'card view':
