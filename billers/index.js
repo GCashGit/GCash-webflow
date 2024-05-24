@@ -501,8 +501,7 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
-               
-                     testTag_element.textContent = 'list view';
+                    testTag_element.text('list view');
                     // Check if data-gcredit attribute exists and append text accordingly
                     if (productTag_element.attr('data-gcredit') === 1)  {
                         //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
