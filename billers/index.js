@@ -494,26 +494,22 @@ function renderItems(results_area, filter_data, template_element) {
 
             switch (display_mode) {
                 case 'list view':
-                    console.log('list view');
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
-                    if (productTag_element.is(':visible')) {
-                         testTag_element.textContent = 'list view';
-                        // Check if data-gcredit attribute exists and append text accordingly
-                        if (productTag_element.attr('data-gcredit') === 1)  {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
-                        }
-                        // Check if data-ggives attribute exists and append text accordingly
-                        if (productTag_element.attr('data-ggives') === 1) {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
-                        }
+               
+                     testTag_element.textContent = 'list view';
+                    // Check if data-gcredit attribute exists and append text accordingly
+                    if (productTag_element.attr('data-gcredit') === 1)  {
+                        //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
                     }
-                    else {
-                        console.log("else");
+                    // Check if data-ggives attribute exists and append text accordingly
+                    if (productTag_element.attr('data-ggives') === 1) {
+                        //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
                     }
+                    console.log('list view');
                     break;
                 case 'card view':
                     console.log('card view');
