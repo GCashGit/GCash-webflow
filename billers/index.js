@@ -487,10 +487,6 @@ function renderItems(results_area, filter_data, template_element) {
         let list_view_header = $('.results-wrapper > .biller-table-header');
         let display_mode = $(this).children('.biller-view-label').text().toLowerCase();
 
-        console.log(testTag_element);
-        console.log(productTag_element);
-        console.log(gcredit_tag_text);
-
         if (!$(this).hasClass('no-result')) {
             //Attaches active modifier to clicked button
             $('.biller-view-options.w-radio').removeClass('active');
@@ -501,7 +497,7 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
-                    testTag_element.text('list view');
+                    gcredit_tag_text.text('');
                     // Check if data-gcredit attribute exists and append text accordingly
                     if (productTag_element.attr('data-gcredit') === 1)  {
                         //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
@@ -512,7 +508,6 @@ function renderItems(results_area, filter_data, template_element) {
                         //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
                         gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
                     }
-                    console.log('list view');
                     break;
                 case 'card view':
                     console.log('card view');
