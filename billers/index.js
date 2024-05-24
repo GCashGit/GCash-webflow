@@ -19,7 +19,6 @@ const createItem = (item, templateElement) => {
     const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
     const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
 
-    innerProductTag.textContent = "Accepts";
     
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
@@ -46,6 +45,9 @@ const createItem = (item, templateElement) => {
 
     if (!item.has_gcredit && item.fee_amount <= 0) {
         label_wrapper.style.display = 'none';
+    }
+    else {   
+        innerProductTag.textContent = "Accepts";
     }
 
     return newItem;
