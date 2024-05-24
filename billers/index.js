@@ -492,7 +492,7 @@ function renderItems(results_area, filter_data, template_element) {
             $('.biller-view-options.w-radio').removeClass('active');
             $(this).addClass('active');
 
-            switch (display_mode) {
+             switch (display_mode) {
                 case 'list view':
                     results_container.removeClass('card-view').addClass('list-view');
                     list_view_header.addClass('list-view');
@@ -510,15 +510,25 @@ function renderItems(results_area, filter_data, template_element) {
                     break;
             }
             
-            // Check if data-gcredit attribute exists and append text accordingly
-            if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
-                gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
-            }
+            console.log("data-gcredit:", productTag_element.attr('data-gcredit'));
+            console.log("data-ggives:", productTag_element.attr('data-ggives'));
             
-            // Check if data-ggives attribute exists and append text accordingly
-            if (parseInt(productTag_element.attr('data-ggives')) === 1) {
-                gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+            // Check if both data-gcredit and data-ggives attributes exist and append text accordingly
+            if (productTag_element.attr('data-gcredit') !== undefined && productTag_element.attr('data-ggives') !== undefined) {
+                console.log("Both data-gcredit and data-ggives attributes exist.");
+                gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit GGives');
+            } else {
+                // Check if data-gcredit attribute exists and append text accordingly
+                if (productTag_element.attr('data-gcredit') !== undefined) {
+                    gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                }
+                
+                // Check if data-ggives attribute exists and append text accordingly
+                if (productTag_element.attr('data-ggives') !== undefined) {
+                    gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                }
             }
+
 
         }
 
