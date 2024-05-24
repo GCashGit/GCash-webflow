@@ -487,6 +487,10 @@ function renderItems(results_area, filter_data, template_element) {
         let list_view_header = $('.results-wrapper > .biller-table-header');
         let display_mode = $(this).children('.biller-view-label').text().toLowerCase();
 
+        console.log(testTag_element);
+        console.log(productTag_element);
+        console.log(gcredit_tag_text);
+
         if (!$(this).hasClass('no-result')) {
             //Attaches active modifier to clicked button
             $('.biller-view-options.w-radio').removeClass('active');
