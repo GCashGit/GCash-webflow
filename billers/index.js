@@ -496,7 +496,7 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
-                    gcredit_tag_text.text('');
+                    //gcredit_tag_text.text('');
                     // Check if data-gcredit attribute exists and append text accordingly
                     if (productTag_element.attr('data-gcredit') === 1)  {
                         //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
@@ -512,7 +512,7 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('list-view');
                     results_container.addClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts');
+                    //gcredit_tag_text.text('Accepts');
                     // Check if data-gcredit attribute exists and append text accordingly
                     if (productTag_element.attr('data-gcredit') === 1)  {
                         //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
@@ -528,7 +528,7 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('list-view');
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
-                    gcredit_tag_text.text('Accepts');
+                    //gcredit_tag_text.text('Accepts');
                     // Check if data-gcredit attribute exists and append text accordingly
                     if (productTag_element.attr('data-gcredit') === 1)  {
                         // gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
