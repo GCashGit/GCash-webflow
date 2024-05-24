@@ -482,6 +482,7 @@ function renderItems(results_area, filter_data, template_element) {
         let results_container = $('.biller-result.billers_collection-list');
         //The text container of the GCredit tag
         let gcredit_tag_text = $('.biller-services-content.card-view > .biller-item-services-title');
+        console.log(gcredit_tag_text);
         let productTag_element = $('.biller-services-content.card-view');
         let list_view_header = $('.results-wrapper > .biller-table-header');
         let display_mode = $(this).children('.biller-view-label').text().toLowerCase();
