@@ -667,7 +667,10 @@ function renderItems(results_area, filter_data, template_element) {
 
     //Event to run when window resizes
     $(window).resize(function () {
-        if ($(window).width() != windowWidth) {
+        if ($(window).width() != window_width) {
+            // Update window_width to the new window width
+            window_width = $(window).width();
+            
             //Passes the data source to usePagination alphabetically
             usePagination(partnersData.sort((a, b) => a.name.localeCompare(b.name)))
         }
