@@ -19,7 +19,7 @@ const createItem = (item, templateElement) => {
     const fee_amount = newItem.querySelector('[data-element="fee-amount"]');
     const label_wrapper = newItem.querySelector('.biller-card-label-wrapper');
 
-    innerProductTag.textContent = "inner product tag";
+    innerProductTag.textContent = "Accepts";
     
     // Populate inner elements
     if (name) name.textContent = item.name || item.Name;
@@ -498,17 +498,17 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
                     if (productTag_element.is(':visible')) {
-                         gcredit_tag_text.textContent = 'list view';
-                        // Check if data-gcredit attribute exists and append text accordingly
-                        if (productTag_element.attr('data-gcredit') === 1)  {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
-                        }
-                        // Check if data-ggives attribute exists and append text accordingly
-                        if (productTag_element.attr('data-ggives') === 1) {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
-                        }
+                        //  gcredit_tag_text.textContent = 'list view';
+                        // // Check if data-gcredit attribute exists and append text accordingly
+                        // if (productTag_element.attr('data-gcredit') === 1)  {
+                        //     //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        //     gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
+                        // }
+                        // // Check if data-ggives attribute exists and append text accordingly
+                        // if (productTag_element.attr('data-ggives') === 1) {
+                        //     //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        //     gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
+                        // }
                     }
                     break;
                 case 'card view':
@@ -517,17 +517,17 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.addClass('card-view');
                     list_view_header.removeClass('list-view');
                     if (productTag_element.is(':visible')) {
-                         gcredit_tag_text.textContent = 'card view 1';
-                        // Check if data-gcredit attribute exists and append text accordingly
-                        if (productTag_element.attr('data-gcredit') === 1)  {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
-                        }
-                        // Check if data-ggives attribute exists and append text accordingly
-                        if (productTag_element.attr('data-ggives') === 1) {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
-                        }
+                        //  gcredit_tag_text.textContent = 'card view 1';
+                        // // Check if data-gcredit attribute exists and append text accordingly
+                        // if (productTag_element.attr('data-gcredit') === 1)  {
+                        //     //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        //     gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
+                        // }
+                        // // Check if data-ggives attribute exists and append text accordingly
+                        // if (productTag_element.attr('data-ggives') === 1) {
+                        //     //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        //     gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
+                        // }
                     }
                     break;
                 default:
@@ -536,17 +536,17 @@ function renderItems(results_area, filter_data, template_element) {
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
                    if (productTag_element.is(':visible')) {
-                         gcredit_tag_text.textContent = 'Accepts';
-                        // Check if data-gcredit attribute exists and append text accordingly
-                        if (productTag_element.attr('data-gcredit') === 1)  {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
-                        }
-                        // Check if data-ggives attribute exists and append text accordingly
-                        if (productTag_element.attr('data-ggives') === 1) {
-                            //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
-                            gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
-                        }
+                        //  gcredit_tag_text.textContent = 'Accepts';
+                        // // Check if data-gcredit attribute exists and append text accordingly
+                        // if (productTag_element.attr('data-gcredit') === 1)  {
+                        //     //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        //     gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
+                        // }
+                        // // Check if data-ggives attribute exists and append text accordingly
+                        // if (productTag_element.attr('data-ggives') === 1) {
+                        //     //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        //     gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
+                        // }
                     }
                     break;
             }
