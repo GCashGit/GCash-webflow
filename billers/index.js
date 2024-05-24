@@ -486,7 +486,10 @@ function renderItems(results_area, filter_data, template_element) {
         let testTag_element = $('[data-element="gcredit"] > p');
         let list_view_header = $('.results-wrapper > .biller-table-header');
         let display_mode = $(this).children('.biller-view-label').text().toLowerCase();
-
+        // Initial value of gcredit_tag_text
+        var initialText = gcredit_tag_text.text(); // Assuming it's "Accepts item"
+        var newText = '';
+        
         if (!$(this).hasClass('no-result')) {
             //Attaches active modifier to clicked button
             $('.biller-view-options.w-radio').removeClass('active');
@@ -496,10 +499,8 @@ function renderItems(results_area, filter_data, template_element) {
                 case 'list view':
                     results_container.removeClass('card-view').addClass('list-view');
                     list_view_header.addClass('list-view');    
-                    // Initial value of gcredit_tag_text
-                    var initialText = gcredit_tag_text.text(); // Assuming it's "Accepts item"
                     // Removing "Accepts" from the initial text
-                    var newText = initialText.replace('Accepts', '');
+                    newText = initialText.replace('Accepts', '');
                     // Set the new text to gcredit_tag_text
                     gcredit_tag_text.text(newText); 
                     break;
