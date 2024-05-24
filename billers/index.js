@@ -493,6 +493,7 @@ function renderItems(results_area, filter_data, template_element) {
 
             switch (display_mode) {
                 case 'list view':
+                    console.log('list view');
                     results_container.removeClass('card-view');
                     results_container.addClass('list-view');
                     list_view_header.addClass('list-view');
@@ -511,6 +512,7 @@ function renderItems(results_area, filter_data, template_element) {
                     }
                     break;
                 case 'card view':
+                    console.log('card view');
                     results_container.removeClass('list-view');
                     results_container.addClass('card-view');
                     list_view_header.removeClass('list-view');
@@ -529,6 +531,7 @@ function renderItems(results_area, filter_data, template_element) {
                     }
                     break;
                 default:
+                    console.log('default');
                     results_container.removeClass('list-view');
                     results_container.removeClass('card-view');
                     list_view_header.removeClass('list-view');
