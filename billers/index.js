@@ -499,11 +499,13 @@ function renderItems(results_area, filter_data, template_element) {
                     gcredit_tag_text.text('');
                     // Check if data-gcredit attribute exists and append text accordingly
                     if (productTag_element.attr('data-gcredit') === 1)  {
-                        gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
                     }
                     // Check if data-ggives attribute exists and append text accordingly
                     if (productTag_element.attr('data-ggives') === 1) {
-                        gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
                     }
                     break;
                 case 'card view':
@@ -513,11 +515,13 @@ function renderItems(results_area, filter_data, template_element) {
                     gcredit_tag_text.text('Accepts');
                     // Check if data-gcredit attribute exists and append text accordingly
                     if (productTag_element.attr('data-gcredit') === 1)  {
-                        gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        //gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
                     }
                     // Check if data-ggives attribute exists and append text accordingly
                     if (productTag_element.attr('data-ggives') === 1) {
-                        gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
                     }
                     break;
                 default:
@@ -527,11 +531,13 @@ function renderItems(results_area, filter_data, template_element) {
                     gcredit_tag_text.text('Accepts');
                     // Check if data-gcredit attribute exists and append text accordingly
                     if (productTag_element.attr('data-gcredit') === 1)  {
-                        gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        // gcredit_tag_text.text(gcredit_tag_text.text() + ' GCredit');
+                        gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GCredit';
                     }
                     // Check if data-ggives attribute exists and append text accordingly
                     if (productTag_element.attr('data-ggives') === 1) {
-                        gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        //gcredit_tag_text.text(gcredit_tag_text.text() + ' GGives');
+                        gcredit_tag_text.textContent = gcredit_tag_text.textContent + ' GGives';
                     }
                     break;
             }
