@@ -9838,5 +9838,21 @@
     "has_ggives": false,
     "fee_amount": 15,
     "biller_type": "Loans"
+  },
+  {
+    "name": "Alaminos Laguna Water District",
+    "payment_date": "Within 3 business days",
+    "has_gcredit": false,
+    "has_ggives": false,
+    "fee_amount": 10,
+    "biller_type": "Water Utilities"
+  },
+  {
+    "name": "KAELCO",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": false,
+    "fee_amount": 10,
+    "biller_type": "Electric Utilities"
   }
 ]
