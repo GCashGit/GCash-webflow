@@ -28,14 +28,20 @@ const createItem = (item, templateElement) => {
         gcredit.style.display = 'none';
     }
 
-    if (item.has_gcredit) {
+    if (item.has_gcredit && !item.has_ggives) {
         $(gcredit).attr('data-gcredit', 1);
         innerProductTag.textContent = innerProductTag.textContent + ' GCredit';
     }
     
-    if (item.has_ggives) {
+    else if (item.has_ggives && !item.has_gcredit) {
         $(gcredit).attr('data-ggives', 1);
         innerProductTag.textContent = innerProductTag.textContent + ' GGives';
+    }
+
+    else {
+        $(gcredit).attr('data-gcredit', 1);
+        $(gcredit).attr('data-ggives', 1);
+        innerProductTag.textContent = innerProductTag.textContent + ' GCredit, GGives';
     }
     
     if (item.fee_amount > 0) {
