@@ -292,7 +292,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 7,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -1228,7 +1228,7 @@
     "payment_date": "Posted real-time",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -1468,7 +1468,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 6,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -1556,7 +1556,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -1644,7 +1644,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -1684,7 +1684,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -1956,7 +1956,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -2076,7 +2076,7 @@
     "payment_date": "Posted real-time",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -2108,7 +2108,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 0,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -2772,7 +2772,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Cable/Internet"
   },
   {
@@ -3332,7 +3332,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -3884,7 +3884,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -4660,7 +4660,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -4692,7 +4692,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 7,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -5124,7 +5124,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -5188,7 +5188,7 @@
     "payment_date": "Posted real-time.",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -5204,7 +5204,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -5236,7 +5236,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -5892,7 +5892,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -5932,7 +5932,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -6548,7 +6548,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 0,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -7020,7 +7020,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -7028,7 +7028,7 @@
     "payment_date": "Payments after 12:00 AM posted next day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -7036,7 +7036,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -7316,7 +7316,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -7452,7 +7452,7 @@
     "payment_date": "Next business day",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -8420,7 +8420,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Electric Utilities"
   },
   {
@@ -8740,7 +8740,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -8892,7 +8892,7 @@
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
-    "fee_amount": 8,
+    "fee_amount": 10,
     "biller_type": "Water Utilities"
   },
   {
@@ -8940,7 +8940,7 @@
     "payment_date": "Next business day",
     "has_gcredit": false,
     "has_ggives": false,
-    "fee_amount": 5,
+    "fee_amount": 10,
     "biller_type": "Loans"
   },
   {
