@@ -140,7 +140,7 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        max-width: 720px;
+        max-width: 640px;
     }
 
     .biller-result.list-view .biller-card-content>.biller-item-title {
@@ -155,7 +155,7 @@
     }
 
     .biller-result.list-view .biller-card-label-wrapper {
-        max-width: 240px;
+        max-width: 320px;
         width: 100%;
     }
 
@@ -164,7 +164,7 @@
     }
 
     .biller-result.list-view .biller-card-label-wrapper>.biller-services-content.fee.result-card {
-        max-width: 120px;
+        max-width: 160px;
     }
 
 }
