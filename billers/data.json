@@ -251,7 +251,7 @@
     "name": "AIA Philippines",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 0,
     "biller_type": "Insurance"
   },
@@ -320,6 +320,14 @@
     "biller_type": "Real Estate"
   },
   {
+    "name": "Alaminos Laguna Water District",
+    "payment_date": "Within 3 business days",
+    "has_gcredit": false,
+    "has_ggives": false,
+    "fee_amount": 10,
+    "biller_type": "Water Utilities"
+  },
+  {
     "name": "ALECO",
     "payment_date": "Next business day",
     "has_gcredit": true,
@@ -331,7 +339,7 @@
     "name": "Allianz PNB Life",
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Insurance"
   },
@@ -371,7 +379,7 @@
     "name": "Amani Heritage Gardens",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 0,
     "biller_type": "Payment Solutions"
   },
@@ -1379,7 +1387,7 @@
     "name": "BPI MS Insurance Corp",
     "payment_date": "Within 24 hours",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 0,
     "biller_type": "Insurance"
   },
@@ -2267,7 +2275,7 @@
     "name": "City Government of Batangas",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -2283,7 +2291,7 @@
     "name": "CITY GOVERNMENT OF LAPU LAPU",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -2299,7 +2307,7 @@
     "name": "City Government of Samal",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -2315,7 +2323,7 @@
     "name": "City of Balanga",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -2339,7 +2347,7 @@
     "name": "City of San Fernando (P) - Business Tax",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -2363,7 +2371,7 @@
     "name": "City of San Jose del Monte - Business Tax",
     "payment_date": "Within 3 business days.",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -3611,7 +3619,7 @@
     "name": "Eternal Gardens",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 0,
     "biller_type": "Payment Solutions"
   },
@@ -3923,7 +3931,7 @@
     "name": "Forest Lake",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 0,
     "biller_type": "Payment Solutions"
   },
@@ -3979,7 +3987,7 @@
     "name": "FWD Life Insurance Corporation",
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Insurance"
   },
@@ -4936,6 +4944,14 @@
     "biller_type": "Cable/Internet"
   },
   {
+    "name": "KAELCO",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": false,
+    "fee_amount": 10,
+    "biller_type": "Electric Utilities"
+  },
+  {
     "name": "KAIA HOMES",
     "payment_date": "Next business day",
     "has_gcredit": true,
@@ -5219,7 +5235,7 @@
     "name": "LGU Plaridel - Business Tax",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -5411,7 +5427,7 @@
     "name": "Mabalacat City LGU - Business Tax",
     "payment_date": "Within 3 business days.",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -5571,7 +5587,7 @@
     "name": "Mandaue City Government",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -5643,7 +5659,7 @@
     "name": "Manulife Philippines",
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Insurance"
   },
@@ -6211,7 +6227,7 @@
     "name": "Mun. of Orion, Bataan - Bus. Tax",
     "payment_date": "Within 3 business days.",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -6243,7 +6259,7 @@
     "name": "Municipality of Cainta",
     "payment_date": "Next business day",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -6275,7 +6291,7 @@
     "name": "Municipality of Moncada - Business Tax",
     "payment_date": "Within 3 business days.",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Government"
   },
@@ -7531,7 +7547,7 @@
     "name": "Pru Life U.K.",
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
     "biller_type": "Insurance"
   },
@@ -8803,7 +8819,7 @@
     "name": "Sun Life of Canada Phil., Inc.",
     "payment_date": "Within 3 business days.",
     "has_gcredit": true,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 0,
     "biller_type": "Insurance"
   },
@@ -9840,19 +9856,131 @@
     "biller_type": "Loans"
   },
   {
-    "name": "Alaminos Laguna Water District",
-    "payment_date": "Within 3 business days",
-    "has_gcredit": false,
-    "has_ggives": false,
-    "fee_amount": 10,
-    "biller_type": "Water Utilities"
-  },
-  {
-    "name": "KAELCO",
+    "name": "PHILGUARANTEE",
     "payment_date": "Next business day",
     "has_gcredit": false,
-    "has_ggives": false,
+    "has_ggives": true,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "government"
+  },
+  {
+    "name": "MUNICIPALITY OF STO. DOMINGO - BUSINESS PERMIT",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 10,
+    "biller_type": "government"
+  },
+  {
+    "name": "City of Victorias - Taxes",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 15,
+    "biller_type": "government"
+  },
+  {
+    "name": "CITY GOVERNMENT OF BACOLOD - BUSINESS TAX",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 10,
+    "biller_type": "government"
+  },
+  {
+    "name": "City of Dasma - BPLO",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 10,
+    "biller_type": "government"
+  },
+  {
+    "name": "Municipality San Marcelino Zambales - Business",
+    "payment_date": "Within 3 business days",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 10,
+    "biller_type": "government"
+  },
+  {
+    "name": "City Government of Palayan - Business",
+    "payment_date": "Within 3 business days",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 10,
+    "biller_type": "government"
+  },
+  {
+    "name": "Palayan City Nueva Ecija - RPT",
+    "payment_date": "Within 3 business days",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 10,
+    "biller_type": "government"
+  },
+  {
+    "name": "Municipality of Pavia - Business Tax",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 15,
+    "biller_type": "government"
+  },
+  {
+    "name": "LGU City of Olongapo - Business Tax",
+    "payment_date": "Within 3 business days",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 12,
+    "biller_type": "government"
+  },
+  {
+    "name": "City Government of Malaybalay",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 10,
+    "biller_type": "government"
+  },
+  {
+    "name": "Midsayap LGU-Business Tax",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 15,
+    "biller_type": "government"
+  },
+  {
+    "name": "Sun Life of Canada",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": "",
+    "biller_type": "insurance"
+  },
+  {
+    "name": "Manulife Financial Plans",
+    "payment_date": "Within 3 business days",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 10,
+    "biller_type": "insurance"
+  },
+  {
+    "name": "Pacific Cross Health Care Inc",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 30,
+    "biller_type": "insurance"
+  },
+  {
+    "name": "Municipality of Cainta - Business Permits",
+    "payment_date": "Next business day",
+    "has_gcredit": false,
+    "has_ggives": true,
+    "fee_amount": 10,
+    "biller_type": "insurance"
   }
 ]
