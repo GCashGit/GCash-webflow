@@ -141,7 +141,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "ADMU",
@@ -293,7 +293,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Alabang Country Club Inc.",
@@ -333,7 +333,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Allianz PNB Life",
@@ -397,7 +397,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Angat Kabuhayan (AKMI)",
@@ -437,7 +437,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Angeles Water",
@@ -477,7 +477,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 12,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Anvaya Cove Beach and Nature Club",
@@ -597,7 +597,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Asialink",
@@ -837,7 +837,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Balanga Water District",
@@ -989,7 +989,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "BATELEC1",
@@ -997,7 +997,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "BATELEC2",
@@ -1005,7 +1005,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "BAYAMBANG WATER DISTRICT",
@@ -1021,7 +1021,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "Baybay City Water District",
@@ -1053,7 +1053,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "BELLAVITA LAND CORP.",
@@ -1069,7 +1069,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 8,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "BENGUET STATE UNIVERSITY & COMMUNITY MULTIPURPOSE",
@@ -1125,7 +1125,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 12,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "BICOL UNIVERSITY USC",
@@ -1237,7 +1237,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Boni Gas",
@@ -1245,7 +1245,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "BORACAY TUBI",
@@ -1501,7 +1501,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 6,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "BUSTOS WATER DISTRICT",
@@ -1565,7 +1565,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CAGELCO2",
@@ -1573,7 +1573,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CALABANGA WATER DISTRICT",
@@ -1669,7 +1669,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CANDELARIA WATER DISTRICT",
@@ -1693,7 +1693,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CAPELCO",
@@ -1701,7 +1701,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Carcar Water District",
@@ -1845,7 +1845,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CASURECO2",
@@ -1853,7 +1853,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CASURECO3",
@@ -1861,7 +1861,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CASURECO4",
@@ -1869,7 +1869,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CATBALOGAN WATER DISTRICT",
@@ -1981,7 +1981,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 7,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CEBECO2",
@@ -1989,7 +1989,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CEBECO3",
@@ -1997,7 +1997,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CEBU CFI COOP",
@@ -2045,7 +2045,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CELCOR",
@@ -2053,7 +2053,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Celebrity Sports Plaza",
@@ -2077,7 +2077,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CENPELCO",
@@ -2085,7 +2085,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "CENTRAL COUNTRY ESTATE",
@@ -2117,7 +2117,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Cepat Kredit",
@@ -2405,7 +2405,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Clark Water",
@@ -2541,7 +2541,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 4,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "COTELCO",
@@ -2549,7 +2549,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "COTELCO PPALMA",
@@ -2557,7 +2557,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Country Funders",
@@ -2605,7 +2605,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "CSPC Nabua Cam Sur",
@@ -2709,7 +2709,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Danhil Enterprises",
@@ -2733,7 +2733,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Dataland, Inc.",
@@ -2757,7 +2757,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "DCCCO",
@@ -2789,7 +2789,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "DFA",
@@ -3341,7 +3341,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Double Square Network Inc.",
@@ -3469,7 +3469,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "EastWest Bank",
@@ -3597,7 +3597,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Essilor Philippines",
@@ -3773,7 +3773,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Field Residences Condominium Corporation",
@@ -3837,7 +3837,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "First Industrial Township, Inc.",
@@ -3893,7 +3893,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Flexi Finance",
@@ -4133,7 +4133,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "Globe Cash Advance or Funds Return",
@@ -4149,7 +4149,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "Globewest Finance",
@@ -4373,7 +4373,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "Gubat St Anthony Coop",
@@ -4389,7 +4389,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "GUINAYANGAN WATER DISTRICT",
@@ -4653,7 +4653,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "iLabaMo Laundromat",
@@ -4677,7 +4677,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "ILECO II",
@@ -4685,7 +4685,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "ILECO2",
@@ -4693,7 +4693,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "ILECO3",
@@ -4701,7 +4701,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Iligan Light",
@@ -4709,7 +4709,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "INDANG WATER DISTRICT",
@@ -4725,7 +4725,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "INFANTA(QUEZON)WATER DISTRICT - IQWD",
@@ -4749,7 +4749,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "INSTABRIGHT",
@@ -4821,7 +4821,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "ISELCO I",
@@ -4829,7 +4829,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "J.C.T. EZ LOAN CORPORATION",
@@ -4949,7 +4949,7 @@
     "has_gcredit": false,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "KAIA HOMES",
@@ -5101,7 +5101,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "LARC (Laguna Water District Aquatech Resources Corp.)",
@@ -5117,7 +5117,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Laureano Property Management",
@@ -5205,7 +5205,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "LEYECO4",
@@ -5213,7 +5213,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "LEYECO5",
@@ -5221,7 +5221,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "LGU Alburquerque Bohol",
@@ -5293,7 +5293,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 4,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Lindenwood Residences Homeowners Association Inc",
@@ -5381,7 +5381,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 8,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Luna Academy",
@@ -5469,7 +5469,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Mactan Enerzone",
@@ -5477,7 +5477,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "MACTAN ROCK INDUSTRIES INC.",
@@ -5837,7 +5837,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Meralco KLoad 100",
@@ -5845,7 +5845,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": "8, 16, 24, 30, 60",
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Meralco KLoad 1000",
@@ -5853,7 +5853,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": "8, 16, 24, 30, 60",
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Meralco KLoad 200",
@@ -5861,7 +5861,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": "8, 16, 24, 30, 60",
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Meralco KLoad 300",
@@ -5869,7 +5869,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": "8, 16, 24, 30, 60",
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Meralco KLoad 500",
@@ -5877,7 +5877,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": "8, 16, 24, 30, 60",
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Mercantile Insurance",
@@ -6053,7 +6053,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Mitsukoshi",
@@ -6125,7 +6125,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "MORESCO1",
@@ -6133,7 +6133,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "MORESCO2",
@@ -6141,7 +6141,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "MOTOCREDIT",
@@ -6173,7 +6173,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "MSCATV",
@@ -6421,7 +6421,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "NEECO2 Area1",
@@ -6429,7 +6429,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "NEECO2 Area2",
@@ -6437,7 +6437,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Negrense Volunteers for Change Foundation",
@@ -6493,7 +6493,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 8,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Norkis",
@@ -6549,7 +6549,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 12,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "NWOW Marketing",
@@ -6581,7 +6581,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "OLM Lending",
@@ -6661,7 +6661,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "ORO HOLIDAY APPLIANCE PLAZA",
@@ -6749,7 +6749,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "PAMANA WATER BINMALEY",
@@ -6845,7 +6845,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "PANELCO3",
@@ -6853,7 +6853,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Paramount Life",
@@ -7029,7 +7029,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "PELCO1",
@@ -7037,7 +7037,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "PELCO2",
@@ -7045,7 +7045,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "PELCO3",
@@ -7053,7 +7053,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "PENARANDA WATER DISTRICT",
@@ -7069,7 +7069,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Pera Agad",
@@ -7429,7 +7429,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 7,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "PLDT Ultera (Smart myBro)",
@@ -7437,7 +7437,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "PNB Credit Card",
@@ -7469,7 +7469,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Prima Casa (formerly Lumina)",
@@ -7597,7 +7597,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "Puerto Princesa City Water District",
@@ -7653,7 +7653,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "QUEZELCO2",
@@ -7661,7 +7661,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 8,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "QUEZON BUKIDNON WATER DISTRICT",
@@ -7677,7 +7677,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 12,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "RACITELCOM",
@@ -7685,10 +7685,10 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 12,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
-    "name": "Radius Telecoms, Inc. (Red Fiber)",
+    "name": "Radius telecom, Inc. (Red Fiber)",
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
@@ -7781,7 +7781,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "Richli Water",
@@ -7981,7 +7981,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "SAMELCO I",
@@ -7989,7 +7989,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "SAMELCO II",
@@ -7997,7 +7997,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 7,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Samulco",
@@ -8173,7 +8173,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 8,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Shama Broadband & CATV",
@@ -8261,7 +8261,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "SIXTY SWITCHED - PLEX FIBER",
@@ -8341,7 +8341,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "SMARTMAN",
@@ -8413,7 +8413,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "SOCOTECO2",
@@ -8421,7 +8421,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "SOLANO WATER",
@@ -8437,7 +8437,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "SOLIDMARK INC",
@@ -8469,7 +8469,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "SORECO2",
@@ -8477,7 +8477,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Sorosoro Ibaba Development Cooperative",
@@ -8749,7 +8749,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 4,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Subic Water",
@@ -8765,7 +8765,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "SULTAN KUDARAT WATER DISTRICT",
@@ -8797,7 +8797,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "Sun Life Grepa",
@@ -8893,7 +8893,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "SWUMED",
@@ -8989,7 +8989,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "TARELCO2",
@@ -8997,7 +8997,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Tarlac Electric Inc. (TEI)",
@@ -9005,7 +9005,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 5,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Team Foundation",
@@ -9573,7 +9573,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 4,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "VWSSI",
@@ -9661,7 +9661,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Telecoms"
+    "biller_type": "telecom"
   },
   {
     "name": "WISEFUND FINANCE",
@@ -9733,7 +9733,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Yoli International Philippines Distribution Inc",
@@ -9805,7 +9805,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 8,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "ZAMECO1",
@@ -9813,7 +9813,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 8,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "ZAMECO2",
@@ -9821,7 +9821,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "ZANECO",
@@ -9829,7 +9829,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "Electric Utilities"
+    "biller_type": "Electricity Utilities"
   },
   {
     "name": "Zcore IT Solutions",
