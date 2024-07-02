@@ -1021,7 +1021,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "Baybay City Water District",
@@ -1053,7 +1053,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "BELLAVITA LAND CORP.",
@@ -1125,7 +1125,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 12,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "BICOL UNIVERSITY USC",
@@ -2605,7 +2605,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "CSPC Nabua Cam Sur",
@@ -3469,7 +3469,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "EastWest Bank",
@@ -4133,7 +4133,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "Globe Cash Advance or Funds Return",
@@ -4149,7 +4149,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "Globewest Finance",
@@ -4373,7 +4373,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "Gubat St Anthony Coop",
@@ -4749,7 +4749,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "INSTABRIGHT",
@@ -7429,7 +7429,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 7,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "PLDT Ultera (Smart myBro)",
@@ -7437,7 +7437,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "PNB Credit Card",
@@ -7597,7 +7597,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "Puerto Princesa City Water District",
@@ -7685,10 +7685,10 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 12,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
-    "name": "Radius telecom, Inc. (Red Fiber)",
+    "name": "Radius Telecom, Inc. (Red Fiber)",
     "payment_date": "Within 3 business days",
     "has_gcredit": true,
     "has_ggives": false,
@@ -7781,7 +7781,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 10,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "Richli Water",
@@ -8261,7 +8261,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "SIXTY SWITCHED - PLEX FIBER",
@@ -8341,7 +8341,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "SMARTMAN",
@@ -8797,7 +8797,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "Sun Life Grepa",
@@ -9661,7 +9661,7 @@
     "has_gcredit": true,
     "has_ggives": false,
     "fee_amount": 0,
-    "biller_type": "telecom"
+    "biller_type": "Telecom"
   },
   {
     "name": "WISEFUND FINANCE",
