@@ -202,7 +202,7 @@ function displayPagination() {
 
 
 $(document).ready(function () {
-    const jsonLink = "https://gcashgit.github.io/GCash-webflow/Test/Data%20Table/Webpay/data.json";
+    const jsonLink = "https://gcashgit.github.io/GCash-webflow/Test/Data%20Table/webpay/data.json";
     fetchData(jsonLink);
 
     // Initialize Select2 after fetching data
