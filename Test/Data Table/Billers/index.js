@@ -83,7 +83,7 @@ const renderItems = (results_area, filter_data, template_element) => {
     const reset_all_btn = $('.biller-filter-reset-btn');
     const alpha_nav_btn = $('.alphabet-nav > .alphabet-nav_letter');
     
-    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/Test/Data%20Table/Billers/index.js');
+    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/Test/Data%20Table/Billers/data.json');
     let filtered_items = [];
     let active_biller_type = '';
     let active_letter = '';
