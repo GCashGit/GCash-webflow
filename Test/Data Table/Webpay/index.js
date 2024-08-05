@@ -66,7 +66,7 @@ const renderItems = (resultsArea, filteredData, templateElement) => {
     let windowWidth = $(window).width();
     let filteredItems = [];
 
-    const partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/webpay/webpay_data.json');
+    const partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/Test/Data%20Table/Webpay/index.js');
 
     const displayFirstLetter = () => {
         const firstElement = $('.biller-result.billers_collection-list > .biller-result-card').first();
