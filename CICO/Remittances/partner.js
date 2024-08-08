@@ -456,7 +456,7 @@ const REMITTANCES = {
         `</ol>`,
       ],
       logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/revamp/PandaRemit%403x.png'
-    },,payit: {
+    },payit: {
         name: 'PayIt',
         instructions: [
           `<ol>`,
