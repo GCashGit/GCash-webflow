@@ -793,7 +793,7 @@ const REMITTANCES = {
           `<li>Enter the recipient's information, address, and e-wallet information.
               <ul style="list-style-type: disc;">
                 <li>The beneficiary's name must match their GCash-registered name.</li>
-                <li>The beneficiary's mobile number is their GCash-registered mobile number (in the appropriate format 09XXXXXXXX or 1647XXXXXXX or 1416XXXXXXX).</li>
+                <li>The beneficiary's mobile number is their GCash-registered mobile number (in the appropriate 09XXXXXXXX format or 1647XXXXXXX or 1416XXXXXXX).</li>
               </ul>
           </li>`,
           `<li>Confirm the information and complete the transaction via Interac email transfer.</li>`,
