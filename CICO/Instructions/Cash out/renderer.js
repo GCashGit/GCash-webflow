@@ -59,15 +59,15 @@ $(document).ready(function() {
         var steps = [
           {
             step: 'Step 1',
-            image: 'https://www.gcash.com/wp-content/uploads/2020/12/iconLevel15Merchant.png'
+            image: 'https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/66b2f33562d384dfd1e439ce_bc%20-%20Step%201.png'
           },
           { 
             step: 'Step 2',
-            image: 'https://www.gcash.com/wp-content/uploads/2021/03/PhoneInHand60x60.jpg'
+            image: 'https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/66b2f335759404555a664766_bc%20-%20Step%202.jpg'
           },
           {
             step: 'Step 3',
-            image: 'https://www.gcash.com/wp-content/uploads/2019/08/valid_id.png'
+            image: 'https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/66b2f335e9065aa88435cb8a_bc%20-%20Step%203.png'
           },
         ];
       }
@@ -99,23 +99,23 @@ $(document).ready(function() {
         var steps = [
           {
             step: 'Step 1',
-            image: 'https://www.gcash.com/wp-content/uploads/2020/12/iconLevel15Merchant.png'//'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/6493ed9735cf63e96981dbe1_pos-1.png'
+            image: 'https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/66b2f33562d384dfd1e439ce_bc%20-%20Step%201.png'//'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/6493ed9735cf63e96981dbe1_pos-1.png'
           },
           { 
             step: 'Step 2',
-            image: 'https://www.gcash.com/wp-content/uploads/2020/12/iconLevel15Merchant.png' //'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/6493ed9735cf63e96981dbe1_pos-1.png'
+            image: 'https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/66b2f33562d384dfd1e439ce_bc%20-%20Step%201.png' //'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/6493ed9735cf63e96981dbe1_pos-1.png'
           },
           {
             step: 'Step 3',
-            image: 'https://www.gcash.com/wp-content/uploads/2019/08/valid_id.png' //'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/6493ed97e02b9ba4e3f1e578_pos-3.png'
+            image: 'https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/66b2f335e9065aa88435cb8a_bc%20-%20Step%203.png' //'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/6493ed97e02b9ba4e3f1e578_pos-3.png'
           },
           {
             step: 'Step 4',
-            image: 'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/6493ed97541fde473a002587_pos-4.png'
+            image: 'https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/65f415710116312d132b466f_pos-4.png'
           },
           {
             step: 'Step 5',
-            image: 'https://www.gcash.com/wp-content/uploads/2019/08/get_cash.png'
+            image: 'https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/66bb0baa05e491bf6bf83d64_co-step5.png'
           }
         ];
       }
