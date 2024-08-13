@@ -3,169 +3,169 @@ const CASHIN = {
     name: 'All Bank',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/All_Bank%403x.png',
-    mapbutton: '', 
+    //mapbutton: '', 
   },
   'allcash': {
     name: 'All Cash',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/All_Cash%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'bayadcenter': {
     name: 'Bayad Center',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Bayad-Center@3x-1.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=bayad-center',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=bayad-center',
   },
   'expresspay': {
     name: 'Express Pay',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/ExpressPay%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
  'familymart': {
    name: 'Family Mart',
    type: 'barcode',
    logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/FamilyMart%403x.png',
-   mapbutton: '',
+   //mapbutton: '',
  },
   'gcash-po': {
     name: 'GCash Pera Outlet',
     type: 'barcode',
     logo: '',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'generika': {
     name: 'Generika',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/revamp/Generika%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'ibayad': {
     name: 'iBayad',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/iBayad%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'jaro-pawnshop': {
     name: 'Jaro Pawnshop',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Jaro%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'lbc': {
     name: 'LBC',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/LBC%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=lbc',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=lbc',
   },
   'marketplace': {
     name: 'Marketplace',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Marketplace%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'ministop': {
     name: 'Ministop',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/Ministop%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'no-brand': {
     name: 'No Brand',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/revamp/NoBrand%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'puregold': {
     name: 'Puregold',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Puregold@3x-150x150.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=puregold',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=puregold',
   },
   'robinsons': {
     name: 'Robinsons Department Store',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/RobinsonsDepartment%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=robinsons',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=robinsons',
   },
   'robinsons-easymart': {
     name: 'Robinsons Easymart',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2021/07/RobinsonsEasyMart@3x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'savemore': {
     name: 'Savemore',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Savemore%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=savemore',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=savemore',
   },
   'shopwise': {
     name: 'Shopwise',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Shopwise%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'sm': {
     name: 'SM',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/SM@3x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=sm', 
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=sm', 
   },
   'smgroup': {
     name: 'SM Group',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/01/SM-Supermarket@3x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'smhyper': {
     name: 'SM Hyper',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/01/SM-Hypermarket@3x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=smhyper',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=smhyper',
   },
   'smsupermarket': {
     name: 'SM Supermarket',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/01/SM-Supermarket@3x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=smsupermarket',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=smsupermarket',
   },
   'southstar-drug': {
     name: 'Southstar Drug',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2021/03/SouthstarDrug@3x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'tambunting': {
     name: 'Tambunting',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Tambunting@3x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=tambunting',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=tambunting',
   },
   'truemoney': {
     name: 'True Money',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/12/TrueMoney@3x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=truemoney',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=truemoney',
   },
   'uncle-john': {
     name: 'Uncle John\'s',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2022/12/Uncle_Johns@3x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'vip-payments-center': {
     name: 'VIP Payments Center',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/12/VipPaymentsCenter@2x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'waltermart': {
     name: 'WalterMart',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/12/Waltermart@2x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
 
   //Over-the-Counter Partners
@@ -180,7 +180,7 @@ const CASHIN = {
       'Present receipt to the cashier and pay. You will receive a text confirmation upon successful Cash-In.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/711%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=7eleven',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=7eleven',
   },
   'lawson': {
     name: 'Lawson',
@@ -192,7 +192,7 @@ const CASHIN = {
       'Present receipt to the cashier and pay. You will receive a text confirmation upon successful Cash-In.'
     ],
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/Lawson%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'alfamart': {
     name: 'Alfamart',
@@ -204,7 +204,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Alfamart%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'all-day-supermarket': {
     name: 'All Day Supermarket',
@@ -215,7 +215,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/AllDaySupermarket%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=all-day-supermarket',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=all-day-supermarket',
   },
   'cebuana': {
     name: 'Cebuana Lhullier',
@@ -226,7 +226,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/CebuanaLhuillier%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=cebuana',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=cebuana',
   },
   'cebuana-agents': {
     name: 'Cebuana Agents',
@@ -237,7 +237,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/CebuanaLhuillierAgent%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'choicemart': {
     name: 'Choicemart',
@@ -249,7 +249,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/ChoiceMart%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'cvm-pawnshop': {
     name: 'CVM Pawnshop',
@@ -260,7 +260,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://www.gcash.com/wp-content/uploads/2021/06/CVM-Pawnshop@3x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'da5': {
     name: 'DA5',
@@ -271,7 +271,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/DA5%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'easy-day-shop': {
     name: 'Easy Day Shop',
@@ -282,7 +282,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/EasyDay%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=easy-day-shop',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=easy-day-shop',
   },
   'ecpay': {
     name: 'ECPay',
@@ -293,7 +293,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/ECPay%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=ecpay',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=ecpay',
   },
   'etap': {
     name: 'E-Tap',
@@ -305,7 +305,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/eTap%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=etap',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=etap',
   },
   'ever-smsupermarket': {
     name: 'Ever Supermarket',
@@ -317,7 +317,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Ever%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'gaisano-grand': {
     name: 'Gaisano Grand',
@@ -328,7 +328,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/GaisanoGrandMalls%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=gaisano-grand',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=gaisano-grand',
   },
   'globe': {
     name: 'Globe',
@@ -340,7 +340,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Globe%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=globe', 
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=globe', 
   },
   'growsari': {
     name: 'Growsari',
@@ -351,7 +351,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/GrowSari%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'mercury-drug': {
     name: 'Mercury Drug',
@@ -363,7 +363,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/MercuryDrug%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=mercury-drug',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=mercury-drug',
   },
   'palawan': {
     name: 'Palawan',
@@ -374,7 +374,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/PalawanPawnshop%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=tambunting', 
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=tambunting', 
   },
   'panalo-express': {
     name: 'Panalo Express',
@@ -385,7 +385,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/PanaloExpress%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=expresspay',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=expresspay',
   },
   'paygo': {
     name: 'Pay & Go',
@@ -397,7 +397,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Pay_Go%403x.png', 
-    mapbutton: '',
+    //mapbutton: '',
   },
   'perahub': {
     name: 'Pera Hub',
@@ -408,7 +408,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Perahub%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=perahub',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=perahub',
   },
   'petron': {
     name: 'Petron',
@@ -420,7 +420,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Petron%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'posible': {
     name: 'Posible',
@@ -431,7 +431,7 @@ const CASHIN = {
       'Receive a text message confirming your cash in.'
     ],
     logo: 'https://www.gcash.com/wp-content/uploads/2019/12/Posible@3x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=posible',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=posible',
   },
   'digipay': {
     name: 'Digipay',
@@ -442,7 +442,7 @@ const CASHIN = {
       'Receive a text message confirming your cash in.'
     ],
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Digipay@3x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'puremart': {
     name: 'Puremart',
@@ -454,7 +454,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Puremart%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'rd-pawnshop': {
     name: 'RD Pawnshop',
@@ -465,7 +465,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt.  Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://www.gcash.com/wp-content/uploads/2020/07/RD-Pawnshop.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=rd-pawnshop',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=rd-pawnshop',
   },
   'seaoil': {
     name: 'Seaoil',
@@ -476,7 +476,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Seaoil%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=seaoil',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=seaoil',
   },
   'shell-select': {
     name: 'Shell Select',
@@ -488,7 +488,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Select%403x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=shell-select',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=shell-select',
   },
   'touchpay': {
     name: 'Touchpay',
@@ -500,7 +500,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/TouchPay@3x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=touchpay',
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=touchpay',
   },
   'ultramega': {
     name: 'Ultramega',
@@ -512,7 +512,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://www.gcash.com/wp-content/uploads/2021/07/UltraMega@3x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'villarica': {
     name: 'Villarica',
@@ -523,7 +523,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Villarica@3x.png',
-    mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=villarica', 
+    //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=villarica', 
   },
   'watsons': {
     name: 'Watsons',
@@ -535,7 +535,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://www.gcash.com/wp-content/uploads/2020/12/Watsons@2x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'zoompay': {
     name: 'Zoom Pay',
@@ -547,7 +547,7 @@ const CASHIN = {
       'Receive receipt from the machine and a text confirmation.'
     ],
     logo: 'https://www.gcash.com/wp-content/uploads/2021/08/ZoomPay@3x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'hanepbuhay': {
     name: 'Hanepbuhay',
@@ -558,7 +558,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.'
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/HanepBuhay%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   // 'gcash-po': {
   //   name: 'GCash Pera Outlet',
@@ -569,7 +569,7 @@ const CASHIN = {
   //       'Cashier to confirm, collect payment, and print receipt. Wait for a text confirming successful Cash In before leaving the store.',
   //   ],
   //   logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/GCashPO@3x.png',
-  //   mapbutton: '',
+  //   //mapbutton: '',
   // },
   'm-lhuillier': {
     name: 'M Lhuillier',
@@ -580,7 +580,7 @@ const CASHIN = {
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/MLhuillier%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
   },
   'san-roque-supermarket': {
     name: 'San Roque Supermarket',
@@ -592,7 +592,7 @@ const CASHIN = {
       'Receive receipt from the machine and text confirmation.',
     ],
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/San_Roque_Supermarket%403x.png',
-    mapbutton: '',
+    //mapbutton: '',
     isRevamped: true,
   }
 };
