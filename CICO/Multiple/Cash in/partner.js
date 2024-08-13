@@ -117,7 +117,7 @@ const multiple = {
         instructions: {
             'Cash In via Code/Barcode': {
                 content: [
-                    '<div class="barcode-container"><img style="width: 95%;" src="https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/66bb0401955807da9e4f4b38_0af0cece61b4224ba56912d1600b6741.png"/></div>',
+                    '<div class="barcode-container"><img style="width: 95%; display:none" src="https://uploads-ssl.webflow.com/6385b55675a0bd614777a5c1/66bb0401955807da9e4f4b38_0af0cece61b4224ba56912d1600b6741.png"/></div>',
                     '<div class="barcode-ol-container">',
                     '<div class="step-element ol-disc"><span class="step-number">1</span> <p>Go to any partner retailer/mall with a BSP Coin Deposit Machine.</p></div>',
                     '<div class="step-element ol-disc"><span class="step-number">2</span> <p>On the BSP Coin Deposit Machine, select "New Transaction" on the machine.</p></div>',
