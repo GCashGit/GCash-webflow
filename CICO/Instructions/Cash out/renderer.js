@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     document.title = 'How to Cash Out'
 
