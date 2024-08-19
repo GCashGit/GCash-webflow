@@ -167,7 +167,7 @@ const CASHOUT = {
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Puregold@3x-150x150.png',
         //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=puregold',
     },
-    'rd-pawnshop': {
+    'rd': {
         name: 'RD Pawnshop',
         type: 'OTC',
         instructions: [
