@@ -831,6 +831,7 @@ const REMITTANCES = {
           `<li>You will be directed to a confirmation screen showing that the transfer is processing. It will also display your transfer ID.</li>`,
           `<li>You will receive a notification once the transfer is successful.</li><li>To check the transfer status, go to the ‘Transfer History’ on the app.</li>`,
         `</ol>`,
-      ]
+      ],
+      isRevamped: true,
     }
   }
