@@ -103,7 +103,8 @@ function generateBarcode(e) {
     console.log('generate barcode')
     e.preventDefault();
     if (window.AlipayJSBridge) {
-        AlipayJSBridge.call('startApp',{"appId":"006300000100","redirectUri":'gcash://com.mynt.gcash/app/006300070012'})
+        window.AlipayJSBridge.call('startApp',{"appId":"006300070012"})
+        // AlipayJSBridge.call('startApp' {"appId": "006300000100", "redirectUri": 'gcash://com.mynt.gcash/app/006300070012'})
         return;
     }
     window.location = 'https://gcash.cashin.viacode/gcash.splashscreen/?redirect=gcash://com.mynt.gcash/app/006300070012'
