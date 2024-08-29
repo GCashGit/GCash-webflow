@@ -32,7 +32,7 @@ const CASHIN = {
   'gcash-po': {
     name: 'GCash Pera Outlet',
     type: 'barcode',
-    logo: '',
+    logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/GCashPO%403x.png',
     //mapbutton: '',
   },
   'generika': {
