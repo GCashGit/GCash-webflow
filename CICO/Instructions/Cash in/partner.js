@@ -1,4 +1,10 @@
 const CASHIN = {
+  'spatio': {
+    name: 'Spatio',
+    type: 'barcode',
+    logo: 'https://uat.m.gcash.com/gcash-common-web/static/funds/cashin_icons/Spatio%403x.png',
+   isRevamped: true,
+  },
   'allbank': {
     name: 'All Bank',
     type: 'barcode',
@@ -594,16 +600,5 @@ const CASHIN = {
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/San_Roque_Supermarket%403x.png',
     //mapbutton: '',
     isRevamped: true,
-  }, 
-  'spatio': {
-    name: 'Spatio',
-    type: 'barcode',
-    instructions: [
-      'Inform the cashier that you want to Cash In to your GCash wallet.',
-      'Tap on "Generate Barcode" button above. Enter the amount then tap "Generate Barcode". Show the cashier the generated barcode.',
-      'Cashier to confirm, collect payment, and print receipt. Wait for a text confirming successful Cash In before leaving the store.'
-    ],
-    logo: 'https://uat.m.gcash.com/gcash-common-web/static/funds/cashin_icons/Spatio%403x.png',
-   isRevamped: true,
   }
 };
