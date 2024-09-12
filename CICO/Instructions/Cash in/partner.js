@@ -4,174 +4,348 @@ const CASHIN = {
     type: 'barcode',
     logo: 'https://uat.m.gcash.com/gcash-common-web/static/funds/cashin_icons/Spatio%403x.png',
    isRevamped: true,
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'allbank': {
     name: 'All Bank',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/All_Bank%403x.png',
     //mapbutton: '', 
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'allcash': {
     name: 'All Cash',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/All_Cash%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'bayadcenter': {
     name: 'Bayad Center',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Bayad-Center@3x-1.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=bayad-center',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'expresspay': {
     name: 'Express Pay',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/ExpressPay%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
  'familymart': {
    name: 'Family Mart',
    type: 'barcode',
    logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/FamilyMart%403x.png',
    //mapbutton: '',
+    instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
  },
   'gcash-po': {
     name: 'GCash Pera Outlet',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/GCashPO%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'generika': {
     name: 'Generika',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/revamp/Generika%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'ibayad': {
     name: 'iBayad',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/iBayad%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'jaro-pawnshop': {
     name: 'Jaro Pawnshop',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Jaro%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'lbc': {
     name: 'LBC',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/LBC%403x.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=lbc',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'marketplace': {
     name: 'Marketplace',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Marketplace%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'ministop': {
     name: 'Ministop',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/Ministop%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'no-brand': {
     name: 'No Brand',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/revamp/NoBrand%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'puregold': {
     name: 'Puregold',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Puregold@3x-150x150.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=puregold',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'robinsons': {
     name: 'Robinsons Department Store',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/RobinsonsDepartment%403x.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=robinsons',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'robinsons-easymart': {
     name: 'Robinsons Easymart',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2021/07/RobinsonsEasyMart@3x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'savemore': {
     name: 'Savemore',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Savemore%403x.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=savemore',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'shopwise': {
     name: 'Shopwise',
     type: 'barcode',
     logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/Shopwise%403x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'sm': {
     name: 'SM',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/SM@3x.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=sm', 
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'smgroup': {
     name: 'SM Group',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/01/SM-Supermarket@3x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'smhyper': {
     name: 'SM Hyper',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/01/SM-Hypermarket@3x.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=smhyper',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'smsupermarket': {
     name: 'SM Supermarket',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/01/SM-Supermarket@3x.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=smsupermarket',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'southstar-drug': {
     name: 'Southstar Drug',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2021/03/SouthstarDrug@3x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'tambunting': {
     name: 'Tambunting',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Tambunting@3x.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=tambunting',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'truemoney': {
     name: 'True Money',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2019/12/TrueMoney@3x.png',
     //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-in-partner=truemoney',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'uncle-john': {
     name: 'Uncle John\'s',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2022/12/Uncle_Johns@3x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'vip-payments-center': {
     name: 'VIP Payments Center',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/12/VipPaymentsCenter@2x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
   'waltermart': {
     name: 'WalterMart',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/12/Waltermart@2x.png',
     //mapbutton: '',
+     instructions: [
+        'Inform the Cashier that you want to Cash In to your GCash wallet.',
+        'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
+        'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
+      ],
+  
   },
 
   //Over-the-Counter Partners
