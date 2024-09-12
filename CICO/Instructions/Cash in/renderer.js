@@ -46,7 +46,6 @@ $(document).ready(function() {
       // For Header
       var headerText = 'Cash In via ' + partnerHeader;
       $('#cash-in-header').html(headerText);
-      $( "#image-container" ).remove();
       $('#cash-in-header').show(); // Show the header
       var stepHtml = '';
   
@@ -63,7 +62,7 @@ $(document).ready(function() {
     // OTC type
     if (serviceType=="OTC") {
       if (instructions) {
-        
+        $( "#image-container" ).remove();
         if (instructions.length == 3) {
         // For instructions with 3 lines
           var steps = [
