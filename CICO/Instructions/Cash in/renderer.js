@@ -205,8 +205,7 @@ if (serviceType=="barcode") {
     else {
           var imageElement = $('<img>').attr({
     src: imageUrl,
-    style: 'max-width: 100%; border: none; box-shadow: 0px 8px 12px -8px rgba(15, 37, 69, 0.2);
-',
+    style: 'max-width: 100%; border: none; box-shadow: 0px 8px 12px -8px rgba(15, 37, 69, 0.2);',
     alt: ''
   });
     }
