@@ -187,8 +187,12 @@ $(document).ready(function() {
   
     
       $('.CI-Barcode #cash-in-steps').html(stepHtml);
-    
-      var imageUrl = 'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/64a2695dd5e9bb672ace7e37_barcode_fullwidth.jpeg'; //'barcode_fullwidth.jpeg';//'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/64758b6c555ad35ace755328_Cash%20In%20no%20shadow.png';//'https://www.gcash.com/wp-content/uploads/2019/10/barcode_fullwidth.jpg';
+      if (!isRevamped) {
+         var imageUrl = 'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/64a2695dd5e9bb672ace7e37_barcode_fullwidth.jpeg'; //'barcode_fullwidth.jpeg';//'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/64758b6c555ad35ace755328_Cash%20In%20no%20shadow.png';//'https://www.gcash.com/wp-content/uploads/2019/10/barcode_fullwidth.jpg';
+      }
+        else {
+        var imageUrl = 'https://cdn.prod.website-files.com/6385b55675a0bd614777a5c1/66e25b7227d7a648a452bc2c_Over%20the%20Counter%20Banner.avif';
+        }
       var linkUrl = 'gcash://com.mynt.gcash/app/006300070012';//'https://gcash.cashin.viacode/gcash.splashscreen/?redirect=gcash://com.mynt.gcash/app/006300080600'; //'https://gcashapp.page.link/cashin_subapp_genericBarcode';
   
       var imageElement = $('<img>').attr({
