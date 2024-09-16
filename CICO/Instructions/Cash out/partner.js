@@ -75,7 +75,7 @@ const CASHOUT = {
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
-        logo: 'https://www.gcash.com/wp-content/uploads/2019/08/ExpressPay@3x.png',
+        logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/ExpressPay%403x.png',
         //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=expresspay',
     },
     'familymart': {
