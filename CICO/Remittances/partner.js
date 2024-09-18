@@ -485,7 +485,7 @@ const REMITTANCES = {
             `<li>Select Mobile Money and enter the amount</li>`,
             `<li>Tap GCash</li>`,
             `<li>Enter the name you registered in GCash</li>`,
-            `<li>Fill in your GCash mobile number:
+            `<li>Fill in your GCash mobile number
               <ul style="list-style-type: disc;">
                 <li>Country Code: XX</li>
                 <li>Mobile Number: XXXXXXXXXX</li>
@@ -590,9 +590,9 @@ const REMITTANCES = {
       instructions: [
         `<small><strong>LAUNCH THE SINGTEL DASH APP AND DO THE FOLLOWING STEPS TO ADD BENEFICIARY: </strong></small>`,
         `<ol>`,
-          `<li>Tap on “Send Money” > “Remit Overseas” > “Add Beneficiary”.</li>`,
+          `<li>Tap on 'Send Money' > 'Remit Overseas' > 'Add Beneficiary'.</li>`,
           `<li>Select GCash Wallet as the recipient's pay-out option.</li>`,
-          `<li>Add the recipient's GCash number and select “Register” to proceed.
+          `<li>Add the recipient's GCash number and select 'Register' to proceed.
             <ul style="list-style-type: disc;">
               <li>The beneficiary name must match their GCash-registered name.</li>
               <li>The account number is the GCash-registered mobile number (in the appropriate 09XXXXXXXXX format).</li>
@@ -603,7 +603,7 @@ const REMITTANCES = {
         `</ol>`,
         `<small><strong>AFTER BENEFICIARY HAS BEEN ADDED, DO THE FOLLOWING STEPS TO SEND MONEY TO BENEFICIARY: </strong></small>`,
         `<ol>`,
-          `<li>Tap on “Send Money” > “Remit Overseas” > select beneficiary.</li>`,
+          `<li>Tap on 'Send Money' > 'Remit Overseas' > select beneficiary.</li>`,
           `<li>Enter amount and select GCash.</li>`,
           `<li>Check to ensure the amount and details.</li>`,
           `<li>Enter 6 Digit PIN to proceed.</li>`,
@@ -616,7 +616,7 @@ const REMITTANCES = {
       name: 'Skrill',
       instructions: [
         `<ol>`,
-          `<li>Log in to the Skrill mobile app or website and go to “Send.”</li>`,
+          `<li>Log in to the Skrill mobile app or website and go to 'Send'.</li>`,
           `<li>Choose the 'Money Transfer' option to send to a mobile.</li>`,
           `<li>Select 'Philippines' as the country and 'PHP' as the currency.</li>`,
           `<li>Enter the amount you want to send.</li>`,
@@ -738,7 +738,7 @@ const REMITTANCES = {
       name: 'WireBarley',
       instructions: [
         `<ol>`,
-          `<li>Log in to the WireBarley App and click the “Send Money” button, then select GCash as the delivery option.</li>`,
+          `<li>Log in to the WireBarley App and click the 'Send Money' button, then select GCash as the delivery option.</li>`,
           `<li>Complete the recipient details. Please be reminded of the following information:
             <ul style="list-style-type: disc;">
               <li>Check GCash transaction limits depending on the level of verification. Read more here: <a href="https://help.gcash.com/hc/en-us/articles/900000946286">GCash Help Center</a></li>
@@ -776,11 +776,11 @@ const REMITTANCES = {
         `<ol>`,
           `<li>Senders need to log into their account via Xoom’s app or via Xoom.com.</li>`,
           `<li>Enter the amount to be sent.</li>`,
-          `<li>Choose Receiving Option — Mobile Wallet</li>`,
+          `<li>Choose Receiving Option 'Mobile Wallet'</li>`,
           `<li>Choose GCash as Mobile Wallet Provider and enter the recipient’s mobile number.</li>`,
           `<li>Enter the Receiver’s information.</li>`,
         `</ol>`,
-        `<p>Receiver name MUST match their GCash registered name.</p>`,
+        `<p>Receiver's name MUST match their GCash registered name.</p>`,
         `<p>GCash registered mobile number must be entered in the appropriate (0)9XXXXXXXXX format.</p>`,
       ],
       logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/revamp/Xoom%403x.png'
