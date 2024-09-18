@@ -240,7 +240,7 @@ const CASHIN = {
   
   },
   'smgroup': {
-    name: 'SM Group',
+    name: ' SM Group of Supermarkets',
     type: 'barcode',
     logo: 'https://www.gcash.com/wp-content/uploads/2020/01/SM-Supermarket@3x.png',
     //mapbutton: '',
@@ -759,7 +759,7 @@ const CASHIN = {
       'Provide your mobile number and desired Cash In amount.',
       'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
     ],
-    logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/MLhuillier%403x.png',
+    logo: 'https://m.gcash.com/gcashapp/gcash-common-web/static/cashin_icons/revamp/MLhuillier%403x.png',
     //mapbutton: '',
   },
   'san-roque-supermarket': {
