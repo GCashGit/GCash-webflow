@@ -146,4 +146,38 @@ const multiple = {
         },
         logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/BSP%403x.png'
     },
+        'uniteller': {
+        name: 'uLink/Uniteller',
+        logo: 'https://offlinepkg.lab.gcash.com/gcash-common-web/static/funds/cashin_icons/Uniteller%403x.png',
+        instructions: {
+            'Cash In via uLink SuperApp': {
+                content: [
+                    '<div class="barcode-ol-container">',
+                    '<div class="step-element ol-disc"><span class="step-number">1</span> <p>Senders need to log into their account through the uLink Money Transfer SuperApp or via  <a href="https://ulink.com.">https://ulink.com.</a></p></div>',
+                    '<div class="step-element ol-disc"><span class="step-number">2</span> <p>Tap the send icon.</p></div>',
+                    '<div class="step-element ol-disc"><span class="step-number">3</span> <p>Select or add a new beneficiary.</p></div>',
+                    '<div class="step-element ol-disc"><span class="step-number">4</span> <p>Choose how they’ll receive the money. Select wallet, and then GCash.</p></div>',
+                    '<div class="step-element ol-disc"><span class="step-number">5</span> <p>Enter the beneficiary’s phone number. (Please enter the phone number associated with their GCash wallet. The number must start with 9).</p></div>',
+                    '<div class="step-element ol-disc"><span class="step-number">6</span> <p>Enter the amount and select your payment method.</p></div>',
+                    '<div class="step-element ol-disc"><span class="step-number">7</span> <p>Review and confirm your transfer.</p></div>',
+                    '</div>'
+                ]
+            },
+            'Cash In via UniTeller Agent': {
+                content: [
+                    '<div class="barcode-ol-container">',
+                    '<div class="step-element ol-disc"><span class="step-number">1</span> <p>Go to a UniTeller Agent location.</p></div>',
+                    `<div class="step-element ol-disc"><span class="step-number">2</span> <p>Fill out the send money form.</p>
+                        <ul style="list-style-type: disc;">
+                            <li>The beneficiary name must match their GCash-registered name.</li>
+                            <li>The account number is the GCash-registered mobile number (in the appropriate 09XXXXXXXXX format).</li>
+                        </ul>
+                    </div>`,
+                    '<div class="step-element ol-disc"><span class="step-number">3</span> <p>Pay for the remittance (the amount to send and the transfer fee).</p></div>',
+                    '<div class="step-element ol-disc"><span class="step-number">4</span> <p>The beneficiary will receive an SMS notification from GCash that the remittance was successfully sent to their GCash wallet.</p></div>',
+                    '</div>'
+                ]
+            }
+        }
+    },
 };
