@@ -167,11 +167,11 @@ const multiple = {
                 content: [
                     '<div class="barcode-ol-container">',
                     '<div class="step-element ol-disc"><span class="step-number">1</span> <p>Go to a UniTeller Agent location.</p></div>',
-                    `<div class="step-element ol-disc"><span class="step-number">2</span> <p>Fill out the send money form.</p>
+                    `<div class="step-element ol-disc"><span class="step-number">2</span> <div><p>Fill out the send money form.</p>
                         <ul style="list-style-type: disc;">
                             <li>The beneficiary name must match their GCash-registered name.</li>
                             <li>The account number is the GCash-registered mobile number (in the appropriate 09XXXXXXXXX format).</li>
-                        </ul>
+                        </ul></div>
                     </div>`,
                     '<div class="step-element ol-disc"><span class="step-number">3</span> <p>Pay for the remittance (the amount to send and the transfer fee).</p></div>',
                     '<div class="step-element ol-disc"><span class="step-number">4</span> <p>The beneficiary will receive an SMS notification from GCash that the remittance was successfully sent to their GCash wallet.</p></div>',
