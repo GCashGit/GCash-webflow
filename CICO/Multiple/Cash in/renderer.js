@@ -6,6 +6,7 @@ $(document).ready(function () {
         var partnerHeader = multiple[cashInPartner].name;
         var partnerSubHeader = multiple[cashInPartner].subHeader;
         var partnerLogo = multiple[cashInPartner].logo;
+        var partnerType = multiple[cashInPartner].partner || ''
         var isRevamp = revampPartners.includes(cashInPartner)
         
         document.title = 'How to Cash In'
@@ -14,7 +15,7 @@ $(document).ready(function () {
             // Will display the instructions on the HTML Ids
             var headerText = 'How to Cash In';
             var headerSubText = 'At any branch of these official partners';
-            $('#instructions').addClass('CI-Multiple');
+            $('#instructions').addClass('CI-Multiple' + partnerType);
             if (!isRevamp) {
                 $('#cash-in-header').html(headerText);
                 $('#cash-in-subheader').html(headerSubText);
