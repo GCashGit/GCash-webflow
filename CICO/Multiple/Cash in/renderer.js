@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var cashInPartner = getParameterByName('partner');
-    const revampPartners = ['bsp', 'bsp-old', 'uniteller']
+    const revampPartners = ['bsp', 'bsp-old']
     if (multiple.hasOwnProperty(cashInPartner)) {
         var instructions = multiple[cashInPartner].instructions;
         var partnerHeader = multiple[cashInPartner].name;
