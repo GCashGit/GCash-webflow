@@ -180,7 +180,7 @@ const multiple = {
                     '</ol>',
                 ]
             },
-            type: 'RM',
+            //type: 'RM',
         }
     },
 };
