@@ -179,7 +179,8 @@ const multiple = {
                         '<li>The beneficiary will receive an SMS notification from GCash that the remittance was successfully sent to their GCash wallet.</li>',
                     '</ol>',
                 ]
-            }
+            },
+            type: 'RM',
         }
     },
 };
