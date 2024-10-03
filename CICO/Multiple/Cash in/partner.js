@@ -154,10 +154,10 @@ const multiple = {
         instructions: {
             'Cash In via uLink SuperApp': {
                 content: [
-                '<style>.RM ol>li,.RM ol>li a{color:#445c85!important}.RM ol{margin:0 2.5rem}.RM ol>li{padding-left:1rem}.RM ol>li a{text-decoration:underline}.RM ol>li::marker{color:#0a2757!important;font-size:.95rem}</style>',
+                '<style>.accordion:after{border-color:#025AE9!important}.RM ol>li,.RM ol>li a{color:#445c85!important}.RM ol{margin:0 2.5rem}.RM ol>li{padding-left:1rem}.RM ol>li a{text-decoration:underline}.RM ol>li::marker{color:#0a2757!important;font-size:.95rem}</style>',
                     '<div class="RM"><ol>',
                         '<li>Senders need to log into their account through the uLink Money Transfer SuperApp or via <a href="https://ulink.com">https://ulink.com</a>.</li>',
-                        '<li>Tap the send icon</li>',
+                        '<li>Tap the send icon.</li>',
                         '<li>Select or add a new beneficiary.</li>',
                         '<li>Choose how they’ll receive the money. Select wallet, and then GCash.</li>',
                         '<li>Enter the beneficiary’s phone number. (Please enter the phone number associated with their GCash wallet. The number must start with 9).</li>',
