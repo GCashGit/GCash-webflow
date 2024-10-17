@@ -84,7 +84,7 @@ $(document).ready(function () {
             }
         }
 
-        var barcodeBtn = document.querySelector('.barcode-container > img')
+        var barcodeBtn = document.querySelector('.generate-btn')
         if (barcodeBtn) {
             barcodeBtn.addEventListener('click', generateBarcode)
         }
