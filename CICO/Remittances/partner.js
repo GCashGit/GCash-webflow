@@ -1,4 +1,31 @@
 const REMITTANCES = {
+    'e9pay': {
+      name: 'E9pay',
+      instructions: [
+        '<small><strong>Registering a New Beneficiary</strong></small>',
+        '<ol>',
+          '<li>Login to the E9pay app and tap “Outbound Remittance”.</li>',
+          '<li>Tap “Register New Account” to add a beneficiary.</li>',
+          `<li>Select GCash and enter the beneficiary’s details. 
+            <ul style="list-style-type: disc;">
+              <li>The beneficiary’s name must match their GCash-registered name.</li>
+              <li>The beneficiary’s phone number is their GCash-registered mobile number (in the appropriate +639XXXXXXXXX format). </li>
+            </ul>
+          </li>`,
+          '<li>Once completed, tap ‘Save’. You will be redirected back to the list of beneficiaries.</li>',
+        '</ol>',
+        '<small>Sending to a Registered Beneficiary</strong></small>',
+        '<ol>',
+          '<li>Login to the E9pay app and tap “Outbound Remittance”.</li>',
+          `<li>Look for the beneficiary you want to send money to, then tap ‘Send’.</li>`,
+          `<li>Enter the amount you want to send, then tap the ‘Send’ button.</li>`,
+          '<li>Review the details of your transaction. Tap “I Agree” and “Send remittance” to confirm your transaction.</li>',
+          '<li>Enter your withdrawal PIN to complete the transaction.</li>',
+        '</ol>',
+      ],
+      logo:'https://uat.m.gcash.com/gcashapp/gcash-common-web/static/funds/cashin_icons/E9pay%403x.png',
+      isRevamped: true,
+    },
     'alipay-hk': {
       name: 'AlipayHK',
       instructions: [
