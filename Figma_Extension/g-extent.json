@@ -1,0 +1,385 @@
+{
+    "categories": [
+        {
+          "name": "All",
+          "id": "all",
+          "assets": []
+        },
+        {
+          "name": "Arrows",
+          "id": "arrows",
+          "assets": [
+            {
+              "title": "Straight",
+              "items": [
+                {
+                  "name": "Right",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2426829001cdbb74060_right.png",
+                  "assetKey": "33eb4abe1c395cc87a58b7cce87afdeaa1019fda",
+                  "assetPosition": "right"
+                },
+                {
+                  "name": "Left",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b242163f4c9d22cc36b8_left.png",
+                  "assetKey": "de0f326322bf3ed0bafa30e8a638b3c55fb83bb6",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Up",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b242dd0e025f8584c195_up.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Down",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2411be6c1dc4f6e751e_down.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                }
+              ]
+            },
+            {
+              "title": "Right angle",
+              "items": [
+                {
+                  "name": "Down Right",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b243846602cf5b5a8100_down-right.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Up Right",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2410818238fba7a6ea6_up-right.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Down Left",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2410f3b6a9506f930d9_down-left.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Up Left",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24146eb72b9d51f154f_up-left.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Right Up",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b241cf43a65453e0ee43_right-up.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Left Up",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2417e9c6c04103c44ae_left-up.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Right Down",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b241b41f96af5aac13cb_right-down.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Left Down",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24277364441c5a49436_left-down.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                }
+              ]
+            },
+            {
+              "title": "U-turn",
+              "items": [
+                {
+                  "name": "LDR",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b241c6d0db75fab76ea5_ldr.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "LUR",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24277364441c5a4942a_lur.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "RDL",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b240b15c5e16d5f69bc5_rdl.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "RUL",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2411c2fb3c6dba7265b_rul.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "DRU",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2408d25c64fc0cca025_dru.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "DLU",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2406b31e9f8d22c7657_dlu.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "URD",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2419a633375bd83ba6d_urd.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "ULD",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24094498b0135d8ae14_uld.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                }
+              ]
+            },
+            {
+              "title": "S-turn",
+              "items": [
+                {
+                  "name": "RDR",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2400a0d8af0a419e64e_rdr.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "RUR",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2405fd5b018c01152fd_rur.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "LDL",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b241fa6dcb5a20f22334_ldl.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "LUL",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24082e983b9dc975acb_lul.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "URU",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b240a99ee1e603e970f8_uru.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "ULU",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2406a5716cc9f602256_ulu.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "DRD",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b240ec922a34423a7f31_drd.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "DLD",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2406a5716cc9f602259_dld.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flowchart",
+          "id": "flowchart",
+          "assets": [
+            {
+              "title": "Flowchart Icons",
+              "items": [
+                {
+                  "name": "Process",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1e68a17a268b8e9ad4_flowchart_process.avif",
+                  "assetKey": "ea3d0241a332722a6d7379561277a7be32e4f09e",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Decision",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1eb20a015ff847ee80_flowchart_decision.avif",
+                  "assetKey": "ddba83955df984f17afc113a2723a097e9ef2661",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Arrow label",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1eba1e790631c72116_flowchart_arrow.png",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Endpoint",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1e068fa8dd3212042a_flowchart_endpoint.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Overlap",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1e068fa8dd3212042e_flowchart_overlap.avif",
+                  "assetKey": "15dec1b5ae1767e74e165a547a3a7f4f1bb2ec93",
+                  "assetPosition": "center-screen"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Notes",
+          "id": "notes",
+          "assets": [
+            {
+              "title": "Notes Icons",
+              "items": [
+                {
+                  "name": "Small note",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1f99b90ac64c6b091d_notes_small.png",
+                  "assetKey": "bc29b86f6132a09ce0761f77732047db828c1dd0",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Section header",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3a59fa090d2ac2fcbe8e1_notes_section-header.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Section sidebar",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3a59f1f69c0b5e16edd19_notes_section-sidebar.avif",
+                  "assetKey": "9e93568e7b9651bc571e967989d22b492f917e3f",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Large note",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1f91eabd5fe7a61eba_notes_large.png",
+                  "assetKey": "b770c46ccc115876baadbc89a16d0f01cb856b72",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Pin",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1fcb79eed3bbe9abaf_notes_pin.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Line note",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e21ca2aab4c2f9136d5_notes_line.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Destination note",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1e068fa8dd32120475_notes_destination.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Horizontal note",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1fb20a015ff847eed2_notes_horizontal.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Icon note",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1ed48d217d9348ed2e_notes_icon.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Markers",
+          "id": "markers",
+          "assets": [
+            {
+              "title": "Markers",
+              "items": [
+                {
+                  "name": "Pin marker",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1e5f158cbbcfc8e98f_markers_pin.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Line marker",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1eb05b872ac07fd1ff_markers_line.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Screen highlight",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1e3964d7c6414c6dd3_markers_screen-highlight.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Screen label",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1eba1e790631c7211f_markers_screen-label.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Watermark Small",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1eb20a015ff847ee93_markers_watermark.avif",
+                  "assetKey": "117ac3ca51b3078619e2b72d7b258f01b4ab0245",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Watermark Medium",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1eb20a015ff847ee93_markers_watermark.avif",
+                  "assetKey": "150fc570a96ac621114cd803fd24c63e1225610c",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Watermark Large",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f37e1eb20a015ff847ee93_markers_watermark.avif",
+                  "assetKey": "0b7107bb4e598456af5052d905cbd88a31b7d908",
+                  "assetPosition": "right-gapped"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cursors",
+          "id": "cursors",
+          "assets": [
+            {
+              "title": "Cursors",
+              "items": [
+                {
+                  "name": "Mouse pointer",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3a9df0818238fba71be70_mouse_pointer.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                },
+                {
+                  "name": "Hand pointer",
+                  "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3a9e03d8d22d6d2f9ed76_hand_pointer.avif",
+                  "assetKey": "",
+                  "assetPosition": "right-gapped"
+                }
+              ]
+            }
+          ]
+        }
+    ]
+}
