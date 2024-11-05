@@ -21,20 +21,20 @@
                 {
                   "name": "Left",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b242163f4c9d22cc36b8_left.png",
-                  "assetKey": "de0f326322bf3ed0bafa30e8a638b3c55fb83bb6",
-                  "assetPosition": "right-gapped"
+                  "assetKey": "",
+                  "assetPosition": "left"
                 },
                 {
                   "name": "Up",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b242dd0e025f8584c195_up.png",
                   "assetKey": "",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "up"
                 },
                 {
                   "name": "Down",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2411be6c1dc4f6e751e_down.png",
                   "assetKey": "",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "down"
                 }
               ]
             },
