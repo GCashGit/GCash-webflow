@@ -191,7 +191,7 @@ if (serviceType=="barcode") {
      var imageUrl = 'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/64a2695dd5e9bb672ace7e37_barcode_fullwidth.jpeg'; //'barcode_fullwidth.jpeg';//'https://uploads-ssl.webflow.com/64129d0a758f1256bf3e95cc/64758b6c555ad35ace755328_Cash%20In%20no%20shadow.png';//'https://www.gcash.com/wp-content/uploads/2019/10/barcode_fullwidth.jpg';
   }
     else {
-    var imageUrl = 'https://cdn.prod.website-files.com/6385b55675a0bd614777a5c1/66e937b56bc523a31769b3ee__barcode.jpg';
+    var imageUrl = 'https://cdn.prod.website-files.com/6385b55675a0bd614777a5c1/6729bf6d41b7f1ade7d2ae9b_OTC.png';
     }
   var linkUrl = 'gcash://com.mynt.gcash/app/006300070012';//'https://gcash.cashin.viacode/gcash.splashscreen/?redirect=gcash://com.mynt.gcash/app/006300080600'; //'https://gcashapp.page.link/cashin_subapp_genericBarcode';
 
