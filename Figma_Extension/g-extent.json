@@ -380,6 +380,11 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Settings",
+          "id": "Settings",
+          "assets": []
         }
     ]
 }
