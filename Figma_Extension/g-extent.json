@@ -384,7 +384,12 @@
         {
           "name": "Settings",
           "id": "settings",
-          "assets": []
+          "assets": [
+              {
+              "title": "Settings",
+              "items": []
+              }
+          ]
         }
     ]
 }
