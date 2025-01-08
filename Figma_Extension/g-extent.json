@@ -256,7 +256,14 @@
                 {
                   "name": "Section header",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3a59fa090d2ac2fcbe8e1_notes_section-header.avif",
-                  "assetKey": "",
+                  "assetKey": "multicolor",
+                  "colorKeys": {
+                        "color1": "small-note-red",
+                        "color2": "small-note-blue",
+                        "color3": "small-note-green",
+                        "color4": "small-note-yellow",
+                        "color5": "small-note-orange"
+                  },
                   "assetPosition": "right-gapped"
                 },
                 {
