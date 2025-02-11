@@ -11,7 +11,6 @@ const CASHOUT = {
             'Receive cash from the cashier.',
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Bayad-Center@3x-1.png',
-        //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=bayad-center',
     },
     'cebuana': {
         name: 'Cebuana',
@@ -24,7 +23,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.',
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Cebuana@3x.png',
-        //mapbutton: '',
     },
     'cvm-pawnshop': {
         name: 'CVM Pawnshop',
@@ -37,7 +35,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2021/06/CVM-Pawnshop@3x.png',
-        //mapbutton: '',
     },
     'da5': {
         name: 'DA5',
@@ -50,7 +47,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2021/05/DA5@3x.png',
-        //mapbutton: '',
     },
     'ecpay': {
         name: 'ECPay',
@@ -63,7 +59,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/ECPay@3x.png',
-        //mapbutton: '',
     },
     'expresspay': {
         name: 'Express Pay',
@@ -76,7 +71,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/ExpressPay%403x.png',
-        //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=expresspay',
     },
     'familymart': {
         name: 'Family Mart',
@@ -89,7 +83,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2020/12/CashinFamilyMart.png',
-        //mapbutton: '',
     },
     'jaro-pawnshop': {
         name: 'Jaro Pawnshop',
@@ -102,7 +95,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2020/12/JaroPawnshop@2x.png',
-        //mapbutton: '',
     },
     'palawan': {
         name: 'Palawan',
@@ -114,7 +106,6 @@ const CASHOUT = {
             'Receive cash from the cashier.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Palawan@3x.png',
-        //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=palawan',
     },
     'panalo-express': {
         name: 'Panalo Express',
@@ -127,7 +118,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2021/05/PanaloExpress@3x.png',
-        //mapbutton: '',
     },
     'perahub': {
         name: 'Perahub',
@@ -140,7 +130,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmation'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2020/12/Perahub@2x.png',
-        //mapbutton: '',
     },
     'posible': {
         name: 'Posible',
@@ -153,7 +142,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmation'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/12/Posible@3x.png',
-        //mapbutton: '',
     },
     'puregold': {
         name: 'Puregold',
@@ -165,7 +153,6 @@ const CASHOUT = {
             'Receive cash from the cashier.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Puregold@3x-150x150.png',
-        //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=puregold',
     },
     'rd': {
         name: 'RD Pawnshop',
@@ -178,7 +165,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2020/07/RD-Pawnshop.png',
-        //mapbutton: '',
     },
     'robinsons': {
         name: 'Robinsons',
@@ -190,7 +176,6 @@ const CASHOUT = {
             'Receive cash from the cashier.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Robinsons@3x-150x150.png',
-        //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=robinsons',
     },
     'sm': {
         name: 'SM',
@@ -203,7 +188,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/SM@3x.png',
-        //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=sm',
     },
     'tambunting': {
         name: 'Tambunting',
@@ -215,7 +199,6 @@ const CASHOUT = {
             'Receive cash from the cashier.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Tambunting@3x.png',
-        //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=tambunting',
     },
     'truemoney': {
         name: 'True Money',
@@ -228,7 +211,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmation'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2020/12/TrueMoney@2x.png',
-        //mapbutton: '',
     },
     'villarica': {
         name: 'Villarica',
@@ -240,7 +222,6 @@ const CASHOUT = {
             'Receive cash from the cashier.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Villarica@3x.png',
-        //mapbutton: 'https://www.gcash.com/app/cico/map/?cash-out-partner=villarica',
     },
     'vip-payments-center': {
         name: 'VIP Payments Center',
@@ -253,7 +234,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.'
         ],
         logo: 'https://www.gcash.com/wp-content/uploads/2020/12/VipPaymentsCenter@2x.png',
-        //mapbutton: '',
     },
 
     // Barcode Partners
@@ -262,7 +242,6 @@ const CASHOUT = {
         name: 'Test Partner',
         type: 'barcode',
         logo: 'https://www.gcash.com/wp-content/uploads/2020/12/VipPaymentsCenter@2x.png',
-        //mapbutton: '',
     },
     'm-lhuillier': {
         name: 'M Lhuillier',
@@ -275,7 +254,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.',
         ],
         logo: 'https://uat.m.gcash.com/gcash-common-web/static/cashin_icons/revamp/MLhuillier%403x.png',
-        //mapbutton: '',
     },
     'gcash-po': {
         name: 'GCash Pera Outlet',
@@ -289,7 +267,6 @@ const CASHOUT = {
             'Receive the cash from the cashier once you have confirmed.',
         ],
         logo: 'https://uat.m.gcash.com/gcash-common-web/static/cashin_icons/revamp/GCashPO%403x.png',
-        //mapbutton: '',
     },
 
 };
