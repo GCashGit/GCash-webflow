@@ -175,7 +175,7 @@ const CASHOUT = {
             'Receive a text message verifying your cash out and confirm with MPIN or OTP.',
             'Receive cash from the cashier.'
         ],
-        logo: 'https://www.gcash.com/wp-content/uploads/2019/08/Robinsons@3x-150x150.png',
+        logo: 'https://uat.m.gcash.com/gcashapp/gcash-common-web/static/funds/cashin_icons/ic_robinsons_ds%404x.png', // 'https://www.gcash.com/wp-content/uploads/2019/08/Robinsons@3x-150x150.png',
     },
     'sm': {
         name: 'SM',
