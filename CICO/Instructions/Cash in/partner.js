@@ -168,8 +168,8 @@ const CASHIN = {
   'robinsons': {
     name: 'Robinsons Department Store',
     type: 'barcode',
-    logo: 'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/RobinsonsDepartment%403x.png',
-     instructions: [
+    logo: 'https://uat.m.gcash.com/gcashapp/gcash-common-web/static/funds/cashin_icons/ic_robinsons_ds%404x.png',//'https://m.gcash.com/gcash-common-web/static/cashin_icons/revamp/RobinsonsDepartment%403x.png',
+    instructions: [
         'Inform the Cashier that you want to Cash In to your GCash wallet.',
         'Tap on "Generate Barcode" button above. Enter the amount then tap \'Generate Barcode\'. Show the cashier the generated barcode.',
         'Cashier to confirm, collect payment and print receipt. Wait for a text confirmation upon successful Cash In before leaving the store.',
