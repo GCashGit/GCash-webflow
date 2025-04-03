@@ -6,7 +6,7 @@ const CASHOUT = {
         type: 'OTC',                                                                           
         instructions: [
             'Fill out the GCash Service Form.',
-            'Present valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Receive a text message verifying your cash out and confirm with MPIN or OTP.',
             'Receive cash from the cashier.',
         ],
@@ -18,7 +18,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.',
         ],
@@ -30,7 +30,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
@@ -42,7 +42,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
@@ -54,7 +54,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
@@ -66,7 +66,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
@@ -78,7 +78,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
@@ -90,7 +90,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
@@ -101,7 +101,7 @@ const CASHOUT = {
         type: 'OTC',
         instructions: [
             'Fill out the GCash Service Form.',
-            'Present valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Receive a text message verifying your cash out and confirm with MPIN or OTP.',
             'Receive cash from the cashier.'
         ],
@@ -113,7 +113,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
@@ -125,7 +125,7 @@ const CASHOUT = {
         instructions: [
             'Inform the agent that you would like to Cash Out from your GCash wallet.',
             'Give your GCash-registered mobile number and your cash out request.',
-            'Present valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash Out. Reply with your OTP to confirm.',
             'Receive the cash from the cashier once you have confirmation'
         ],
@@ -137,7 +137,7 @@ const CASHOUT = {
         instructions: [
             'Inform the agent that you would like to Cash Out from your GCash wallet.',
             'Give your GCash-registered mobile number and your cash out request.',
-            'Present valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash Out. Reply with your OTP to confirm.',
             'Receive the cash from the cashier once you have confirmation'
         ],
@@ -148,7 +148,7 @@ const CASHOUT = {
         type: 'OTC',
         instructions: [
             'Fill out the GCash Service Form.',
-            'Present valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Receive a text message verifying your cash out and confirm with MPIN or OTP.',
             'Receive cash from the cashier.'
         ],
@@ -160,7 +160,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
@@ -171,7 +171,7 @@ const CASHOUT = {
         type: 'OTC',
         instructions: [
             'Fill out the GCash Service Form.',
-            'Present valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Receive a text message verifying your cash out and confirm with MPIN or OTP.',
             'Receive cash from the cashier.'
         ],
@@ -183,7 +183,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
@@ -194,7 +194,7 @@ const CASHOUT = {
         type: 'OTC',
         instructions: [
             'Fill out the GCash Service Form.',
-            'Present valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Receive a text message verifying your cash out and confirm with MPIN or OTP.',
             'Receive cash from the cashier.'
         ],
@@ -206,7 +206,7 @@ const CASHOUT = {
         instructions: [
             'Inform the agent that you would like to Cash Out from your GCash wallet.',
             'Give your GCash-registered mobile number and your cash out request.',
-            'Present valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash Out. Reply with your OTP to confirm.',
             'Receive the cash from the cashier once you have confirmation'
         ],
@@ -217,7 +217,7 @@ const CASHOUT = {
         type: 'OTC',
         instructions: [
             'Fill out the GCash Service Form.',
-            'Present valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Receive a text message verifying your cash out and confirm with MPIN or OTP.',
             'Receive cash from the cashier.'
         ],
@@ -229,7 +229,7 @@ const CASHOUT = {
         instructions: [
             'Inform the cashier that you would like to Cash Out from your GCash wallet.',
             'Provide your mobile number and desired Cash Out amount.',
-            'Present a valid ID. <br><a href="https://www.beta.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
+            'Present a valid ID. <br><a href="https://www.new.gcash.com/cico/valid-ids">See list of valid IDs ></a>',
             'Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm.',
             'Receive the cash from the cashier once you have confirmed.'
         ],
