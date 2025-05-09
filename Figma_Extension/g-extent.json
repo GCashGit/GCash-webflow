@@ -28,13 +28,13 @@
                   "name": "Up",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b242dd0e025f8584c195_up.png",
                   "assetKey": "3092d9390203b9e5faed89458514a98c39d56eb5",
-                  "assetPosition": "up"
+                  "assetPosition": "top"
                 },
                 {
                   "name": "Down",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2411be6c1dc4f6e751e_down.png",
                   "assetKey": "c54059dc01016438f8c77969a87a5d090f3370de",
-                  "assetPosition": "down"
+                  "assetPosition": "bottom"
                 }
               ]
             },
@@ -45,49 +45,49 @@
                   "name": "Down Right",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b243846602cf5b5a8100_down-right.png",
                   "assetKey": "8726b9f029e9f1be9549aef973f14cc5fc77f352",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "right"
                 },
                 {
                   "name": "Up Right",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2410818238fba7a6ea6_up-right.png",
                   "assetKey": "704b5dd5d9a17ea2e859aa8d474946f3d1a4c7e9",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "top"
                 },
                 {
                   "name": "Down Left",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2410f3b6a9506f930d9_down-left.png",
                   "assetKey": "f70f1107bedc5363595e9620fc00084cfcd798bb",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "bottom"
                 },
                 {
                   "name": "Up Left",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24146eb72b9d51f154f_up-left.png",
                   "assetKey": "98d4608760dc32455b20fc083da9521ae885641a",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "top"
                 },
                 {
                   "name": "Right Up",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b241cf43a65453e0ee43_right-up.png",
                   "assetKey": "cc6cb1f340048b7e6e0d2441527ed074aae02606",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "right"
                 },
                 {
                   "name": "Left Up",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2417e9c6c04103c44ae_left-up.png",
                   "assetKey": "14d5d8268dc9160d82f866e2b8dae696e012cff5",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "left"
                 },
                 {
                   "name": "Right Down",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b241b41f96af5aac13cb_right-down.png",
                   "assetKey": "e0bea7e90fd65dda74fa31d6dc5540c1230495f7",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "right"
                 },
                 {
                   "name": "Left Down",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24277364441c5a49436_left-down.png",
                   "assetKey": "9dd965a1a66db77f553e504f6d223203d6e209eb",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "left"
                 }
               ]
             },
@@ -98,49 +98,49 @@
                   "name": "LDR",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b241c6d0db75fab76ea5_ldr.png",
                   "assetKey": "2e8e89c88a35a2aea16794639562a6a4bcde18d6",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "left"
                 },
                 {
                   "name": "LUR",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24277364441c5a4942a_lur.png",
                   "assetKey": "464704845860102c008eb6a22005b9d87d378a77",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "left"
                 },
                 {
                   "name": "RDL",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b240b15c5e16d5f69bc5_rdl.png",
                   "assetKey": "193a7f327596d1f976f83f8981b5c3da5bddb6b2",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "right"
                 },
                 {
                   "name": "RUL",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2411c2fb3c6dba7265b_rul.png",
                   "assetKey": "60c16904229e8351f7d87b483c7764aa8df34b2d",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "right"
                 },
                 {
                   "name": "DRU",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2408d25c64fc0cca025_dru.png",
                   "assetKey": "8b7fa6d90d9ba446cd5a5a4ff77e5b2f7090b394",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "bottom"
                 },
                 {
                   "name": "DLU",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2406b31e9f8d22c7657_dlu.png",
                   "assetKey": "c6096d62dd0c35b9b9f35847c1a96f72de4de6a7",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "bottom"
                 },
                 {
                   "name": "URD",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2419a633375bd83ba6d_urd.avif",
                   "assetKey": "e257b0ba251707eb2c4f5ddacd11c1610d6b5792",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "top"
                 },
                 {
                   "name": "ULD",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24094498b0135d8ae14_uld.avif",
                   "assetKey": "e257b0ba251707eb2c4f5ddacd11c1610d6b5792",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "top"
                 }
               ]
             },
@@ -151,49 +151,49 @@
                   "name": "RDR",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2400a0d8af0a419e64e_rdr.png",
                   "assetKey": "e257b0ba251707eb2c4f5ddacd11c1610d6b5792",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "right"
                 },
                 {
                   "name": "RUR",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2405fd5b018c01152fd_rur.png",
                   "assetKey": "0f1adf884b23b03604a98f34d61237ec1efe91bf",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "right"
                 },
                 {
                   "name": "LDL",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b241fa6dcb5a20f22334_ldl.png",
                   "assetKey": "0d00eec0644c3435e3b8bba57fed46586d8296fc",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "left"
                 },
                 {
                   "name": "LUL",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b24082e983b9dc975acb_lul.png",
                   "assetKey": "02fd91772f30993cb3639ba2a6aac539a8c92008",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "left"
                 },
                 {
                   "name": "URU",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b240a99ee1e603e970f8_uru.png",
                   "assetKey": "8441b947c408535237b996b422e543b40932fbd4",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "top"
                 },
                 {
                   "name": "ULU",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2406a5716cc9f602256_ulu.png",
                   "assetKey": "0d00eec0644c3435e3b8bba57fed46586d8296fc",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "top"
                 },
                 {
                   "name": "DRD",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b240ec922a34423a7f31_drd.png",
                   "assetKey": "fad699afafe5dfca2ccac84074cf8ad0cbd543bc",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "bottom"
                 },
                 {
                   "name": "DLD",
                   "image": "https://cdn.prod.website-files.com/6698c86faf3501b1367bff06/66f3b2406a5716cc9f602259_dld.png",
                   "assetKey": "ec734c627ce0a5fbf5059547fd83deb98c3dde4d",
-                  "assetPosition": "right-gapped"
+                  "assetPosition": "bottom"
                 }
               ]
             }
