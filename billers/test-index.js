@@ -114,7 +114,7 @@ function renderItems(results_area, filter_data, template_element) {
     let inputValue = search_input.val();
 
     //Get the data from URL source
-    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/billers/test-env-data.json');
+    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/billers/data.json');
     //Initialize an empty array
     let filterd_items = [];
 
@@ -482,54 +482,79 @@ function renderItems(results_area, filter_data, template_element) {
         handleResetBtn()
     });
 
+    //On click event for list and card view controls
     $('.biller-view-options.w-radio').on("click", function () {
-    const results_container = $('.biller-result.billers_collection-list');
-    const list_view_header = $('.results-wrapper > .biller-table-header');
-    const display_mode = $(this).children('.biller-view-label').text().toLowerCase();
+        //The element that holds the items
+        let results_container = $('.biller-result.billers_collection-list');
+        //The text container of the GCredit tag
+        let gcredit_tag_text = $('.biller-services-content.card-view > .biller-item-services-title');
+        let productTag_element = $('.biller-services-content');
+        let testTag_element = $('[data-element="gcredit"] > p');
+        let list_view_header = $('.results-wrapper > .biller-table-header');
+        let display_mode = $(this).children('.biller-view-label').text().toLowerCase();
+        
+        if (!$(this).hasClass('no-result')) {
+            //Attaches active modifier to clicked button
+            $('.biller-view-options.w-radio').removeClass('active');
+            $(this).addClass('active');
 
-    if (!$(this).hasClass('no-result')) {
-        $('.biller-view-options.w-radio').removeClass('active');
-        $(this).addClass('active');
-
-        switch (display_mode) {
-            case 'list view':
-                results_container.removeClass('card-view').addClass('list-view');
-                list_view_header.addClass('list-view');
-                break;
-            case 'card view':
-                results_container.removeClass('list-view').addClass('card-view');
-                list_view_header.removeClass('list-view');
-                break;
-            default:
-                results_container.removeClass('list-view card-view');
-                list_view_header.removeClass('list-view');
-                break;
-        }
-
-        // 🔁 Update GCredit/GGives tags for each item
-        $('.biller-services-content').each(function () {
-            const $el = $(this);
-            const hasGCredit = parseInt($el.attr('data-gcredit')) === 1;
-            const hasGGives = parseInt($el.attr('data-ggives')) === 1;
-
-            let tagText = '';
-            if (display_mode === 'list view') {
-                if (hasGCredit && !hasGGives) tagText = 'GCredit';
-                else if (hasGGives && !hasGCredit) tagText = 'GGives';
-                else if (hasGCredit && hasGGives) tagText = 'GCredit, GGives';
-            } else {
-                if (hasGCredit && !hasGGives) tagText = 'Accepts GCredit';
-                else if (hasGGives && !hasGCredit) tagText = 'Accepts GGives';
-                else if (hasGCredit && hasGGives) tagText = 'Accepts GCredit, GGives';
+             switch (display_mode) {
+                case 'list view':
+                    results_container.removeClass('card-view').addClass('list-view');
+                    list_view_header.addClass('list-view');
+                    // Check if data-gcredit attribute exists and append text accordingly
+                    if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
+                    gcredit_tag_text.text(gcredit_tag_text.text('GCredit'));
+                    }
+                    // Check if data-ggives attribute exists and append text accordingly
+                    else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
+                    gcredit_tag_text.text(gcredit_tag_text.text('GGives'));
+                    }
+                    else {
+                    gcredit_tag_text.text('GCredit, GGives');
+                    }
+                    break;
+                case 'card view':
+                    results_container.removeClass('list-view').addClass('card-view');
+                    list_view_header.removeClass('list-view');
+                    // Check if data-gcredit attribute exists and append text accordingly
+                    if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
+                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GCredit'));
+                    }
+                    // Check if data-ggives attribute exists and append text accordingly
+                    else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
+                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GGives'));
+                    }
+                    else {
+                    gcredit_tag_text.text('Accepts GCredit, GGives');
+                    }
+                    break;
+                default:
+                    results_container.removeClass('list-view card-view');
+                    list_view_header.removeClass('list-view');
+                    // Check if data-gcredit attribute exists and append text accordingly
+                    if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
+                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GCredit'));
+                    }
+                    // Check if data-ggives attribute exists and append text accordingly
+                    else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
+                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GGives'));
+                    }
+                    else {
+                    gcredit_tag_text.text('Accepts GCredit, GGives');
+                    }
+                    break;
             }
 
-            $el.find('.biller-item-services-title').text(tagText);
-        });
+        }
 
-        results_area.animate({ opacity: [0, 1] }, 300);
-    }
-});
-
+        results_area.animate(
+            {
+                opacity: [0, 1]
+            },
+            300
+        )
+    });
 
     //Event to run when clicking on the alphabet nav
     alpha_nav_btn.on("click", function () {
