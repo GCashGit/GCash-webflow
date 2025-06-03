@@ -505,16 +505,16 @@ function renderItems(results_area, filter_data, template_element) {
                     // Check if data-gcredit attribute exists and append text accordingly
                     if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
                     //gcredit_tag_text.text(gcredit_tag_text.text('GCredit'));
-                    gcredit_tag_text.text(gcredit_tag_text.text('GCredit'));
+                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GCredit'));
                     }
                     // Check if data-ggives attribute exists and append text accordingly
                     else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
                     //gcredit_tag_text.text(gcredit_tag_text.text('GGives'));
-                    gcredit_tag_text.text(gcredit_tag_text.text('GGives'));
+                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GGives'));
                     }
                     else {
                     //gcredit_tag_text.text('GCredit, GGives');
-                    gcredit_tag_text.text('GCredit, GGives');
+                    gcredit_tag_text.text('Accepts GCredit, GGives');
                     }
                     break;
                 case 'card view':
@@ -624,40 +624,17 @@ function renderItems(results_area, filter_data, template_element) {
             }
             
             if (filterd_items.length == 0) {
-            result_msg = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
-            usePagination(filterd_items)
-            disableLetter(filterd_items)
-            displayNoResult(true, result_msg);
+                result_msg = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
+                usePagination(filterd_items)
+                disableLetter(filterd_items)
+                displayNoResult(true, result_msg);
             } else {
-            // Destroy previous pagination
-            pagination_container.pagination('destroy');
-            
-            // Decide how to render based on active view
-            if (activeView === 'card-view') {
-                renderCardView(filterd_items);
-            } else if (activeView === 'list-view') {
-                renderListView(filterd_items);
+                //Reinitialize paginationJS on input
+                pagination_container.pagination('destroy');
+                usePagination(filterd_items)
+                //Hides no result element 
+                displayNoResult(false);
             }
-            
-            // Initialize pagination
-            usePagination(filterd_items)
-            
-            // Hide "no results"
-            displayNoResult(false);
-            }
-            
-            // if (filterd_items.length == 0) {
-            //     result_msg = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
-            //     usePagination(filterd_items)
-            //     disableLetter(filterd_items)
-            //     displayNoResult(true, result_msg);
-            // } else {
-            //     //Reinitialize paginationJS on input
-            //     pagination_container.pagination('destroy');
-            //     usePagination(filterd_items)
-            //     //Hides no result element 
-            //     displayNoResult(false);
-            // }
 
             handleResetBtn()
         }
