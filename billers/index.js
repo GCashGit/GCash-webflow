@@ -114,7 +114,7 @@ function renderItems(results_area, filter_data, template_element) {
     let inputValue = search_input.val();
 
     //Get the data from URL source
-    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/billers/data.json');
+    let partnersData = await fetchPartners('https://gcashgit.github.io/GCash-webflow/billers/test-env-data.json');
     //Initialize an empty array
     let filterd_items = [];
 
@@ -387,7 +387,8 @@ function renderItems(results_area, filter_data, template_element) {
             displayNoResult(true, result_msg);
         }
 
-    });
+    });2
+    
 
     //On click event for the dropdown items
     biller_card.on("click", function () {
@@ -502,47 +503,50 @@ function renderItems(results_area, filter_data, template_element) {
                 case 'list view':
                     results_container.removeClass('card-view').addClass('list-view');
                     list_view_header.addClass('list-view');
-                    // Check if data-gcredit attribute exists and append text accordingly
-                    if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
-                    gcredit_tag_text.text(gcredit_tag_text.text('GCredit'));
-                    }
-                    // Check if data-ggives attribute exists and append text accordingly
-                    else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
-                    gcredit_tag_text.text(gcredit_tag_text.text('GGives'));
-                    }
-                    else {
-                    gcredit_tag_text.text('GCredit, GGives');
-                    }
+                    // // Check if data-gcredit attribute exists and append text accordingly
+                    // if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
+                    // //gcredit_tag_text.text(gcredit_tag_text.text('GCredit'));
+                    // gcredit_tag_text.text(gcredit_tag_text.text('Accepts GCredit'));
+                    // }
+                    // // Check if data-ggives attribute exists and append text accordingly
+                    // else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
+                    // //gcredit_tag_text.text(gcredit_tag_text.text('GGives'));
+                    // gcredit_tag_text.text(gcredit_tag_text.text('Accepts GGives'));
+                    // }
+                    // else {
+                    // //gcredit_tag_text.text('GCredit, GGives');
+                    // gcredit_tag_text.text('Accepts GCredit, GGives');
+                    // }
                     break;
                 case 'card view':
                     results_container.removeClass('list-view').addClass('card-view');
                     list_view_header.removeClass('list-view');
-                    // Check if data-gcredit attribute exists and append text accordingly
-                    if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
-                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GCredit'));
-                    }
-                    // Check if data-ggives attribute exists and append text accordingly
-                    else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
-                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GGives'));
-                    }
-                    else {
-                    gcredit_tag_text.text('Accepts GCredit, GGives');
-                    }
+                    // // Check if data-gcredit attribute exists and append text accordingly
+                    // if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
+                    // gcredit_tag_text.text(gcredit_tag_text.text('Accepts GCredit'));
+                    // }
+                    // // Check if data-ggives attribute exists and append text accordingly
+                    // else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
+                    // gcredit_tag_text.text(gcredit_tag_text.text('Accepts GGives'));
+                    // }
+                    // else {
+                    // gcredit_tag_text.text('Accepts GCredit, GGives');
+                    // }
                     break;
                 default:
                     results_container.removeClass('list-view card-view');
                     list_view_header.removeClass('list-view');
-                    // Check if data-gcredit attribute exists and append text accordingly
-                    if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
-                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GCredit'));
-                    }
-                    // Check if data-ggives attribute exists and append text accordingly
-                    else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
-                    gcredit_tag_text.text(gcredit_tag_text.text('Accepts GGives'));
-                    }
-                    else {
-                    gcredit_tag_text.text('Accepts GCredit, GGives');
-                    }
+                    // // Check if data-gcredit attribute exists and append text accordingly
+                    // if (parseInt(productTag_element.attr('data-gcredit')) === 1) {
+                    // gcredit_tag_text.text(gcredit_tag_text.text('Accepts GCredit'));
+                    // }
+                    // // Check if data-ggives attribute exists and append text accordingly
+                    // else if (parseInt(productTag_element.attr('data-ggives')) === 1) {
+                    // gcredit_tag_text.text(gcredit_tag_text.text('Accepts GGives'));
+                    // }
+                    // else {
+                    // gcredit_tag_text.text('Accepts GCredit, GGives');
+                    // }
                     break;
             }
 
@@ -564,6 +568,7 @@ function renderItems(results_area, filter_data, template_element) {
             active_letter = $(this).data('letter')
             alpha_nav_btn.removeClass('selected');
             $(this).addClass('selected');
+            let activeView = $('.biller-view-options.active input[name="card"]').val();
 
             //If no biller type selected
             if (active_biller_type.length == 0) {
@@ -618,7 +623,7 @@ function renderItems(results_area, filter_data, template_element) {
                         );
                 }
             }
-
+            
             if (filterd_items.length == 0) {
                 result_msg = `Category: ${active_biller_type}, Starting Letter: ${active_letter}`
                 usePagination(filterd_items)
