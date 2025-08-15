@@ -1619,7 +1619,7 @@
     "name": "BIYAHEKO",
     "payment_date": "Payment will be posted next business day",
     "has_gcredit": true,
-    "has_ggives": true,
+    "has_ggives": false,
     "fee_amount": 60,
     "biller_type": "Transportation"
   },
@@ -12507,7 +12507,7 @@
     "name": "Viacom",
     "payment_date": "Payment will be posted real-time",
     "has_gcredit": true,
-    "has_ggives": true,
+    "has_ggives": false,
     "fee_amount": 60,
     "biller_type": "Transportation"
   },
@@ -12872,3 +12872,4 @@
     "biller_type": "Loans"
   }
 ]
+
